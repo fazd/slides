@@ -132,15 +132,11 @@ La IA funciona mucho mejor cuando sabemos pedir.
 
 ## Caso práctico 1: Correos
 
-**Situación: cliente molesto por retraso**
+**Situación: Seguimiento de informe**
 
-Redacta un correo profesional para un cliente molesto
-por retraso en la entrega.
+escribe un correo para preguntar sobre el informe de ventas.
 
 Tono empático.
-
-Ofrece una solución: descuento del 10% y entrega
-en máximo 48 horas.
 
 Firma: Gerente de ventas
 
@@ -161,12 +157,29 @@ Esto ahorra mucho tiempo.
 
 **IA como analista junior**
 
-Con una tabla de ventas puedes pedir:
+Con una tabla gastos personales:
 
-- ¿Cuál producto genera más ganancias?
-- ¿Qué mes tuvo peor margen?
+- ¿Cuál categoria tuvo mayor gasto?
+- ¿Qué mes el mayor incremento?
 - Resume los hallazgos en 3 puntos
-- Sugiere acciones para mejorar ventas
+- Sugiere acciones para mejorar mis gastos
+
+::: notes
+Explicar que la IA puede analizar información rápidamente.
+
+Pero siempre debemos validar los resultados.
+:::
+
+---
+
+## Caso práctico 3: Word
+
+**Resumen de manuales**
+
+tienes un manual y quieres buscar una información puntual:
+
+- ¿Cuál es la politica de mascotas?
+- ¿Cuántos carros puedo tener por apto?
 
 ::: notes
 Explicar que la IA puede analizar información rápidamente.
