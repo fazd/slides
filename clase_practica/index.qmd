@@ -203,7 +203,6 @@ La IA es una herramienta poderosa.
 Pero debemos usarla con criterio.
 :::
 
---- { vertical-align="middle" }
 
 ::: {.center .text-center}
 
