@@ -1,0 +1,22 @@
+.reveal h1, .reveal h2, .reveal h3 {
+  text-transform: none;
+}
+
+.reveal section {
+  font-size: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+
+.big-text {
+  font-size: 1.8em;
+}

@@ -1,0 +1,215 @@
+---
+title: IA y Copilot para tareas cotidianas
+subtitle: Devolvamos tu atención a lo realmente importante
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    highlight-style: github
+    logo: images/enyoi.png
+    css: styles.css
+    code-block-height: 500px
+    lang: es
+    navigation-mode: vertical
+    transition: slide
+    controls-back-arrows: visible
+    controls-layout: bottom-right
+    mermaid:
+      theme: dark
+    footer: IA y Copilot
+---
+
+## ¿Cuánto tiempo perdemos en esto?
+
+- Escribir correos repetitivos  
+- Analizar información manualmente  
+- Crear reportes  
+- Buscar cómo hacer algo en Excel o herramientas  
+
+::: notes
+Pregunta al grupo si les pasa.
+
+Conectar con experiencias reales de trabajo.
+
+Transición: aquí es donde la IA puede ayudarnos.
+:::
+
+---
+
+## ¿Qué es IA (Inteligencia Artificial)?
+
+- Sistemas capaces de realizar tareas que requieren inteligencia humana  
+- Aprenden a partir de grandes cantidades de datos  
+- Pueden entender lenguaje, generar texto y encontrar patrones  
+
+::: notes
+Explicar en términos simples.
+
+No entrar en detalles técnicos.
+
+Idea clave: la IA puede ayudarnos a procesar información más rápido.
+:::
+
+---
+
+## ¿Qué es Copilot?
+
+Copilot es un **asistente de inteligencia artificial**
+
+que trabaja **contigo dentro de tus herramientas**
+
+- Word  
+- Excel  
+- PowerPoint  
+- Edge  
+- Windows  
+
+::: notes
+Idea clave: la IA no es algo separado.
+
+Está integrada en las herramientas que usamos todos los días.
+:::
+
+---
+
+## ¿Qué podemos hacer con Copilot?
+
+- Generar texto  
+- Analizar datos  
+- Resumir información  
+- Crear borradores de documentos  
+- Sugerir soluciones a problemas  
+
+::: notes
+Explicar que funciona como un asistente.
+
+Algo parecido a tener un analista o redactor que te ayuda.
+:::
+
+---
+
+## La clave: saber pedir
+
+:::: columns
+
+::: column
+### ❌ Prompt pobre
+Haz un correo
+
+Resultado:
+- respuesta genérica  
+- poco útil
+:::
+
+::: column
+### ✅ Prompt mejorado
+
+Redacta un correo profesional para un cliente
+molesto por retraso en la entrega.
+
+Tono: empático
+Solución: descuento del 10%
+Entrega: 48 horas
+
+
+Resultado:
+- respuesta clara  
+- más útil
+:::
+
+::::
+
+::: notes
+La diferencia está en dar contexto.
+
+La IA funciona mucho mejor cuando sabemos pedir.
+:::
+
+---
+
+## Caso práctico 1: Correos
+
+**Situación: cliente molesto por retraso**
+
+Redacta un correo profesional para un cliente molesto
+por retraso en la entrega.
+
+Tono empático.
+
+Ofrece una solución: descuento del 10% y entrega
+en máximo 48 horas.
+
+Firma: Gerente de ventas
+
+
+::: notes
+Explicar que después se puede iterar:
+
+hazlo más corto  
+agrega fecha  
+hazlo más formal
+
+Esto ahorra mucho tiempo.
+:::
+
+---
+
+## Caso práctico 2: Excel
+
+**IA como analista junior**
+
+Con una tabla de ventas puedes pedir:
+
+- ¿Cuál producto genera más ganancias?
+- ¿Qué mes tuvo peor margen?
+- Resume los hallazgos en 3 puntos
+- Sugiere acciones para mejorar ventas
+
+::: notes
+Explicar que la IA puede analizar información rápidamente.
+
+Pero siempre debemos validar los resultados.
+:::
+
+---
+
+## Buenas prácticas al usar IA
+
+- Sé específico  
+- Da contexto  
+- Itera y mejora el prompt  
+- Verifica la información  
+- No compartas datos sensibles  
+
+::: notes
+La IA es una herramienta poderosa.
+
+Pero debemos usarla con criterio.
+:::
+
+---
+vertical-align: middle
+---
+
+::: {.center}
+
+# La IA no reemplaza tu trabajo
+
+## Reemplaza la parte repetitiva {.center .text-center }
+
+### para que te enfoques en lo importante {.center .text-center}
+
+:::
+
+--- 
+
+::: {.center}
+
+## Muchas gracias 
+
+### Fabio Zapata
+
+::: 

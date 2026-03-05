@@ -1,0 +1,83 @@
+# Workflow for building and deploying all content to GitHub Pages
+name: Build and Deploy to Pages
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      # Setup Quarto
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.8.26'
+      
+      # Build all Quarto presentations
+      - name: Build Quarto slides
+        env:
+          QUARTO_DIRS: >-
+            clase_practica
+        run: |
+          for dir in $QUARTO_DIRS; do
+            quarto render $dir/index.qmd
+          done
+
+      # Prepare combined output (only built content)
+      - name: Prepare deploy folder
+        env:
+          QUARTO_DIRS: >-
+            clase_practica
+        run: |
+          set -e
+          mkdir -p _site
+
+          # Copy Quarto builds — only rendered output, not source files
+          for dir in $QUARTO_DIRS; do
+            mkdir -p _site/$dir
+            rsync -a --exclude="*.qmd" --exclude="*.scss" --exclude="*.css.map" \
+              --include="index.html" \
+              --include="index_files/***" \
+              --include="images/***" \
+              --include="img/***" \
+              --include="styles.css" \
+              --exclude="*" \
+              $dir/ _site/$dir/
+          done
+
+          # Copy root index
+          cp index.html _site/
+
+          # Copy README if present
+          cp README.md _site/ 2>/dev/null || true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
