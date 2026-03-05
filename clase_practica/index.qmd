@@ -190,21 +190,17 @@ La IA es una herramienta poderosa.
 Pero debemos usarla con criterio.
 :::
 
----
-vertical-align: middle
----
+--- { vertical-align="middle" }
 
-::: {.center}
+::: {.center .text-center}
 
 # La IA no reemplaza tu trabajo
 
+:::
+--- 
 ## Reemplaza la parte repetitiva {.center .text-center }
 
 ### para que te enfoques en lo importante {.center .text-center}
-
-:::
-
---- 
 
 ::: {.center}
 
