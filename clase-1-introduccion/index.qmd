@@ -145,7 +145,7 @@ No es una aplicación separada. Es una **capa de inteligencia** sobre lo que ya 
 
 ---
 title: IA y Copilot para tareas cotidianas
-subtitle: "Bloque 2: El Ecosistema y la Línea Roja (Seguridad)"
+subtitle: "Clase 1 Introduccion"
 format:
   revealjs:
     slide-number: true
