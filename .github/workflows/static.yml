@@ -33,6 +33,7 @@ jobs:
         env:
           QUARTO_DIRS: >-
             clase_practica
+            clase-1-introduccion
         run: |
           for dir in $QUARTO_DIRS; do
             quarto render $dir/index.qmd
@@ -43,6 +44,7 @@ jobs:
         env:
           QUARTO_DIRS: >-
             clase_practica
+            clase-1-introduccion
         run: |
           set -e
           mkdir -p _site

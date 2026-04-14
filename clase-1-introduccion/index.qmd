@@ -1,0 +1,471 @@
+---
+title: IA y Copilot para tareas cotidianas
+subtitle: "Bloque 1: El despertar de tu nuevo asistente"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    highlight-style: github
+    logo: images/enyoi.png
+    css: styles.css
+    code-block-height: 500px
+    lang: es
+    navigation-mode: vertical
+    transition: slide
+    controls-back-arrows: visible
+    controls-layout: bottom-right
+    mermaid:
+      theme: dark
+    footer: "Sesión 1: Introducción y Capacidades"
+---
+
+## ¿Cuánto tiempo perdemos en "ruido"?
+
+- **Redacción:** Ese correo que te toma 15 minutos "pulir".
+- **Búsqueda:** Navegar en archivos para encontrar un dato puntual.
+- **Sintetización:** Leer hilos de Teams o correos larguísimos.
+- **Formato:** Pelear con tablas de Excel o layouts de PPT.
+
+::: notes
+Pregunta abierta: "¿Cuál es la tarea que más les drena la energía hoy?"
+Conectar con el subtítulo: "Hoy vamos a empezar a recuperar ese tiempo".
+:::
+
+---
+
+## La Agenda de hoy (3 Horas)
+
+::: {.incremental}
+1. **El Despertar:** Qué es esto realmente y qué puede hacer por ti.
+2. **Ecosistema y Seguridad:** Dónde vive Copilot y cómo proteger tus datos.
+3. **El Arte de Pedir (Prompting):** Taller práctico para delegar tareas con éxito.
+:::
+
+---
+
+## ¿Qué es la IA Generativa? (Sin tecnicismos)
+
+Es un sistema que no solo clasifica información, sino que **crea contenido nuevo**.
+
+- **Ayer:** La IA predecía si un correo era Spam.
+- **Hoy:** La IA escribe el correo por ti.
+
+::: {.callout-tip}
+### Piénsalo así:
+Es un **analista junior** que ha leído todo lo que hay en internet. Es increíblemente rápido, pero necesita instrucciones claras.
+:::
+
+---
+
+## ¿Cómo "piensa" un LLM?
+
+No es una enciclopedia, es un **predictor de probabilidades**.
+
+- No "sabe" cosas, predice la siguiente palabra más lógica.
+- Por eso es tan bueno con el lenguaje y la estructura...
+- ...y por eso a veces puede "alucinar" (inventar con mucha seguridad).
+
+::: notes
+Analogía del autocompletado del celular, pero con superpoderes.
+:::
+
+---
+
+## ¿Qué es Copilot exactamente?
+
+No es una aplicación separada. Es una **capa de inteligencia** sobre lo que ya usas:
+
+- **En la web:** Edge y Windows.
+- **En la oficina:** Word, Excel, PPT, Outlook.
+- **En la comunicación:** Teams.
+
+---
+
+## Capacidades: Más allá del texto
+
+::: {layout-ncol=2}
+### Lo que vemos
+- Resumir reuniones.
+- Redactar borradores.
+- Traducir tonos.
+
+### Lo que "imagina"
+- Analizar fotos de tableros.
+- Crear imágenes desde cero.
+- Escribir fórmulas de Excel.
+:::
+
+---
+
+## El "Superpoder" de la Multimodalidad
+
+**Escenario:** Le tomas una foto a un gráfico impreso en una revista.
+
+1. **Copilot la lee** (Visión).
+2. **Extrae los datos** (Análisis).
+3. **Crea una tabla en Excel** (Acción).
+
+*Esto no es el futuro, es lo que vamos a aprender hoy.*
+
+---
+
+## La Regla de Oro: El Humano en el Bucle
+
+> "La IA es el copiloto, pero **tú eres el capitán**."
+
+- La IA propone, tú dispones.
+- Siempre verificamos los datos críticos.
+- La responsabilidad legal y profesional es nuestra.
+
+---
+
+## Antes del primer café...
+
+::: {.center .text-center}
+### Demo rápida: El resumen imposible
+*(Hacer demo de resumir un PDF largo o un sitio web complejo en 30 segundos)*
+:::
+
+--- 
+
+## ¡Primer Break! {background-color="#2c3e50"}
+
+### 15 Minutos
+
+- Estira las piernas.
+- Toma agua/café.
+- **Al volver:** ¿Dónde están mis datos? (Seguridad y Privacidad).
+
+::: {.center}
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjR5JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKVUn7iM8FMEU24/giphy.gif){width="300"}
+:::
+
+---
+title: IA y Copilot para tareas cotidianas
+subtitle: "Bloque 2: El Ecosistema y la Línea Roja (Seguridad)"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    highlight-style: github
+    logo: images/enyoi.png
+    css: styles.css
+    code-block-height: 500px
+    lang: es
+    navigation-mode: vertical
+    transition: slide
+    controls-back-arrows: visible
+    controls-layout: bottom-right
+    mermaid:
+      theme: dark
+    footer: "Sesión 1: Ecosistema y Seguridad"
+---
+
+---
+
+# Bloque 2: ¿Dónde estamos trabajando? {background-color="#2c3e50"}
+
+---
+
+## ¿Dónde vive Copilot?
+
+Copilot no es una sola cosa, es un ecosistema que te acompaña:
+
+::: {.incremental}
+- **Copilot en la Web (Edge):** Tu investigador y lector de PDFs.
+- **Copilot en Windows:** El que cambia la configuración y abre apps.
+- **Copilot para Microsoft 365:** El que vive dentro de Word, Excel, PPT y Outlook.
+- **Copilot en Teams:** El que toma notas por ti en las reuniones.
+:::
+
+---
+
+## La gran diferencia: Personal vs. Corporativo
+
+::: {.smaller}
+<div style="margin-bottom: 3em;">
+
+| Característica | Copilot Gratis | Copilot Pro / Enterprise |
+|----------------|----------------|--------------------------|
+| **Cuenta** | Gmail / Hotmail | Cuenta de Empresa (Entra) |
+| **Privacidad** | Los datos pueden entrenar a la IA | **Protección de datos comercial** |
+| **Alcance** | Solo lo que tú le pegues | Tus archivos de OneDrive/SharePoint |
+
+</div>
+:::
+
+---
+
+## La "Línea Roja": ¿Mis datos están seguros? {background-color="#b03a2e"}
+
+::: {.callout-important}
+## La pregunta del millón
+"¿Si le doy mi plan financiero a Copilot, se lo va a decir a la competencia?"
+:::
+
+. . .
+
+**La respuesta en entornos corporativos es NO:**
+1. Tus datos **no** entrenan al modelo global.
+2. Los datos se quedan dentro de tu empresa.
+3. Se respetan los permisos: Si no tienes acceso a un archivo, Copilot tampoco.
+
+---
+
+## Los Riesgos Reales (No todo es color de rosa)
+
+Aparte de la privacidad, debemos gestionar:
+
+- **Alucinaciones:** La IA prefiere mentir antes que decir "no sé".
+- **Sesgos:** Puede dar respuestas basadas en estereotipos.
+- **Obsolescencia:** Su conocimiento tiene una fecha de corte (aunque Copilot busca en web hoy).
+
+::: notes
+Menciona un ejemplo: Pedirle el precio del dólar hoy vs. pedirle que invente una ley que no existe.
+:::
+
+---
+
+## Ética y Responsabilidad Profesional
+
+Como profesionales, somos responsables de lo que la IA genera:
+
+::: {.incremental}
+1. **Verificación:** Siempre revisa los datos numéricos y citas.
+2. **Transparencia:** Si un reporte fue 100% hecho por IA, es buena práctica mencionarlo.
+3. **Criterio:** La IA no tiene ética, tú sí. No delegues decisiones morales.
+:::
+
+---
+
+## Dinámica Rápida: "¿Es seguro?"
+
+¿En cuáles de estos casos usarías Copilot?
+
+1. Resumir una política pública de acceso abierto.
+2. Analizar el historial médico de un paciente sin anonimizar.
+3. Crear una estructura para una presentación de ventas.
+4. Pegar el código fuente secreto de una app nueva de la empresa.
+
+::: notes
+Discusión rápida. Caso 1 y 3 son seguros. 2 y 4 son prohibidos a menos que sea una instancia privada cerrada.
+:::
+
+---
+
+## El Rol de "Editor en Jefe"
+
+::: {.columns}
+::: {.column width="60%"}
+Imagina que eres el jefe de una revista. 
+- La IA es tu **redactor junior**.
+- El redactor te trae un borrador.
+- **Tú no lo publicas sin leerlo.**
+- Tú lo corriges, lo pules y le das el tono final.
+:::
+
+::: {.column width="40%"}
+![](images/editor_concept.png){width="300"}
+:::
+:::
+
+--- 
+
+## ¡Segundo Break! {background-color="#2c3e50"}
+
+### 15 Minutos
+
+- Desconéctate un momento.
+- Prepara tu mente para la acción.
+- **Al volver:** El Bloque de Oro. Aprenderemos a escribir **Prompts que sí funcionan**.
+
+::: {.center}
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Zhc2V4eXU0Ynd4eXU0Ynd4eXU0Ynd4eXU0Ynd4eXU0Ynd4eXU0dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Z/l2Jef11Wqivr9YI4E/giphy.gif){width="300"}
+:::
+
+---
+
+# Bloque 3: El Arte del Prompting y Taller Practico {background-color="#2c3e50"}
+
+---
+
+## ¿Qué es el Prompt Engineering?
+
+::: {.callout-note}
+## Definición
+Instrucciones claras para que una IA nos dé el resultado exacto.
+:::
+
+::: {.smaller}
+| Nivel | Lo que pides | Resultado Esperado |
+|-------|--------------|---------------------|
+| **Pobre** | "Dame comida" | Una hamburguesa (o sopa...) |
+| **Avanzado** | "Dame una pasta carbonara auténtica, sin crema" | Exactamente lo que querías. |
+:::
+
+::: notes
+Analogía del restaurante: si pides "algo rico", el riesgo de decepción es alto.
+:::
+
+## La Fórmula "Perfecta" (Anatomía del Prompt)
+
+Un buen prompt debe tener cuatro componentes clave:
+
+::: {.incremental}
+1.  **Rol (Act):** ¿Quién es la IA? (Analista, Redactor, Abogado...)
+2.  **Tarea (Do):** ¿Qué debe hacer? (Resumir, Redactar, Traducir...)
+3.  **Contexto (Provide):** Datos adicionales, tono de voz, audiencia...
+4.  **Formato (Format):** ¿Cómo debe entregar la respuesta? (Tabla, Lista, Correo, PDF...)
+:::
+
+---
+
+## Anatomía en acción (Comparativa)
+
+::: {.smaller}
+:::: columns
+::: {.column width="45%"}
+### ❌ Prompt "Pobre"
+"Escribe un correo sobre el reporte."
+
+**Resultado:**
+- Título genérico.
+- Contenido vago.
+- Poco útil.
+:::
+
+::: {.column width="55%"}
+### ✅ Prompt "Avanzado"
+**[Rol] + [Tarea] + [Contexto] + [Formato]**
+
+"Actúa como analista financiero. Redacta un correo para mi jefe resumiendo este Excel. Destaca los 3 productos con más crecimiento. Usa tono ejecutivo. Formato: Correo listo para enviar."
+:::
+::::
+:::
+
+::: notes
+Muestra cómo la especificidad reduce el trabajo de edición posterior.
+:::
+
+---
+
+## El Poder de la Iteración
+
+Rara vez el primer prompt es perfecto. Es un **diálogo**, no un monólogo.
+
+::: {.columns}
+::: {.column width="60%"}
+**Ciclo de mejora:**
+1.  Envía el prompt base.
+2.  Analiza la respuesta.
+3.  Corrige: *"Hazlo más corto"*, *"Usa un tono más empático"*, *"Pon los datos en una tabla"*.
+:::
+
+::: {.column width="40%"}
+![](https://img.freepik.com/free-vector/professional-editor-concept-illustration_114360-10141.jpg){width="300"}
+:::
+:::
+
+---
+
+## Few-Shot Prompting (Un truco de experto)
+
+Si quieres un estilo muy específico, dale ejemplos.
+
+::: {.callout-tip}
+## Prompt con ejemplos
+"Tengo que generar tweets para la empresa. Estos son 2 ejemplos de nuestro tono:
+Ejemplo 1: [Pegar Tweet 1]
+Ejemplo 2: [Pegar Tweet 2]
+
+Ahora, genera 3 tweets nuevos sobre el lanzamiento del producto X siguiendo este estilo."
+:::
+
+---
+
+## Taller Práctico: ¡Soluciona tu Mañana!
+
+::: {.smaller}
+:::: columns
+::: {.column width="65%"}
+### El Desafío
+1. Identifica tu tarea más repetitiva.
+2. Escribe un prompt aplicando la fórmula completa.
+3. Corre el prompt en Copilot e itera.
+4. **Alerta:** ¡No uses datos sensibles reales si estás en la versión abierta!
+
+**Tiempo:** 20 minutos.
+:::
+
+::: {.column width="35%"}
+![](images/taller_prompting.png){fig-align="center" width="100%"}
+:::
+::::
+:::
+
+::: notes
+Pídeles que se enfoquen en tareas de "mañana lunes".
+:::
+
+---
+
+## Compartir y Aprender
+
+¿Quién quiere compartir su prompt y el resultado?
+
+1. ¿Qué prompt les funcionó mejor?
+2. ¿Dónde falló la IA al principio?
+3. ¿Cómo lo corrigieron?
+
+---
+
+## Recapitulación de la Sesión (takeaways)
+
+::: {.incremental}
+1. **La IA es Generativa:** Crea, no solo busca.
+2. **Copilot es un ecosistema integrado:** Vive donde tú trabajas.
+3. **Seguridad Comercial:** En entorno corporativo, tus datos están protegidos.
+4. **La Fórmula del Prompt:** Rol + Tarea + Contexto + Formato.
+5. **Tú eres el Piloto:** Siempre verificamos y validamos.
+:::
+
+---
+
+## Próximos Pasos (Hoja de Ruta)
+
+::: {.columns}
+::: {.column width="50%"}
+### Hoy
+Aprendimos a "hablar" con la IA y a usar Copilot Web/Edge.
+:::
+::: {.column width="50%"}
+### Sesión 2 (Próximamente)
+**Taller Intensivo de Copilot M365:**
+- Uso práctico en Word y Excel.
+- Generar presentaciones en PowerPoint en minutos.
+- Gestión inteligente de Outlook y Teams.
+:::
+:::
+
+---
+
+## Q&A: ¿Dudas Finales?
+
+::: {.center .text-center}
+### ¡Muchas gracias!
+:::
+
+---
+
+## ¡De vuelta a lo importante! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+#### images/enyoi.png
+:::
