@@ -36,7 +36,7 @@ Conectar con el subtítulo: "Hoy vamos a empezar a recuperar ese tiempo".
 
 ---
 
-## La Agenda de hoy (3 Horas)
+## La Agenda de hoy (3 horas)
 
 ::: {.incremental}
 1. **El Despertar:** Qué es esto realmente y qué puede hacer por ti.
@@ -50,7 +50,7 @@ Conectar con el subtítulo: "Hoy vamos a empezar a recuperar ese tiempo".
 
 Es un sistema que no solo clasifica información, sino que **crea contenido nuevo**.
 
-- **Ayer:** La IA predecía si un correo era Spam.
+- **Ayer:** La IA predecía si un correo era spam.
 - **Hoy:** La IA escribe el correo por ti.
 
 ::: {.callout-tip}
@@ -136,40 +136,16 @@ No es una aplicación separada. Es una **capa de inteligencia** sobre lo que ya 
 ### 15 Minutos
 
 - Estira las piernas.
-- Toma agua/café.
+- Toma agua o café.
 - **Al volver:** ¿Dónde están mis datos? (Seguridad y Privacidad).
 
 ::: {.center}
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjR5JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKVUn7iM8FMEU24/giphy.gif){width="300"}
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjR5JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKVUn7iM8FMEU24/giphy.gif){width="300"}
 :::
 
 ---
-title: IA y Copilot para tareas cotidianas
-subtitle: "Clase 1 Introduccion"
-format:
-  revealjs:
-    slide-number: true
-    theme: moon
-    chalkboard: 
-      buttons: true
-    preview-links: auto
-    highlight-style: github
-    logo: images/enyoi.png
-    css: styles.css
-    code-block-height: 500px
-    lang: es
-    navigation-mode: vertical
-    transition: slide
-    controls-back-arrows: visible
-    controls-layout: bottom-right
-    mermaid:
-      theme: dark
-    footer: "Sesión 1: Ecosistema y Seguridad"
----
 
----
-
-# Bloque 2: ¿Dónde estamos trabajando? {background-color="#2c3e50"}
+## Bloque 2: ¿Dónde estamos trabajando? {background-color="#2c3e50"}
 
 ---
 
@@ -189,15 +165,11 @@ Copilot no es una sola cosa, es un ecosistema que te acompaña:
 ## La gran diferencia: Personal vs. Corporativo
 
 ::: {.smaller}
-<div style="margin-bottom: 3em;">
-
-| Característica | Copilot Gratis | Copilot Pro / Enterprise |
+| Característica | Copilot Gratis | Copilot Enterprise |
 |----------------|----------------|--------------------------|
-| **Cuenta** | Gmail / Hotmail | Cuenta de Empresa (Entra) |
-| **Privacidad** | Los datos pueden entrenar a la IA | **Protección de datos comercial** |
-| **Alcance** | Solo lo que tú le pegues | Tus archivos de OneDrive/SharePoint |
-
-</div>
+| **Cuenta** | Personal (Gmail/Outlook) | Cuenta Corporativa (Entra) |
+| **Privacidad** | Datos pueden entrenar la IA | **Protección comercial total** |
+| **Alcance** | Solo datos proporcionados | OneDrive / SharePoint |
 :::
 
 ---
@@ -214,17 +186,17 @@ Copilot no es una sola cosa, es un ecosistema que te acompaña:
 **La respuesta en entornos corporativos es NO:**
 1. Tus datos **no** entrenan al modelo global.
 2. Los datos se quedan dentro de tu empresa.
-3. Se respetan los permisos: Si no tienes acceso a un archivo, Copilot tampoco.
+3. Se respetan los permisos de seguridad existentes.
 
 ---
 
 ## Los Riesgos Reales (No todo es color de rosa)
 
-Aparte de la privacidad, debemos gestionar:
+Además de la privacidad, debemos gestionar:
 
 - **Alucinaciones:** La IA prefiere mentir antes que decir "no sé".
 - **Sesgos:** Puede dar respuestas basadas en estereotipos.
-- **Obsolescencia:** Su conocimiento tiene una fecha de corte (aunque Copilot busca en web hoy).
+- **Obsolescencia:** Su conocimiento tiene una fecha de corte (aunque Copilot busca en web).
 
 ::: notes
 Menciona un ejemplo: Pedirle el precio del dólar hoy vs. pedirle que invente una ley que no existe.
@@ -252,10 +224,6 @@ Como profesionales, somos responsables de lo que la IA genera:
 2. Analizar el historial médico de un paciente sin anonimizar.
 3. Crear una estructura para una presentación de ventas.
 4. Pegar el código fuente secreto de una app nueva de la empresa.
-
-::: notes
-Discusión rápida. Caso 1 y 3 son seguros. 2 y 4 son prohibidos a menos que sea una instancia privada cerrada.
-:::
 
 ---
 
@@ -291,7 +259,7 @@ Imagina que eres el jefe de una revista.
 
 ---
 
-# Bloque 3: El Arte del Prompting y Taller Practico {background-color="#2c3e50"}
+## Bloque 3: El Arte del Prompting y Taller Práctico {background-color="#2c3e50"}
 
 ---
 
@@ -309,19 +277,17 @@ Instrucciones claras para que una IA nos dé el resultado exacto.
 | **Avanzado** | "Dame una pasta carbonara auténtica, sin crema" | Exactamente lo que querías. |
 :::
 
-::: notes
-Analogía del restaurante: si pides "algo rico", el riesgo de decepción es alto.
-:::
+---
 
 ## La Fórmula "Perfecta" (Anatomía del Prompt)
 
 Un buen prompt debe tener cuatro componentes clave:
 
 ::: {.incremental}
-1.  **Rol (Act):** ¿Quién es la IA? (Analista, Redactor, Abogado...)
-2.  **Tarea (Do):** ¿Qué debe hacer? (Resumir, Redactar, Traducir...)
-3.  **Contexto (Provide):** Datos adicionales, tono de voz, audiencia...
-4.  **Formato (Format):** ¿Cómo debe entregar la respuesta? (Tabla, Lista, Correo, PDF...)
+1. **Rol (Act):** ¿Quién es la IA? (Analista, Redactor, Abogado...)
+2. **Tarea (Do):** ¿Qué debe hacer? (Resumir, Redactar, Traducir...)
+3. **Contexto (Provide):** Datos adicionales, tono de voz, audiencia...
+4. **Formato (Format):** ¿Cómo debe entregar la respuesta? (Tabla, Lista, Correo...)
 :::
 
 ---
@@ -336,21 +302,16 @@ Un buen prompt debe tener cuatro componentes clave:
 
 **Resultado:**
 - Título genérico.
-- Contenido vago.
-- Poco útil.
+- Contenido vago e inútil.
 :::
 
 ::: {.column width="55%"}
 ### ✅ Prompt "Avanzado"
 **[Rol] + [Tarea] + [Contexto] + [Formato]**
 
-"Actúa como analista financiero. Redacta un correo para mi jefe resumiendo este Excel. Destaca los 3 productos con más crecimiento. Usa tono ejecutivo. Formato: Correo listo para enviar."
+"Actúa como analista financiero. Redacta un correo para mi jefe resumiendo este Excel. Destaca los 3 productos con más crecimiento. Usa tono ejecutivo en formato de correo listo para enviar."
 :::
 ::::
-:::
-
-::: notes
-Muestra cómo la especificidad reduce el trabajo de edición posterior.
 :::
 
 ---
@@ -359,33 +320,9 @@ Muestra cómo la especificidad reduce el trabajo de edición posterior.
 
 Rara vez el primer prompt es perfecto. Es un **diálogo**, no un monólogo.
 
-::: {.columns}
-::: {.column width="60%"}
-**Ciclo de mejora:**
-1.  Envía el prompt base.
-2.  Analiza la respuesta.
-3.  Corrige: *"Hazlo más corto"*, *"Usa un tono más empático"*, *"Pon los datos en una tabla"*.
-:::
-
-::: {.column width="40%"}
-![](https://img.freepik.com/free-vector/professional-editor-concept-illustration_114360-10141.jpg){width="300"}
-:::
-:::
-
----
-
-## Few-Shot Prompting (Un truco de experto)
-
-Si quieres un estilo muy específico, dale ejemplos.
-
-::: {.callout-tip}
-## Prompt con ejemplos
-"Tengo que generar tweets para la empresa. Estos son 2 ejemplos de nuestro tono:
-Ejemplo 1: [Pegar Tweet 1]
-Ejemplo 2: [Pegar Tweet 2]
-
-Ahora, genera 3 tweets nuevos sobre el lanzamiento del producto X siguiendo este estilo."
-:::
+- Envía el prompt base.
+- Analiza la respuesta.
+- **Corrige:** *"Hazlo más corto"*, *"Usa un tono más empático"*, *"Pon los datos en una tabla"*.
 
 ---
 
@@ -397,8 +334,8 @@ Ahora, genera 3 tweets nuevos sobre el lanzamiento del producto X siguiendo este
 ### El Desafío
 1. Identifica tu tarea más repetitiva.
 2. Escribe un prompt aplicando la fórmula completa.
-3. Corre el prompt en Copilot e itera.
-4. **Alerta:** ¡No uses datos sensibles reales si estás en la versión abierta!
+3. Ejecuta el prompt en Copilot e itera.
+4. **Alerta:** ¡No uses datos sensibles reales en versiones abiertas!
 
 **Tiempo:** 20 minutos.
 :::
@@ -409,29 +346,15 @@ Ahora, genera 3 tweets nuevos sobre el lanzamiento del producto X siguiendo este
 ::::
 :::
 
-::: notes
-Pídeles que se enfoquen en tareas de "mañana lunes".
-:::
-
 ---
 
-## Compartir y Aprender
-
-¿Quién quiere compartir su prompt y el resultado?
-
-1. ¿Qué prompt les funcionó mejor?
-2. ¿Dónde falló la IA al principio?
-3. ¿Cómo lo corrigieron?
-
----
-
-## Recapitulación de la Sesión (takeaways)
+## Recapitulación (Takeaways)
 
 ::: {.incremental}
-1. **La IA es Generativa:** Crea, no solo busca.
-2. **Copilot es un ecosistema integrado:** Vive donde tú trabajas.
-3. **Seguridad Comercial:** En entorno corporativo, tus datos están protegidos.
-4. **La Fórmula del Prompt:** Rol + Tarea + Contexto + Formato.
+1. **La IA es Generativa:** Crea contenido, no solo lo busca.
+2. **Copilot es un ecosistema:** Integrado en tus herramientas diarias.
+3. **Seguridad Comercial:** Tus datos corporativos están protegidos.
+4. **La Fórmula:** Rol + Tarea + Contexto + Formato.
 5. **Tú eres el Piloto:** Siempre verificamos y validamos.
 :::
 
@@ -445,11 +368,11 @@ Pídeles que se enfoquen en tareas de "mañana lunes".
 Aprendimos a "hablar" con la IA y a usar Copilot Web/Edge.
 :::
 ::: {.column width="50%"}
-### Sesión 2 (Próximamente)
+### Sesión 2
 **Taller Intensivo de Copilot M365:**
 - Uso práctico en Word y Excel.
-- Generar presentaciones en PowerPoint en minutos.
-- Gestión inteligente de Outlook y Teams.
+- Presentaciones en PowerPoint.
+- Gestión de Outlook y Teams.
 :::
 :::
 
