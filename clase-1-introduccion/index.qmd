@@ -126,7 +126,7 @@ No es una aplicación separada. Es una **capa de inteligencia** sobre lo que ya 
 
 ::: {.center .text-center}
 ### Demo rápida: El resumen imposible
-*(Hacer demo de resumir un PDF largo o un sitio web complejo en 30 segundos)*
+*(https://1drv.ms/w/c/fb37f1263816fe67/IQDtHsM6zVPeRbXL-BqFBTpfAZ3G3tFMXT9S_INlRxhQy0U?e=99Vw5p)*
 :::
 
 --- 
@@ -390,5 +390,4 @@ Aprendimos a "hablar" con la IA y a usar Copilot Web/Edge.
 
 ::: {.center}
 ### Fabio Zapata
-#### images/enyoi.png
 :::
