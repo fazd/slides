@@ -22,6 +22,8 @@ format:
     footer: "Sesión 1: Introducción y Capacidades"
 ---
 
+# Introducción {background-color="#2c3e50"}
+
 ## ¿Cuánto tiempo perdemos en "ruido"?
 
 - **Redacción:** Ese correo que te toma 15 minutos "pulir".
@@ -34,8 +36,6 @@ Pregunta abierta: "¿Cuál es la tarea que más les drena la energía hoy?"
 Conectar con el subtítulo: "Hoy vamos a empezar a recuperar ese tiempo".
 :::
 
----
-
 ## La Agenda de hoy (3 horas)
 
 ::: {.incremental}
@@ -44,7 +44,7 @@ Conectar con el subtítulo: "Hoy vamos a empezar a recuperar ese tiempo".
 3. **El Arte de Pedir (Prompting):** Taller práctico para delegar tareas con éxito.
 :::
 
----
+# Bloque 1: El Despertar {background-color="#2c3e50"}
 
 ## ¿Qué es la IA Generativa? (Sin tecnicismos)
 
@@ -58,8 +58,6 @@ Es un sistema que no solo clasifica información, sino que **crea contenido nuev
 Es un **analista junior** que ha leído todo lo que hay en internet. Es increíblemente rápido, pero necesita instrucciones claras.
 :::
 
----
-
 ## ¿Cómo "piensa" un LLM?
 
 No es una enciclopedia, es un **predictor de probabilidades**.
@@ -72,8 +70,6 @@ No es una enciclopedia, es un **predictor de probabilidades**.
 Analogía del autocompletado del celular, pero con superpoderes.
 :::
 
----
-
 ## ¿Qué es Copilot exactamente?
 
 No es una aplicación separada. Es una **capa de inteligencia** sobre lo que ya usas:
@@ -81,8 +77,6 @@ No es una aplicación separada. Es una **capa de inteligencia** sobre lo que ya 
 - **En la web:** Edge y Windows.
 - **En la oficina:** Word, Excel, PPT, Outlook.
 - **En la comunicación:** Teams.
-
----
 
 ## Capacidades: Más allá del texto
 
@@ -98,8 +92,6 @@ No es una aplicación separada. Es una **capa de inteligencia** sobre lo que ya 
 - Escribir fórmulas de Excel.
 :::
 
----
-
 ## El "Superpoder" de la Multimodalidad
 
 **Escenario:** Le tomas una foto a un gráfico impreso en una revista.
@@ -110,8 +102,6 @@ No es una aplicación separada. Es una **capa de inteligencia** sobre lo que ya 
 
 *Esto no es el futuro, es lo que vamos a aprender hoy.*
 
----
-
 ## La Regla de Oro: El Humano en el Bucle
 
 > "La IA es el copiloto, pero **tú eres el capitán**."
@@ -120,34 +110,21 @@ No es una aplicación separada. Es una **capa de inteligencia** sobre lo que ya 
 - Siempre verificamos los datos críticos.
 - La responsabilidad legal y profesional es nuestra.
 
----
-
 ## Antes del primer café...
 
 ::: {.center .text-center}
-### Demo rápida: El resumen imposible
-*(https://1drv.ms/w/c/fb37f1263816fe67/IQDtHsM6zVPeRbXL-BqFBTpfAZ3G3tFMXT9S_INlRxhQy0U?e=99Vw5p)*
+### [Demo rápida: El resumen imposible](https://1drv.ms/w/c/fb37f1263816fe67/IQDtHsM6zVPeRbXL-BqFBTpfAZ3G3tFMXT9S_INlRxhQy0U?e=99Vw5p)
 :::
-
---- 
 
 ## ¡Primer Break! {background-color="#2c3e50"}
 
 ### 15 Minutos
 
-- Estira las piernas.
-- Toma agua o café.
-- **Al volver:** ¿Dónde están mis datos? (Seguridad y Privacidad).
-
 ::: {.center}
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjRyeGZ4NjR5JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKVUn7iM8FMEU24/giphy.gif){width="300"}
 :::
 
----
-
-## Bloque 2: ¿Dónde estamos trabajando? {background-color="#2c3e50"}
-
----
+# Bloque 2: Seguridad {background-color="#2c3e50"}
 
 ## ¿Dónde vive Copilot?
 
@@ -160,8 +137,6 @@ Copilot no es una sola cosa, es un ecosistema que te acompaña:
 - **Copilot en Teams:** El que toma notas por ti en las reuniones.
 :::
 
----
-
 ## La gran diferencia: Personal vs. Corporativo
 
 ::: {.smaller}
@@ -171,8 +146,6 @@ Copilot no es una sola cosa, es un ecosistema que te acompaña:
 | **Privacidad** | Datos pueden entrenar la IA | **Protección comercial total** |
 | **Alcance** | Solo datos proporcionados | OneDrive / SharePoint |
 :::
-
----
 
 ## La "Línea Roja": ¿Mis datos están seguros? {background-color="#b03a2e"}
 
@@ -188,21 +161,13 @@ Copilot no es una sola cosa, es un ecosistema que te acompaña:
 2. Los datos se quedan dentro de tu empresa.
 3. Se respetan los permisos de seguridad existentes.
 
----
-
-## Los Riesgos Reales (No todo es color de rosa)
+## Los Riesgos Reales
 
 Además de la privacidad, debemos gestionar:
 
 - **Alucinaciones:** La IA prefiere mentir antes que decir "no sé".
 - **Sesgos:** Puede dar respuestas basadas en estereotipos.
-- **Obsolescencia:** Su conocimiento tiene una fecha de corte (aunque Copilot busca en web).
-
-::: notes
-Menciona un ejemplo: Pedirle el precio del dólar hoy vs. pedirle que invente una ley que no existe.
-:::
-
----
+- **Obsolescencia:** Su conocimiento tiene una fecha de corte.
 
 ## Ética y Responsabilidad Profesional
 
@@ -210,11 +175,9 @@ Como profesionales, somos responsables de lo que la IA genera:
 
 ::: {.incremental}
 1. **Verificación:** Siempre revisa los datos numéricos y citas.
-2. **Transparencia:** Si un reporte fue 100% hecho por IA, es buena práctica mencionarlo.
-3. **Criterio:** La IA no tiene ética, tú sí. No delegues decisiones morales.
+2. **Transparencia:** Si un reporte fue 100% hecho por IA, menciónalo.
+3. **Criterio:** La IA no tiene ética, tú sí.
 :::
-
----
 
 ## Dinámica Rápida: "¿Es seguro?"
 
@@ -225,8 +188,6 @@ Como profesionales, somos responsables de lo que la IA genera:
 3. Crear una estructura para una presentación de ventas.
 4. Pegar el código fuente secreto de una app nueva de la empresa.
 
----
-
 ## El Rol de "Editor en Jefe"
 
 ::: {.columns}
@@ -235,7 +196,7 @@ Imagina que eres el jefe de una revista.
 - La IA es tu **redactor junior**.
 - El redactor te trae un borrador.
 - **Tú no lo publicas sin leerlo.**
-- Tú lo corriges, lo pules y le das el tono final.
+- Tú lo corriges y le das el tono final.
 :::
 
 ::: {.column width="40%"}
@@ -243,25 +204,15 @@ Imagina que eres el jefe de una revista.
 :::
 :::
 
---- 
-
 ## ¡Segundo Break! {background-color="#2c3e50"}
 
 ### 15 Minutos
-
-- Desconéctate un momento.
-- Prepara tu mente para la acción.
-- **Al volver:** El Bloque de Oro. Aprenderemos a escribir **Prompts que sí funcionan**.
 
 ::: {.center}
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Zhc2V4eXU0Ynd4eXU0Ynd4eXU0Ynd4eXU0Ynd4eXU0Ynd4eXU0dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Z/l2Jef11Wqivr9YI4E/giphy.gif){width="300"}
 :::
 
----
-
-## Bloque 3: El Arte del Prompting y Taller Práctico {background-color="#2c3e50"}
-
----
+# Bloque 3: Prompting {background-color="#2c3e50"}
 
 ## ¿Qué es el Prompt Engineering?
 
@@ -277,20 +228,16 @@ Instrucciones claras para que una IA nos dé el resultado exacto.
 | **Avanzado** | "Dame una pasta carbonara auténtica, sin crema" | Exactamente lo que querías. |
 :::
 
----
-
-## La Fórmula "Perfecta" (Anatomía del Prompt)
+## La Fórmula "Perfecta"
 
 Un buen prompt debe tener cuatro componentes clave:
 
 ::: {.incremental}
-1. **Rol (Act):** ¿Quién es la IA? (Analista, Redactor, Abogado...)
-2. **Tarea (Do):** ¿Qué debe hacer? (Resumir, Redactar, Traducir...)
-3. **Contexto (Provide):** Datos adicionales, tono de voz, audiencia...
-4. **Formato (Format):** ¿Cómo debe entregar la respuesta? (Tabla, Lista, Correo...)
+1. **Rol (Act):** ¿Quién es la IA?
+2. **Tarea (Do):** ¿Qué debe hacer?
+3. **Contexto (Provide):** Datos adicionales, tono, audiencia...
+4. **Formato (Format):** ¿Cómo entrega la respuesta? (Tabla, Lista...)
 :::
-
----
 
 ## Anatomía en acción (Comparativa)
 
@@ -314,17 +261,13 @@ Un buen prompt debe tener cuatro componentes clave:
 ::::
 :::
 
----
-
 ## El Poder de la Iteración
 
-Rara vez el primer prompt es perfecto. Es un **diálogo**, no un monólogo.
+Rara vez el primer prompt es perfecto. Es un **diálogo**.
 
 - Envía el prompt base.
 - Analiza la respuesta.
-- **Corrige:** *"Hazlo más corto"*, *"Usa un tono más empático"*, *"Pon los datos en una tabla"*.
-
----
+- **Corrige:** *"Hazlo más corto"*, *"Pon los datos en una tabla"*.
 
 ## Taller Práctico: ¡Soluciona tu Mañana!
 
@@ -335,7 +278,7 @@ Rara vez el primer prompt es perfecto. Es un **diálogo**, no un monólogo.
 1. Identifica tu tarea más repetitiva.
 2. Escribe un prompt aplicando la fórmula completa.
 3. Ejecuta el prompt en Copilot e itera.
-4. **Alerta:** ¡No uses datos sensibles reales en versiones abiertas!
+4. **Alerta:** ¡No uses datos sensibles reales!
 
 **Tiempo:** 20 minutos.
 :::
@@ -346,47 +289,36 @@ Rara vez el primer prompt es perfecto. Es un **diálogo**, no un monólogo.
 ::::
 :::
 
----
-
 ## Recapitulación (Takeaways)
 
 ::: {.incremental}
-1. **La IA es Generativa:** Crea contenido, no solo lo busca.
-2. **Copilot es un ecosistema:** Integrado en tus herramientas diarias.
-3. **Seguridad Comercial:** Tus datos corporativos están protegidos.
+1. **La IA es Generativa:** Crea contenido.
+2. **Copilot está integrado:** Vive en tus herramientas.
+3. **Seguridad:** Datos corporativos protegidos.
 4. **La Fórmula:** Rol + Tarea + Contexto + Formato.
-5. **Tú eres el Piloto:** Siempre verificamos y validamos.
+5. **Tú eres el Piloto.**
 :::
 
----
-
-## Próximos Pasos (Hoja de Ruta)
+## Próximos Pasos
 
 ::: {.columns}
 ::: {.column width="50%"}
 ### Hoy
-Aprendimos a "hablar" con la IA y a usar Copilot Web/Edge.
+Aprendimos a "hablar" con la IA y usar Copilot Web/Edge.
 :::
 ::: {.column width="50%"}
 ### Sesión 2
-**Taller Intensivo de Copilot M365:**
-- Uso práctico en Word y Excel.
-- Presentaciones en PowerPoint.
-- Gestión de Outlook y Teams.
+**Taller Intensivo M365:**
+- Word y Excel práctico.
+- Presentaciones PPT.
+- Outlook y Teams.
 :::
 :::
-
----
 
 ## Q&A: ¿Dudas Finales?
 
-::: {.center .text-center}
-### ¡Muchas gracias!
-:::
 
----
-
-## ¡De vuelta a lo importante! {.center .text-center background-color="#2c3e50"}
+# ¡De vuelta a lo importante! {.center .text-center}
 
 ::: {.center}
 ### Fabio Zapata
