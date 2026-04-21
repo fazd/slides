@@ -34,8 +34,8 @@ jobs:
           QUARTO_DIRS: >-
             clase_practica
             clase-1-introduccion
-            clase-2-propmpts
-            clase-3-propmpts-2
+            clase-2-prompts
+            clase-3-prompts-2
         run: |
           for dir in $QUARTO_DIRS; do
             quarto render $dir/index.qmd
@@ -47,8 +47,8 @@ jobs:
           QUARTO_DIRS: >-
             clase_practica
             clase-1-introduccion
-            clase-2-propmpts
-            clase-3-propmpts-2
+            clase-2-prompts
+            clase-3-prompts-2
         run: |
           set -e
           mkdir -p _site
