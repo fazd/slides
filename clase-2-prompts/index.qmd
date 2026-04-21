@@ -1,0 +1,229 @@
+---
+title: "Módulo 2: El Poder del Prompting"
+subtitle: "Sesión 2: Hablando el lenguaje de la productividad"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    highlight-style: github
+    logo: images/enyoi.png
+    css: styles.css
+    code-block-height: 500px
+    lang: es
+    navigation-mode: linear
+    transition: slide
+    controls-back-arrows: visible
+    controls-layout: bottom-right
+    footer: "Módulo 2 - Sesión 2: Personalización y Comunicación"
+---
+
+# Sesión 2: El Poder del Prompting {background-color="#2c3e50"}
+
+## Agenda de hoy (3 horas)
+
+::: {.smaller}
+1.  **El Reto Final (35 min):** Lanzamiento de "Rediseña tu día con IA".
+2.  **Personalización (30 min):** Configura tu perfil profesional.
+3.  *☕ Break 1 (15 min)*
+4.  **La Fórmula ACTR (30 min):** El lenguaje de los expertos.
+5.  *☕ Break 2 (15 min)*
+6.  **Outlook Mastery (45 min):** Tu asistente ejecutivo en el correo.
+:::
+
+# Nuestro Destino: Proyecto Aplicado {background-color="#b03a2e"}
+
+## "Rediseña tu día con IA"
+Al final de este curso, presentarán una solución real que transforme un proceso de su área.
+
+**Objetivo:**
+Demostrar mayor eficiencia, ahorro de tiempo y un impacto tangible en el negocio.
+
+---
+
+## ¿Qué deben presentar? (Historias de Usuario)
+
+::: {.smaller}
+Para que su proyecto sea exitoso, seguiremos estos hitos:
+
+- **HU1 - Entendimiento:** ¿Qué proceso les duele? (Tiempo, errores, esfuerzo).
+- **HU2 - Diseño:** ¿Cómo usan Copilot? (Muestren sus prompts y herramientas).
+- **HU3 - Aplicación:** El **"Antes vs. Después"**. Evidencia real de los outputs de la IA.
+- **HU4 - Impacto:** ¿Cuánto tiempo ahorraron? ¿Cómo mejoró la calidad?
+:::
+
+---
+
+## ¿Cómo los vamos a evaluar? (1/2)
+### Definición y Técnica
+
+::: {style="font-size: 0.7em;"}
+| Criterio | Peso | Lo que el jurado busca |
+| :--- | :---: | :--- |
+| **Entendimiento** | **15%** | Problema real, dolor identificado (HU1) y relevancia para el área. |
+| **Uso de IA** | **20%** | Calidad de prompts (**ACTR**), iteración y validación de resultados. |
+| **Diseño** | **15%** | Integración lógica y aplicable de la IA en el flujo de trabajo (HU2). |
+:::
+
+::: notes
+En esta parte se evalúa la base del proyecto: ¿El problema es real? ¿Saben hablarle a la IA?
+:::
+
+---
+
+## ¿Cómo los vamos a evaluar? (2/2)
+### Impacto y Sustentación
+
+::: {style="font-size: 0.7em;"}
+| Criterio | Peso | Lo que el jurado busca |
+| :--- | :---: | :--- |
+| **Evidencia** | **15%** | **Demostración real:** Capturas del "Antes vs. Después" (HU3). |
+| **Impacto** | **20%** | Mejora medible en tiempo (HU4), eficiencia o calidad del negocio. |
+| **Sustentación** | **10%** | Claridad al explicar la solución y responder dudas del panel. |
+| **Equipo** | **5%** | Colaboración efectiva y participación de todos los integrantes. |
+:::
+
+::: notes
+La evidencia es vital. Sin capturas o demostración real, no se puede validar el impacto.
+:::
+
+## Escala de Evaluación: El nivel "Domina"
+
+Para obtener la máxima puntuación, no basta con "usar" la IA:
+
+1.  **Explica y Justifica:** ¿Por qué usaste ese prompt y no otro?
+2.  **Validación Crítica:** ¿Cómo verificaste que la IA no estaba alucinando?
+3.  **Sustentación (10%):** Comunicación clara, estructurada y convincente.
+4.  **Trabajo en Equipo (5%):** Participación equilibrada de todos.
+
+# Personalización {background-color="#2c3e50"}
+
+## Tu "Manual de Identidad"
+¿Sabías que puedes evitar repetir quién eres en cada chat?
+
+::: {.callout-note}
+## Personalización del Chat
+Es la "memoria permanente" donde le explicas a Copilot tu cargo, industria y estilo preferido.
+:::
+
+. . .
+
+**Ejercicio rápido:** Configura tu perfil en Copilot. 
+
+---
+
+# ☕ Break 1 (15 min) {background-color="#000000"}
+
+# La Fórmula ACTR (30 min) {background-color="#2c3e50"}
+
+## El lenguaje de los expertos
+No le des órdenes a la IA, dale un **marco de trabajo**.
+
+::: {.columns}
+::: {.column width="50%"}
+1. **A**cción (Acción)
+   - El verbo principal: *Redacta, Analiza, Resume, Crea.*
+2. **C**ontexto (Context)
+   - ¿Quién eres?, ¿Para quién es?, ¿Qué antecedentes hay?
+:::
+
+::: {.column width="50%"}
+3. **T**ono (Tone)
+   - ¿Cómo debe sonar?: *Profesional, empático, ejecutivo, técnico.*
+4. **R**esultado (Result)
+   - ¿Qué formato quieres?: *Tabla, lista de puntos, correo, código.*
+:::
+:::
+
+---
+
+## Anatomía de un Prompt Maestro
+
+::: {style="font-size: 0.85em;"}
+::: {.callout-tip}
+### Prompt
+"Actúa como un **analista senior de experiencia al cliente**. Revisa este listado de quejas del área de hipotecas de marzo donde los usuarios reportan demoras en firmas. Escribe un **análisis profesional, directo y orientado a soluciones**. Organiza los hallazgos en una **tabla con: Categoría, Urgencia y Acción recomendada**."
+:::
+
+::: {.fragment .fade-in}
+- <span style="color:#66d9ef">**Contexto:**</span> "Analista senior de experiencia... área de hipotecas... quejas de marzo."
+:::
+
+::: {.fragment .fade-in}
+- <span style="color:#a6e22e">**Acción:**</span> "Revisa este listado... escribe un análisis."
+:::
+
+::: {.fragment .fade-in}
+- <span style="color:#fd971f">**Tono:**</span> "Profesional, directo y orientado a soluciones."
+:::
+
+::: {.fragment .fade-in}
+- <span style="color:#ae81ff">**Resultado:**</span> "Tabla con: Categoría, Urgencia y Acción recomendada."
+:::
+:::
+
+## ¿Por qué importa cada pieza?
+
+Si quitas una letra, el resultado se degrada:
+
+- **Sin Acción:** La IA no sabe si quieres un resumen o una crítica.
+- **Sin Contexto:** Recibirás una respuesta genérica que no aplica a tu negocio.
+- **Sin Tono:** Puede sonar demasiado robótico o demasiado informal para un jefe.
+- **Sin Resultado:** Perderás tiempo dándole formato manual a la respuesta.
+
+---
+
+## De Pobre a Maestro (Evolución)
+
+::: {style="font-size: 0.75em;"}
+| Nivel | Prompt | Calidad del Resultado |
+| :--- | :--- | :--- |
+| **0%** | "Haz un reporte de quejas." | Un párrafo vago que requiere mucho trabajo manual. |
+| **50%** | "Haz un reporte de estas quejas de hipotecas en una tabla." | Estructura correcta, pero el contenido es genérico. |
+| **100% (ACTR)** | *"Actúa como analista... (ejemplo anterior)"* | **Resultado listo para presentar a la gerencia.** |
+:::
+
+::: notes
+El objetivo de dominar el ACTR es que el primer borrador de la IA sea el 90% de tu trabajo final.
+:::
+
+---
+
+# ☕ Break 2 (15 min) {background-color="#000000"}
+
+# Outlook Mastery (45 min) {background-color="#2c3e50"}
+
+## El "Morning Report" (Manual)
+El primer paso de tu día para ganar 1 hora de tiempo.
+
+::: {.callout-tip}
+## El Prompt Maestro de las 8:00 AM
+"Actúa como mi asistente ejecutivo. Revisa mis correos recibidos entre ayer a las 7:00 PM y hoy a las 8:00 AM. Filtra newsletters y avisos de sistema. Identifica los 5 correos más importantes basados en: clientes externos, solicitudes de aprobación o menciones al Proyecto X. Dame el resultado en una tabla con: Remitente, Resumen y Acción sugerida."
+:::
+
+---
+
+## Domina tu Inbox
+- **Resumir hilos:** Entiende hilos de 20 correos en segundos.
+- **Coaching de correo:** Deja que Copilot revise tu tono antes de enviar.
+- **Borradores inteligentes:** "Responde que sí, pero pide la agenda de la reunión".
+
+---
+
+## Tarea para la casa 🏠
+Mañana a las 8:05 AM, abre Copilot y ejecuta tu **Morning Report**. 
+
+---
+
+## Q&A: Dudas finales
+¿Cómo se sienten para su proyecto final?
+
+---
+
+## ¡De vuelta a lo importante! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+:::

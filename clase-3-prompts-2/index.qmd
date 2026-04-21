@@ -1,0 +1,203 @@
+---
+title: "Módulo 2: El Poder del Prompting"
+subtitle: "Sesión 3: Técnicas Maestras y Aplicación"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    navigation-mode: linear
+    transition: slide
+    logo: images/enyoi.png
+    footer: "Módulo 2 - Sesión 3: Técnicas Avanzadas"
+---
+
+# Sesión 3: De Usuario a Maestro {background-color="#2c3e50"}
+
+## Agenda de hoy (3 horas)
+
+::: {.smaller}
+1.  **Herramientas de Poder (40 min):** Word y Excel aplicados.
+2.  **Few-Shot Prompting (25 min):** El arte de dar ejemplos.
+3.  *☕ Break 1 (15 min)*
+4.  **Tu Consultor de Prompts (40 min):** IA que mejora tus instrucciones.
+5.  *☕ Break 2 (15 min)*
+6.  **Cierre Visual (35 min):** PowerPoint y Teams para tu proyecto.
+:::
+
+---
+
+# Word y Excel: El Dúo Dinámico {background-color="#2c3e50"}
+
+# Excel: ¿Consultor o Ejecutor? {background-color="#2c3e50"}
+
+## Los dos rostros de Copilot
+En Excel, Copilot puede trabajar de dos formas distintas según lo que necesites:
+
+::: {.columns}
+::: {.column width="50%"}
+### 1. Modo Chat (Consultor)
+- **Función:** Responder, explicar y sugerir.
+- **Resultado:** Texto en el panel lateral.
+- **Uso:** "¿Cómo funciona esta fórmula?", "¿Qué significa este pico en los datos?".
+:::
+
+::: {.column width="50%"}
+### 2. Modo Agente (Ejecutor)
+- **Función:** Hacer, crear y modificar.
+- **Resultado:** Cambios reales en tus celdas.
+- **Uso:** "Agrega una columna de IVA", "Resalta en amarillo los valores negativos".
+:::
+:::
+
+---
+
+## Diferencias Clave
+
+::: {style="font-size: 0.65em;"}
+| Característica | Modo Chat (Consultor) | Modo Agente (Ejecutor) |
+| :--- | :--- | :--- |
+| **Acción** | Te dice qué hacer o cómo hacerlo. | **Lo hace por ti** directamente. |
+| **Ubicación** | Todo ocurre en el panel de chat. | Crea columnas, filas o gráficos. |
+| **Intervención** | No toca tus datos. | Modifica la estructura de la hoja. |
+| **Ejemplo** | "¿Cómo calculo el margen?" | "Calcula el margen en una columna". |
+:::
+
+---
+
+## El "Requisito de Oro" para el Agente
+
+::: {.callout-warning}
+### ¡Sin Tabla no hay Agente!
+Para que Copilot pueda actuar como un **Agente** (insertar fórmulas, filtrar o dar formato), tus datos **DEBEN estar en Formato de Tabla**.
+:::
+
+. . .
+
+**Cómo activarlo:**
+1. Selecciona tus datos.
+2. Presiona `Ctrl + T` (o Inicio > Dar formato como tabla).
+3. **¡Listo!** Ahora Copilot tiene permiso para "tocar" tus celdas.
+
+---
+
+## Ejercicio Hands-on: El Agente en Acción
+
+1. Abre un Excel con datos desordenados.
+2. **Paso 1 (Chat):** Pregunta a Copilot: "¿Qué tendencias ves aquí?".
+3. **Paso 2 (Transformación):** Convierte los datos a Tabla (`Ctrl + T`).
+4. **Paso 3 (Agente):** Pide a Copilot: "Agrega una columna que calcule el 15% de bonificación para todos los empleados".
+
+::: notes
+Diles que si Copilot les dice "No puedo editar tu hoja", es casi seguro porque no han convertido el rango en Tabla.
+:::
+
+# 🛠️ Laboratorio: Excel en Acción {background-color="#b03a2e"}
+
+## Instrucciones del Ejercicio
+Es momento de pasar de la teoría a la práctica. Por favor, abran el archivo/documento de ejercicios adjunto.
+
+::: {.incremental}
+1.  **Reto 1 (Ventas):** Usaremos el **Modo Agente** para crear columnas calculadas y formatos condicionales.
+2.  **Reto 2 (RRHH):** Usaremos el **Modo Chat** para obtener métricas y crear un gráfico de análisis.
+3.  **Validación:** Al finalizar, verifiquen las fórmulas creadas. ¿La IA entendió la lógica del negocio?
+:::
+
+---
+
+# De Excel a Word {background-color="#2c3e50"}
+
+## Integrando los hallazgos
+Una vez que tengan los datos analizados, el siguiente paso es la narrativa.
+
+::: {.callout-tip}
+### Flujo para el Proyecto Final
+Copien el resumen o gráfico de Excel y llévenlo a Word:
+*"Actúa como gerente de área. Redacta un párrafo ejecutivo que explique estos resultados y proponga dos próximos pasos."*
+:::
+
+---
+
+# Few-Shot Prompting: El Poder de los Ejemplos {background-color="#2c3e50"}
+
+## No me digas, muéstrame
+El **Few-Shot Prompting** consiste en darle a la IA 1 o 2 ejemplos del resultado que esperas antes de pedirle que trabaje.
+
+> "Si le das un ejemplo, la IA entiende el patrón. Si le das tres, entiende la perfección."
+
+---
+
+## Ejemplo: Clasificación de correos
+**Sin ejemplos (Zero-Shot):**
+"Clasifica este correo como urgente o normal: [Texto]"
+
+**Con ejemplos (Few-Shot):**
+"Clasifica estos correos:
+1. 'No funciona el servidor' -> Urgente
+2. 'Gracias por la ayuda' -> Normal
+3. 'El cliente canceló la cuenta' -> Urgente
+4. '[Tu correo aquí]' -> "
+
+::: notes
+El Few-shot reduce las alucinaciones y asegura que el formato sea exacto al que tú necesitas.
+:::
+
+---
+
+# Tu Ingeniero de Prompts Personal {background-color="#2c3e50"}
+
+## El Agente Mejorador
+A veces no sabemos cómo escribir el prompt perfecto. **¡Pídele a Copilot que lo escriba por ti!**
+
+::: {.callout-important}
+### El Prompt "Meta"
+"Actúa como un experto en Prompt Engineering. Quiero que redactes un informe de ventas, pero no sé cómo pedírtelo. Hazme 3 preguntas sobre mi contexto para que puedas diseñar el mejor prompt posible para esta tarea."
+:::
+
+---
+
+## Anatomía del Diálogo de Mejora
+
+::: {style="font-size: 0.70em;"}
+1. **Petición Inicial:** "Ayúdame a mejorar este prompt: [Tu idea vaga]".
+2. **Intervención de la IA:** "Para mejorar esto, necesito saber: ¿Quién lee esto? ¿Qué tono prefieres?".
+3. **Tu Respuesta:** Das los datos faltantes.
+4. **Resultado Maestro:** La IA te entrega un prompt con **ACTR** completo listo para usar.
+:::
+
+
+
+---
+
+# PowerPoint y Teams: La Vitrina {background-color="#2c3e50"}
+
+## PPT: Storytelling en segundos
+Para tu proyecto final:
+1. Crea el esquema en Word.
+2. En PPT, usa: **"Crear presentación desde archivo..."**.
+3. Copilot diseñará las diapositivas, seleccionará imágenes y organizará el flujo por ti.
+
+---
+
+## Teams: El centro de mando
+Automatiza el seguimiento de tu proyecto:
+- **Resumen de chat:** "Resume lo que se ha discutido sobre el presupuesto en este grupo hoy".
+- **Tareas pendientes:** "Haz una lista de los compromisos que hizo Juan en la última reunión".
+
+---
+
+## Conclusión del Módulo 2
+
+::: {.incremental}
+- Ya no escribimos prompts de una línea.
+- Usamos **ACTR** y **Few-Shot**.
+- Sabemos que la IA es nuestro **Consultor de Prompts**.
+- Tenemos las herramientas para el proyecto **"Rediseña tu día"**.
+:::
+
+---
+
+## ¡De vuelta a lo importante! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+:::
