@@ -8,58 +8,70 @@ format:
     navigation-mode: linear
     transition: slide
     logo: images/enyoi.png
-    footer: "Módulo 2 - Sesión 3: Técnicas Avanzadas"
+    footer: "Módulo 2 - Sesión 3: De Usuario a Maestro"
 ---
 
 # Sesión 3: De Usuario a Maestro {background-color="#2c3e50"}
 
-## Agenda de hoy (3 horas)
+## Agenda de hoy (2h 45min)
 
 ::: {.smaller}
-1.  **Herramientas de Poder (40 min):** Word y Excel aplicados.
-2.  **Few-Shot Prompting (25 min):** El arte de dar ejemplos.
-3.  *☕ Break 1 (15 min)*
-4.  **Tu Consultor de Prompts (40 min):** IA que mejora tus instrucciones.
-5.  *☕ Break 2 (15 min)*
-6.  **Cierre Visual (35 min):** PowerPoint y Teams para tu proyecto.
+1.  **Check-in & Lluvia de Ideas (20 min):** Tarea Outlook y Proyecto Final.
+2.  **Word y Excel Lab (55 min):** Caso Amazon y el "Modo Agente".
+3.  **Few-Shot Prompting (20 min):** El arte de dar ejemplos.
+4.  *☕ Break Único (15 min)*
+5.  **Tu Consultor de Prompts (40 min):** IA que mejora tus instrucciones.
+6.  **Cierre Visual & Teams (15 min):** PowerPoint y el fin del módulo.
 :::
 
 ---
 
-# Word y Excel: El Dúo Dinámico {background-color="#2c3e50"}
+# ¿Cómo nos fue con el "Morning Report"? ☕
+
+- ¿Quién logró ejecutar su resumen de correos esta mañana?
+- ¿Qué criterios de importancia usaron?
+- ¿La IA detectó lo que era realmente urgente?
+
+::: notes
+Espacio para que los alumnos compartan si el prompt les funcionó o si necesitan ajustarlo.
+:::
+
+---
+
+# Proyecto Final: "Rediseña tu día" {background-color="#b03a2e"}
+
+## Compartamos Ideas 💡
+Recuerden: El jurado busca un **dolor real** y un **impacto medible**.
+
+::: {.callout-tip}
+### Lluvia de ideas
+¿Qué proceso de su área están pensando para su HU1?
+- ¿Conciliaciones? ¿Reportes de gestión? ¿Gestión de proveedores?
+:::
+
+. . .
+
+**Tip:** Si el proceso les quita más de 2 horas al día, es el candidato perfecto.
+
+---
 
 # Excel: ¿Consultor o Ejecutor? {background-color="#2c3e50"}
 
 ## Los dos rostros de Copilot
-En Excel, Copilot puede trabajar de dos formas distintas según lo que necesites:
+En Excel, la interacción cambia drásticamente según lo que pidas:
 
 ::: {.columns}
 ::: {.column width="50%"}
 ### 1. Modo Chat (Consultor)
 - **Función:** Responder, explicar y sugerir.
-- **Resultado:** Texto en el panel lateral.
-- **Uso:** "¿Cómo funciona esta fórmula?", "¿Qué significa este pico en los datos?".
+- **Uso:** "¿Por qué esta fórmula da error?", "¿Qué tendencia ves en marzo?".
 :::
 
 ::: {.column width="50%"}
 ### 2. Modo Agente (Ejecutor)
-- **Función:** Hacer, crear y modificar.
-- **Resultado:** Cambios reales en tus celdas.
-- **Uso:** "Agrega una columna de IVA", "Resalta en amarillo los valores negativos".
+- **Función:** **Hacer**, crear y modificar.
+- **Uso:** "Agrega una columna de IVA", "Crea un gráfico de esta tabla".
 :::
-:::
-
----
-
-## Diferencias Clave
-
-::: {style="font-size: 0.65em;"}
-| Característica | Modo Chat (Consultor) | Modo Agente (Ejecutor) |
-| :--- | :--- | :--- |
-| **Acción** | Te dice qué hacer o cómo hacerlo. | **Lo hace por ti** directamente. |
-| **Ubicación** | Todo ocurre en el panel de chat. | Crea columnas, filas o gráficos. |
-| **Intervención** | No toca tus datos. | Modifica la estructura de la hoja. |
-| **Ejemplo** | "¿Cómo calculo el margen?" | "Calcula el margen en una columna". |
 :::
 
 ---
@@ -67,39 +79,30 @@ En Excel, Copilot puede trabajar de dos formas distintas según lo que necesites
 ## El "Requisito de Oro" para el Agente
 
 ::: {.callout-warning}
-### ¡Sin Tabla no hay Agente!
-Para que Copilot pueda actuar como un **Agente** (insertar fórmulas, filtrar o dar formato), tus datos **DEBEN estar en Formato de Tabla**.
+### Pro-Tip de Estabilidad
+En **Excel Web**, Copilot suele ser capaz de leer tus datos directamente. Sin embargo, si quieres **precisión absoluta** o realizar cálculos complejos, usa el formato de **Tabla (`Ctrl + T`)**.
 :::
 
 . . .
 
-**Cómo activarlo:**
-1. Selecciona tus datos.
-2. Presiona `Ctrl + T` (o Inicio > Dar formato como tabla).
-3. **¡Listo!** Ahora Copilot tiene permiso para "tocar" tus celdas.
+**Cómo usar Copilot en Excel:**
+
+1. Haz clic en el botón de Copilot en la cinta de opciones (Home/Inicio).
+2. Escribe tu instrucción usando **ACTR**.
+3. Revisa la vista previa antes de "Aplicar".
 
 ---
 
-## Ejercicio Hands-on: El Agente en Acción
+# 🛠️ Laboratorio Maestro: Amazon Stock {background-color="#b03a2e"}
 
-1. Abre un Excel con datos desordenados.
-2. **Paso 1 (Chat):** Pregunta a Copilot: "¿Qué tendencias ves aquí?".
-3. **Paso 2 (Transformación):** Convierte los datos a Tabla (`Ctrl + T`).
-4. **Paso 3 (Agente):** Pide a Copilot: "Agrega una columna que calcule el 15% de bonificación para todos los empleados".
-
-::: notes
-Diles que si Copilot les dice "No puedo editar tu hoja", es casi seguro porque no han convertido el rango en Tabla.
-:::
-
-# 🛠️ Laboratorio: Excel en Acción {background-color="#b03a2e"}
-
-## Instrucciones del Ejercicio
-Es momento de pasar de la teoría a la práctica. Por favor, abran el archivo/documento de ejercicios adjunto.
+## Reto de Acciones 📈
+*Abran el archivo con el histórico de Amazon.*
 
 ::: {.incremental}
-1.  **Reto 1 (Ventas):** Usaremos el **Modo Agente** para crear columnas calculadas y formatos condicionales.
-2.  **Reto 2 (RRHH):** Usaremos el **Modo Chat** para obtener métricas y crear un gráfico de análisis.
-3.  **Validación:** Al finalizar, verifiquen las fórmulas creadas. ¿La IA entendió la lógica del negocio?
+1. **Fase Chat:** "¿Cuál fue el precio de cierre más alto en 2020 y qué volumen hubo ese día?".
+2. **Fase Agente:** "Calcula la 'Volatilidad Diaria' (High menos Low) en una nueva columna".
+3. **Fase Visual:** "Crea un gráfico de líneas que compare el Open y el Close de los últimos 30 días".
+4. **Fase Formato:** "Resalta en naranja todas las filas donde el Volumen sea superior al promedio".
 :::
 
 ---
@@ -107,91 +110,286 @@ Es momento de pasar de la teoría a la práctica. Por favor, abran el archivo/do
 # De Excel a Word {background-color="#2c3e50"}
 
 ## Integrando los hallazgos
-Una vez que tengan los datos analizados, el siguiente paso es la narrativa.
+Copilot en Word no solo escribe; **redacta basado en tus datos**.
 
-::: {.callout-tip}
-### Flujo para el Proyecto Final
-Copien el resumen o gráfico de Excel y llévenlo a Word:
-*"Actúa como gerente de área. Redacta un párrafo ejecutivo que explique estos resultados y proponga dos próximos pasos."*
+**Cómo usarlo:**
+1. Abre un documento de Word en blanco.
+2. Haz clic en el icono flotante de Copilot (Draft with Copilot).
+3. Pega los datos o el gráfico de Excel y pídele: *"Actúa como analista financiero. Redacta un reporte ejecutivo de 3 párrafos analizando estos resultados de Amazon"*.
+
+---
+
+# Few-Shot: Lo que SÍ funciona {background-color="#2c3e50"}
+
+## El Camino al Éxito
+Para que la IA aprenda el patrón, tus ejemplos deben ser impecables.
+
+::: {style="font-size: 0.75em;"}
+<br>
+
+::: {.fragment .fade-in}
+**1. Consistencia Total:** Usa siempre las mismas etiquetas. Si usas "Urgencia: Alta", no cambies luego a "Prioridad: 1".
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**2. Relevancia:** Que los ejemplos se parezcan a lo que vas a pedir. No des ejemplos de peras si vas a preguntar por manzanas.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**3. Formato Limpio:** Usa separadores claros (como flechas `->`, guiones o saltos de línea) para que la IA vea dónde termina un ejemplo y empieza el otro.
+:::
 :::
 
 ---
 
-# Few-Shot Prompting: El Poder de los Ejemplos {background-color="#2c3e50"}
+# Few-Shot: Lo que NO debes hacer {background-color="#b03a2e"}
 
-## No me digas, muéstrame
-El **Few-Shot Prompting** consiste en darle a la IA 1 o 2 ejemplos del resultado que esperas antes de pedirle que trabaje.
+## Errores que confunden a la IA
 
-> "Si le das un ejemplo, la IA entiende el patrón. Si le das tres, entiende la perfección."
+::: {style="font-size: 0.75em;"}
+<br>
+
+::: {.fragment .fade-in}
+**1. El "Ruido" innecesario:** No cuentes historias largas en los ejemplos. Ve directo al grano: *Entrada -> Salida*.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**2. Ejemplos contradictorios:** Si en un ejemplo dices que "A" es bueno y en otro que "A" es malo, la IA "alucinará".
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**3. El exceso de ejemplos:** Dar 20 ejemplos suele ser peor que dar 3 perfectos. La IA puede perder el foco.
+:::
+:::
 
 ---
 
-## Ejemplo: Clasificación de correos
-**Sin ejemplos (Zero-Shot):**
-"Clasifica este correo como urgente o normal: [Texto]"
+# ¿Bien o Mal? (Duelo de Prompts) {background-color="#2c3e50"}
 
-**Con ejemplos (Few-Shot):**
-"Clasifica estos correos:
-1. 'No funciona el servidor' -> Urgente
-2. 'Gracias por la ayuda' -> Normal
-3. 'El cliente canceló la cuenta' -> Urgente
-4. '[Tu correo aquí]' -> "
+## Analicemos estos dos casos:
+
+::: {style="font-size: 0.65em;"}
+
+::: {.columns}
+::: {.column width="50%"}
+### Caso A ❌
+"Clasifica esto:
+
+- El cliente está enojado. Malo.
+- Me gusta el servicio. Positivo.
+- No entiendo la factura. Duda.
+Ahora clasifica: El app se cierra sola."
+:::
+
+::: {.column width="50%"}
+### Caso B ✅
+"Clasifica por sentimiento:
+
+- Texto: 'El cliente está enojado' -> Sentimiento: NEGATIVO
+- Texto: 'Me gusta el servicio' -> Sentimiento: POSITIVO
+- Texto: 'No entiendo la factura' -> Sentimiento: NEUTRAL
+- Texto: 'El app se cierra sola' -> Sentimiento: "
+:::
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**¿Por qué el B es mejor?** Porque define el campo (Sentimiento), usa etiquetas consistentes (MAYÚSCULAS) y un separador claro (`->`).
+:::
+:::
+
+---
+
+::: {style="font-size: 0.8em;"}
+# Ejercicio Rápido: Identifica el error
+*¿Qué está mal en este Few-Shot para redactar asuntos de correo?*
+
+::: {style="font-size: 0.75em;"}
+<br>
+
+"Sigue mi estilo de asuntos:
+
+1. Reunión de presupuesto -> ASUNTO: Seguimiento Presupuesto Q2
+2. Almuerzo equipo -> ASUNTO: Invitación Almuerzo Viernes
+3. Vacaciones Juan -> ASUNTO: Solicitud de días libres - Urgente"
+
+<br>
+
+::: {.fragment .fade-in}
+**El error:** El tercer ejemplo rompe el patrón. Agregó "- Urgente" al final, algo que los otros dos no tenían. La IA ahora no sabrá si todos deben llevar urgencia o no.
+:::
+:::
+
+:::
+
+---
+
+# 🛠️ Hands-on: Crea tu propio patrón
+
+::: {style="font-size: 0.75em;"}
+**Reto:** Vamos a entrenar a Copilot para que resuma tickets de soporte técnico en solo 5 palabras.
+
+<br>
+
+**Instrucción:**
+
+1. Escribe 2 ejemplos de tickets largos resumidos en 5 palabras exactas.
+2. Dale un tercer ticket real de tu bandeja de entrada.
+3. **Verifica:** ¿Respetó el límite de 5 palabras?
+:::
 
 ::: notes
-El Few-shot reduce las alucinaciones y asegura que el formato sea exacto al que tú necesitas.
+Este ejercicio es fundamental para que vean que la IA es una "máquina de imitar". Si ellos son estrictos con los ejemplos, la IA será estricta con el resultado.
 :::
+
+---
+
+# ☕ Break (15 min) {background-color="#000000"}
 
 ---
 
 # Tu Ingeniero de Prompts Personal {background-color="#2c3e50"}
 
-## El Agente Mejorador
-A veces no sabemos cómo escribir el prompt perfecto. **¡Pídele a Copilot que lo escriba por ti!**
+## No pienses el prompt, co-créalo
+El error más común es intentar redactar el "prompt perfecto" a la primera. Los expertos no escriben prompts, los **construyen** junto a la IA.
 
-::: {.callout-important}
-### El Prompt "Meta"
-"Actúa como un experto en Prompt Engineering. Quiero que redactes un informe de ventas, pero no sé cómo pedírtelo. Hazme 3 preguntas sobre mi contexto para que puedas diseñar el mejor prompt posible para esta tarea."
+::: {.callout-note}
+### La Mentalidad de Consultor
+En lugar de dar una orden, pide una asesoría. Deja que la IA sea quien te entreviste a ti para entender el contexto.
 :::
 
 ---
 
-## Anatomía del Diálogo de Mejora
+## El "Meta-Prompt" Maestro
+
+Copia y pega esto cuando no sepas por dónde empezar:
+
+::: {style="font-size: 0.75em;"}
+> "Actúa como un experto en Prompt Engineering. Quiero que me ayudes a diseñar el mejor prompt posible para [Tarea X]. 
+> 
+> Antes de redactarlo, **hazme todas las preguntas que necesites** sobre mi contexto, mi audiencia, el formato que espero y el tono deseado. Una vez que te responda, genera el prompt final aplicando la fórmula ACTR."
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**¿Por qué funciona?**
+Porque obliga a la IA a buscar los "vacíos" de información que tú pasaste por alto.
+:::
+
+---
+
+## El Diálogo de Mejora (El Ciclo)
 
 ::: {style="font-size: 0.70em;"}
-1. **Petición Inicial:** "Ayúdame a mejorar este prompt: [Tu idea vaga]".
-2. **Intervención de la IA:** "Para mejorar esto, necesito saber: ¿Quién lee esto? ¿Qué tono prefieres?".
-3. **Tu Respuesta:** Das los datos faltantes.
-4. **Resultado Maestro:** La IA te entrega un prompt con **ACTR** completo listo para usar.
+
+<br>
+
+::: {.fragment .fade-in}
+**Fase 1: La Intención** Tú: "Quiero un correo para pedir presupuesto".
 :::
 
+<br>
 
+::: {.fragment .fade-in}
+**Fase 2: La Entrevista** IA: "¿A quién va dirigido? ¿Qué monto pides? ¿Es formal o urgente?".
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Fase 3: La Respuesta** Tú: "Es para mi jefe, son 5k USD para el software de IA, tono profesional".
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Fase 4: El Prompt Maestro** IA: "Aquí tienes tu prompt: *Actúa como analista financiero...*"
+:::
+
+:::
 
 ---
 
-# PowerPoint y Teams: La Vitrina {background-color="#2c3e50"}
+## Técnica: El Espejo Crítico 🪞
 
-## PPT: Storytelling en segundos
-Para tu proyecto final:
-1. Crea el esquema en Word.
-2. En PPT, usa: **"Crear presentación desde archivo..."**.
-3. Copilot diseñará las diapositivas, seleccionará imágenes y organizará el flujo por ti.
+Si ya tienes un prompt pero no te convence, pide una auditoría:
+
+::: {style="font-size: 0.80em;"}
+> "Revisa este prompt: '[Tu prompt aquí]'. 
+> Dime qué le falta para ser más preciso y reescríbelo para que sea más efectivo usando la fórmula **ACTR**."
+:::
+
+<br>
+
+::: {.callout-tip}
+### Beneficio
+Esto te enseña a detectar tus propios errores de comunicación en tiempo real.
+:::
 
 ---
 
-## Teams: El centro de mando
-Automatiza el seguimiento de tu proyecto:
-- **Resumen de chat:** "Resume lo que se ha discutido sobre el presupuesto en este grupo hoy".
-- **Tareas pendientes:** "Haz una lista de los compromisos que hizo Juan en la última reunión".
+## 🛠️ Hands-on: Diseñando tu Proyecto Final
+
+*Vamos a usar la IA para que trabaje por nosotros desde ya.*
+
+**Instrucción:**
+
+1. Piensa en el proceso que elegiste para tu **HU1**.
+2. Usa el **Meta-Prompt Maestro** para que Copilot te entreviste.
+3. Responde a sus preguntas con datos reales de tu área.
+4. **Guarda el resultado:** Ese será el prompt que usarás en tu sustentación final.
+
+::: notes
+Este es el momento de mayor valor de la sesión. Asegúrate de pasar por los puestos y ver qué preguntas les está haciendo la IA. Si la IA hace preguntas muy genéricas, diles que le pidan ser "más técnico y específico".
+:::
 
 ---
+
+# PowerPoint: La Vitrina Visual {background-color="#2c3e50"}
+
+## 🛠️ Reto 4: Del PDF a la Pantalla
+*Les entregaré un PDF con información técnica.*
+
+::: {style="font-size: 0.75em;"}
+<br>
+
+::: {.fragment .fade-in}
+**Paso 1: Extracción.** Pide a Copilot (en Word o M365 Chat) que resuma los puntos clave del PDF.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Paso 2: Estructura.** Genera un esquema de diapositivas (Outline) a partir del resumen.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Paso 3: Creación.** En PowerPoint, usa "Crear presentación desde archivo" o pide a Copilot: *"Diseña una presentación basada en este esquema"*.
+:::
+:::
+
+---
+
 
 ## Conclusión del Módulo 2
 
 ::: {.incremental}
-- Ya no escribimos prompts de una línea.
-- Usamos **ACTR** y **Few-Shot**.
-- Sabemos que la IA es nuestro **Consultor de Prompts**.
-- Tenemos las herramientas para el proyecto **"Rediseña tu día"**.
+- **Fórmula ACTR:** Su nueva lengua materna.
+- **Few-Shot:** Para resultados con estilo propio.
+- **Herramientas:** Ya saben cómo conectar Excel -> Word -> PPT.
+- **Meta:** Tienen el prompt maestro para su proyecto.
 :::
 
 ---
