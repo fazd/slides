@@ -1,0 +1,264 @@
+---
+title: "Módulo 3: Casos de Uso Reales"
+subtitle: "Sesión 4: La IA en tu especialidad"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    navigation-mode: linear
+    transition: slide
+    logo: images/enyoi.png
+    footer: "Sesión 4: Aplicación por Áreas Técnicas"
+---
+
+# Sesión 4: La IA en tu Especialidad {background-color="#2c3e50"}
+
+## Agenda de hoy (200 min / 3h 20m)
+
+::: {style="font-size: 0.75em;"}
+1.  **Recorderis (15 min):** Repaso de ACTR y Modo Agente.
+2.  **El Mapa de Ahorro (20 min):** Definición de tu proyecto final.
+3.  **Lab 1: Riesgo & Amazon (60 min):** Detección de anomalías.
+4.  **Lab 2: Contabilidad & Cartera (50 min):** Conciliación y Aging.
+5.  *☕ Break Único (15 min)*
+6.  **Extra: Auditoría Normativa (30 min):** Análisis de PDFs (Cumplimiento/Legal).
+7.  **Clínica de Prompts (20 min):** Construcción de HU2 y HU3.
+:::
+
+---
+
+# Recorderis: ¿Qué traemos en la maleta? 🧳 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+Aseguremos los cimientos antes de entrar al laboratorio:
+
+<br>
+
+::: {.fragment .fade-in}
+**Fórmula ACTR:** Sin Rol y Contexto, la IA es solo un buscador. Con ellos, es un consultor experto.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Few-Shot:** Si el formato importa, dale 1 o 2 ejemplos. La IA es una máquina de imitar patrones.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Modo Agente:** Recuerda que en Excel, los datos **deben ser una Tabla (Ctrl + T)** para que Copilot pueda editarlos.
+:::
+:::
+
+---
+
+# Tu Proyecto: El Mapa de Ahorro {background-color="#b03a2e"}
+
+## ¿Cuánto vale tu tiempo?
+
+::: {style="font-size: 0.75em;"}
+Hoy identificaremos la "Mina de Oro" de tu productividad personal.
+
+<br>
+
+::: {.fragment .fade-in}
+**La Regla de los 90 min:** Busca una tarea repetitiva que hoy te quite más de una hora y media.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**El Objetivo:** Diseñar el Prompt Maestro que reduzca esas 2 horas a menos de 10 minutos.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Impacto (HU3):** La diferencia entre el "Antes" y el "Después" es el éxito de tu sustentación.
+:::
+:::
+
+---
+
+# Riesgo y Finanzas: El Auditor Inteligente {background-color="#2c3e50"}
+
+## Del Dato a la Estrategia
+
+::: {style="font-size: 0.75em;"}
+Automatizar no es solo sumar; es encontrar la historia detrás de los números.
+
+<br>
+
+::: {.fragment .fade-in}
+**Análisis:** Identificación de anomalías, desviaciones y riesgos de liquidez.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Input:** Usaremos el archivo "Amazon Historical Stock" para nuestra auditoría.
+:::
+:::
+
+---
+
+# Lab 1 - Fase 1: Análisis de Variaciones {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**Reto:** Identificar momentos de alta volatilidad.
+
+<br>
+
+::: {.fragment .fade-in}
+**Prompt Maestro (Copia en Excel):**
+"Actúa como Analista de Riesgos. En esta tabla de precios de Amazon, identifica las **5 mayores variaciones porcentuales** diarias en la columna 'Adj Close'. Presenta una tabla con Fecha, % de cambio y Volumen."
+:::
+:::
+
+---
+
+# Lab 1 - Fase 2: Detección de Anomalías {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**Reto:** Encontrar "puntos calientes" de riesgo.
+
+<br>
+
+::: {.fragment .fade-in}
+**Prompt de Auditoría:**
+"Identifica y **resalta en rojo** todas las filas donde el **Volume** sea superior a 100 millones de acciones O donde la variación entre **Open** y **Close** sea mayor al 5%."
+:::
+:::
+
+---
+
+# Lab 1 - Fase 3: Reporte de Hallazgos {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**Reto:** Traducir datos a lenguaje de negocio (Word).
+
+<br>
+
+::: {.fragment .fade-in}
+**Prompt de Reporte:**
+"Redacta un **Informe de Hallazgos para el Comité de Riesgos** basado en los picos encontrados. Usa tono formal. Incluye una sugerencia técnica sobre si la acción muestra señales de riesgo."
+:::
+:::
+
+---
+
+# Cartera y Contabilidad: El Especialista {background-color="#2c3e50"}
+
+## Conciliaciones y Aging
+
+::: {style="font-size: 0.75em;"}
+<br>
+
+::: {.fragment .fade-in}
+**Conciliaciones:** Cruzar información de dos fuentes (Libro vs. Banco) para hallar diferencias.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Seguimiento de Cartera:** Clasificación por antigüedad (Aging) y priorización de cobros.
+:::
+:::
+
+---
+
+# 🛠️ Lab 2: Conciliación Ágil {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**Escenario:** Tienes una tabla de Libro Auxiliar y otra de Extracto Bancario.
+
+<br>
+
+**Prompt Maestro (Ejecutor):**
+
+<br>
+
+::: {.fragment .fade-in}
+"Actúa como Analista Contable. Compara la columna **‘ID_Documento’** del libro auxiliar con la **‘Referencia’** del extracto bancario. Identifica qué facturas están pendientes de pago y crea una nueva hoja con el listado de saldos por conciliar."
+:::
+:::
+
+---
+
+# Cartera: Estrategia de Cobro 📞 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**Reto:** De la clasificación a la acción de cobro.
+
+<br>
+
+::: {.fragment .fade-in}
+**1. Clasificación:** "Crea una columna 'Categoría de Mora' y clasifica cada factura en: Al día, 1-30 días, 31-90 días o +90 días."
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**2. Acción:** "Redacta un correo profesional para los clientes en la categoría '+90 días' solicitando la regularización inmediata."
+:::
+:::
+
+---
+
+# ☕ Break (15 min) {background-color="#000000"}
+
+---
+
+# Contenido Extra: Auditoría Normativa {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+La IA brilla analizando normativas y contratos densos.
+
+<br>
+
+::: {.fragment .fade-in}
+**Paso 1:** Sube un PDF de una circular normativa o contrato largo a Word.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Paso 2 (Prompt):** "Actúa como Oficial de Cumplimiento. Identifica las 3 cláusulas que mencionan penalidades financieras y organízalas en una tabla de riesgos."
+:::
+:::
+
+---
+
+# 🛠️ Taller: Tu Clínica de Prompts {background-color="#b03a2e"}
+
+::: {style="font-size: 0.75em;"}
+**Instrucción Final:**
+Es momento de asegurar tu **HU2** y **HU3**.
+
+<br>
+
+::: {.fragment .fade-in}
+1. Elige el proceso real de tu área (el de los 90 min).
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+2. Construye tu Prompt Maestro usando el **Meta-Prompting** (que la IA te entreviste).
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+3. Ejecútalo y toma la captura de pantalla de la solución.
+:::
+:::
+
+---
+
+## ¡Tu ahorro de tiempo empieza ahora! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+:::
