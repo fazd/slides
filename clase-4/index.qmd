@@ -13,7 +13,7 @@ format:
 
 # Sesión 4: La IA en tu Especialidad {background-color="#2c3e50"}
 
-## Agenda de hoy (200 min / 3h 20m)
+## Agenda de hoy
 
 ::: {style="font-size: 0.75em;"}
 1.  **Recorderis (15 min):** Repaso de ACTR y Modo Agente.

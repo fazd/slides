@@ -1,0 +1,326 @@
+---
+title: "Módulo 3: Casos de Uso Reales"
+subtitle: "Sesión 5: IA en Marketing, RRHH y Eficiencia"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    navigation-mode: linear
+    transition: slide
+    logo: images/enyoi.png
+    footer: "Sesión 5: Aplicación en Áreas Transversales"
+---
+
+# Sesión 5: Consolidación y Aplicación Transversal {background-color="#2c3e50"}
+
+## Agenda de hoy (3 Horas)
+
+::: {style="font-size: 0.75em;"}
+1. **Resumen de Vuelo (15 min):** Repaso de las sesiones 1-4.
+2. **Follow-up de Proyectos (30 min):** Estado de tus HU2 y HU3.
+3. **Marketing & Comunicaciones (45 min):** Briefs, campañas y límites.
+4. **☕ Break (15 min)**
+5. **RRHH & Operaciones (45 min):** Gestión de personas, ética y límites.
+6. **Taller: Mapa de Eficiencia (30 min):** Identificación de ahorros finales.
+:::
+
+---
+
+# Resumen: Lo que hemos construido 🏗️ {background-color="#2c3e50"}
+
+::: {style="font-size: 0.6em;"}
+Hasta hoy, hemos transformado la IA en una herramienta de trabajo real:
+
+::: {.fragment .fade-in}
+- **Sesión 1 y 2:** Dominamos el **Prompt Engineering** (ACTR, Few-Shot) y el pensamiento crítico frente a alucinaciones.
+:::
+
+::: {.fragment .fade-in}
+- **Sesión 3:** Entendimos el **Modo Agente** y cómo la IA interactúa con nuestros archivos en la nube.
+:::
+
+::: {.fragment .fade-in}
+- **Sesión 4:** Aplicamos IA a datos duros (**Finanzas y Riesgos**) mediante análisis de tablas y detección de anomalías en Excel.
+:::
+:::
+
+---
+
+# Follow-up: ¿Cómo va tu proyecto? 🚀 {background-color="#b03a2e"}
+
+::: {style="font-size: 0.6em;"}
+Hagamos un pulso rápido del estado de los proyectos:
+
+::: {.fragment .fade-in}
+- **HU1 (Identificación):** ¿Ya tienes clara la tarea que te quita 90 min o más?
+:::
+
+::: {.fragment .fade-in}
+- **HU2 (Prompt Maestro):** ¿Tu prompt ya genera un resultado "aprobado" para el banco?
+:::
+
+::: {.fragment .fade-in}
+- **HU3 (Impacto):** ¿Has empezado a cronometrar cuánto tardabas antes vs. ahora?
+:::
+
+**Reto del día:** Si tu proceso está "trabado", hoy usaremos los labs transversales para destrabarlo.
+:::
+
+---
+
+# Marketing y Comunicaciones {background-color="#2c3e50"}
+
+## Creatividad Estratégica con Copilot
+
+::: {style="font-size: 0.7em;"}
+No se trata de escribir "bonito", sino de escribir con **objetivo de negocio**.
+
+<br>
+
+::: {.fragment .fade-in}
+**✅ Dónde SÍ nos ayuda:**
+
+- Crear borradores de campañas, briefs creativos y adaptar tonos de voz.
+- Generar múltiples variaciones de un mensaje para diferentes canales (Teams, Mail, LinkedIn).
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**❌ Dónde NO (El límite):**
+
+- **Veracidad:** La IA no conoce la última actualización de un producto si no se la das.
+- **Cultura Local:** Tú eres quien asegura que el mensaje conecte con el cliente en Panamá.
+:::
+:::
+
+---
+
+# 🛠️ Lab 1: Campaña 360° con Copilot {background-color="#2c3e50"}
+
+::: {style="font-size: 0.5em;"}
+**Reto:** Crear el ecosistema visual y escrito para el lanzamiento de Copilot en el Banco.
+
+::: {.fragment .fade-in}
+**Paso 1: Identidad Visual (Generación de Imágenes)**
+* **Prompt:** "Crea una imagen fotorrealista de alta calidad que represente la colaboración entre humanos y tecnología en una oficina moderna en Panamá. Estilo corporativo, limpio, con tonos azules y amarillos similares a Bancolombia. No incluyas texto."
+:::
+
+::: {.fragment .fade-in}
+**Paso 2: El Copy Estratégico (Texto)**
+* **Prompt:** "Actúa como Director de Comunicaciones. Usando la imagen anterior como concepto, redacta un post para la red interna del Banco anunciando que 'El futuro llegó a Panamá con Copilot'. Usa el método AIDA (Atención, Interés, Deseo, Acción)."
+:::
+
+::: {.fragment .fade-in}
+**Paso 3: Soporte y FAQ (Estructura)**
+* **Prompt:** "Genera una tabla con las 5 dudas más comunes que tendría un Analista de Crédito al usar IA por primera vez y dales una respuesta tranquilizadora y técnica."
+:::
+:::
+
+---
+
+# ¿Qué más puede hacer tu Copilot?🤖 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.6em;"}
+Más allá de escribir correos, Copilot es un **Asistente Multimodal**:
+
+
+::: {.fragment .fade-in}
+- **Diseñador Visual:** Crea logos, banners e ilustraciones para presentaciones en segundos.
+:::
+
+
+::: {.fragment .fade-in}
+- **Analista de Datos:** Escribe fórmulas de Excel complejas solo explicándole qué quieres calcular.
+:::
+
+
+::: {.fragment .fade-in}
+- **Traductor Cultural:** Puede adaptar un mensaje de la casa matriz en Colombia al tono y expresiones locales de Panamá.
+:::
+
+
+::: {.fragment .fade-in}
+- **Generador de Estructuras:** Crea tablas, listas de tareas para Planner o esqueletos para PowerPoint.
+:::
+:::
+
+---
+
+# Recursos Humanos y Servicio al Cliente {background-color="#2c3e50"}
+
+## Empatía Asistida, no Automatizada
+
+::: {style="font-size: 0.65em;"}
+En la gestión de personas, la IA es un **asistente**, no un juez.
+
+<br>
+
+::: {.fragment .fade-in}
+**✅ Dónde SÍ nos ayuda:**
+
+- **Estructura:** Resumir entrevistas de candidatos o redactar borradores de evaluaciones de desempeño.
+- **Neutralidad:** Pulir un mensaje de feedback para que sea constructivo y no agresivo.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**❌ NUNCA delegar totalmente (Límites Éticos):**
+
+- **Decisiones de vida:** Contrataciones, despidos o promociones. Requieren juicio humano.
+- **Conversaciones Difíciles:** La empatía en momentos críticos no se puede automatizar.
+- **Privacidad:** No subir datos sensibles (salarios, cédulas) a modelos no protegidos.
+:::
+:::
+
+---
+
+---
+
+# 🛠️ Lab 2: RRHH y el Toque Humano {background-color="#2c3e50"}
+
+::: {style="font-size: 0.55em;"}
+**Objetivo:** Usar Copilot para eliminar la carga administrativa, manteniendo tú el juicio final.
+
+<br>
+
+::: {.fragment .fade-in}
+**Opción A: Reconocimiento (Feedback)**
+
+* **Prompt:** "Actúa como Gerente en Bancolombia Panamá. Redacta un correo para un Analista de Crédito que superó sus metas de colocación en un 120%. Menciona que valoramos su compromiso con la excelencia operativa. Tono: Motivador y cercano."
+
+ **⚠️ El límite:** Tú validas si el tono es el adecuado para la relación que tienes con esa persona.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Opción B: Estructuración de Candidatos (Reclutamiento)**
+
+* **Prompt:** "Toma estas notas de mi última entrevista: [Pegar notas rápidas]. Organízalas en una tabla con: 1. Habilidades Técnicas, 2. Soft Skills, 3. Dudas para una segunda sesión. No tomes una decisión de contratación, solo estructura la información."
+
+ **⚠️ El límite:** La IA organiza la tabla, pero **tú** decides si el candidato pasa a la siguiente ronda.
+:::
+:::
+
+---
+
+# Servicio al Cliente: Eficiencia en la Respuesta {background-color="#2c3e50"}
+
+::: {style="font-size: 0.6em;"}
+En el Banco, el volumen de consultas puede ser abrumador. Copilot ayuda a priorizar y estandarizar.
+
+<br>
+
+::: {.fragment .fade-in}
+**1. Clasificación Automática (Triage):**
+"Actúa como Analista de Servicio al Cliente. Lee este correo y clasifícalo según: Tipo de solicitud (Queja, Consulta, Requerimiento), Urgencia (Alta, Media, Baja) y Sentimiento del cliente."
+:::
+
+::: {.fragment .fade-in}
+**2. Creación de Templates Inteligentes:**
+"Basado en nuestra política de Política de Tratamiento de Datos Personales y Seguridad de la Información, crea una plantilla de respuesta para clientes que solicitan una certificación bancaria, dejando espacios [ ] para los datos variables."
+:::
+
+::: {.fragment .fade-in}
+**3. Limpieza de Tono:**
+"Toma este borrador rápido y conviértelo en una respuesta profesional, empática y resolutiva que siga los lineamientos de Bancolombia Panamá."
+:::
+:::
+
+---
+
+# 🛠️ Lab 2: RRHH y Servicio al Cliente {background-color="#2c3e50"}
+
+::: {style="font-size: 0.55em;"}
+**Objetivo:** Elige el escenario que más se acerque a tu día a día en el banco.
+
+<br>
+
+::: {.fragment .fade-in}
+**Opción A: Servicio al Cliente (Clasificación y Respuesta)**
+
+* **Escenario:** Recibes un correo de un cliente molesto por un cargo no reconocido en su tarjeta. Crea un prompt para tratar este tipo de situaciones.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+
+**Opción B: RRHH (Estructuración de Feedback)**
+* **Escenario:** Debes organizar las notas de una evaluación de desempeño para una reunión 1:1.
+
+:::
+
+:::
+
+---
+
+# Dinámica de Grupo: El "Filtro Humano" 🧠 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+Una vez que Copilot te entregue el resultado, hazte estas preguntas:
+
+1. **¿Suena a Bancolombia?** (¿Es demasiado robótico o demasiado informal?)
+2. **¿Falta algo crítico?** (¿Hay algún detalle de la cultura de Panamá que la IA ignoró?)
+3. **¿La decisión sigue siendo mía?**
+
+**Ejercicio:** Edita el texto de Copilot para que incluya una referencia específica a un valor del banco o un modismo profesional local.
+:::
+
+
+---
+
+# ¿Cuándo NO delegar en Servicio al Cliente? 🚩 {background-color="#b03a2e"}
+
+::: {style="font-size: 0.65em;"}
+Aunque la IA redacte el 90%, el 10% final es responsabilidad bancaria.
+
+::: {.fragment .fade-in}
+- **Información Financiera Sensible:** Nunca pidas a la IA que "calcule" saldos o intereses sin verificar tú mismo el sistema core del banco. La IA puede alucinar con números.
+:::
+
+::: {.fragment .fade-in}
+- **Casos de Alto Impacto:** Quejas que involucren temas legales o regulatorios deben ser revisadas por un humano experto. La IA no conoce la última circular de la Superintendencia de Bancos de Panamá a menos que tú le des el documento.
+:::
+
+::: {.fragment .fade-in}
+- **Promesas Incumplibles:** Verifica que el template que generó Copilot no prometa tiempos de respuesta que el banco no pueda cumplir.
+:::
+:::
+
+
+---
+
+# ☕ Break (15 min) {background-color="#000000"}
+
+---
+
+# Taller: Tu Mapa de Eficiencia 🗺️ {background-color="#b03a2e"}
+
+::: {style="font-size: 0.7em;"}
+Refinemos tu proyecto final buscando ahorros reales en el día a día:
+
+::: {.fragment .fade-in}
+- **Redacción:** ¿Pasas horas respondiendo correos similares? (RRHH/Servicio).
+:::
+
+::: {.fragment .fade-in}
+- **Análisis:** ¿Lees reportes largos para extraer 3 puntos clave? (Operaciones).
+:::
+
+::: {.fragment .fade-in}
+- **Estructura:** ¿Creas presentaciones o briefs desde cero? (Marketing).
+:::
+
+**Actividad:** Define qué parte de tu proceso hará Copilot (70% carga pesada) y qué parte harás tú (30% juicio humano y validación).
+:::
+
+---
+
+## ¡Hacia la excelencia operativa! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+:::
