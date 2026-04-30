@@ -103,7 +103,7 @@ No se trata de escribir "bonito", sino de escribir con **objetivo de negocio**.
 
 ::: {.fragment .fade-in}
 **Paso 1: Identidad Visual (Generación de Imágenes)**
-* **Prompt:** "Crea una imagen fotorrealista de alta calidad que represente la colaboración entre humanos y tecnología en una oficina moderna en Panamá. Estilo corporativo, limpio, con tonos azules y amarillos similares a Bancolombia. No incluyas texto."
+"Crea una imagen fotorrealista de alta calidad que represente la colaboración entre humanos y tecnología en una oficina moderna en Panamá. Estilo corporativo, limpio, con tonos azules y amarillos similares a Bancolombia. No incluyas texto."
 :::
 
 ::: {.fragment .fade-in}
@@ -297,24 +297,51 @@ Aunque la IA redacte el 90%, el 10% final es responsabilidad bancaria.
 
 ---
 
-# Taller: Tu Mapa de Eficiencia 🗺️ {background-color="#b03a2e"}
+# 🛠️ Lab Extra: Tu Agente de Reclutamiento Experto {background-color="#2c3e50"}
 
-::: {style="font-size: 0.7em;"}
-Refinemos tu proyecto final buscando ahorros reales en el día a día:
+::: {style="font-size: 0.5em;"}
+**Reto:** Crear un Agente especializado que actúe como tú al evaluar talento para tu área.
+
+<br>
+
+**Paso 1: Configuración del Agente (Instrucciones)**
+En el configurador de Agentes de Copilot, usa esta base:
+"Actúa como un **Líder Técnico de [TU ÁREA] en Bancolombia Panamá**. Tu objetivo es analizar Hojas de Vida buscando exclusivamente:
+1. Dominio de herramientas clave de nuestra área.
+2. Experiencia en el sector financiero o proyectos de escala similar.
+3. Evidencia de 'Soft Skills' alineadas a la cultura de innovación del banco.
+**Tono:** Analítico, objetivo y ejecutivo."
+
+<br>
+
+**Paso 2: Prueba de Fuego (Análisis)**
+1. Sube una Hoja de Vida (puedes usar una tuya o un perfil genérico de LinkedIn).
+2. Usa este **Prompt Maestro**:
+   "Analiza este perfil para el cargo de [Nombre del Cargo]. Crea una tabla comparativa entre los requisitos ideales de nuestra área y lo que el candidato ofrece. Al final, dame 3 preguntas técnicas que debería hacerle en la entrevista para validar su conocimiento en [Tema Específico]."
+
+<br>
+
+**⚠️ Punto de Control:** El Agente organiza y sugiere, pero **tú** eres quien decide si el perfil tiene el 'match' cultural necesario.
+:::
+
+---
+
+# ¿Por qué usar un Agente y no solo el Chat? 🤖 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.65em;"}
+Diferencias clave para tu flujo de trabajo en el Banco:
 
 ::: {.fragment .fade-in}
-- **Redacción:** ¿Pasas horas respondiendo correos similares? (RRHH/Servicio).
+- **Especialización:** El Agente ya conoce tu área [Contabilidad, Riesgo, Comercial]. No tienes que explicarle el contexto en cada nuevo chat.
 :::
 
 ::: {.fragment .fade-in}
-- **Análisis:** ¿Lees reportes largos para extraer 3 puntos clave? (Operaciones).
+- **Consistencia:** Si subes 10 hojas de vida, el Agente las evaluará todas con la misma "vara" y los mismos criterios técnicos que definiste.
 :::
 
 ::: {.fragment .fade-in}
-- **Estructura:** ¿Creas presentaciones o briefs desde cero? (Marketing).
+- **Privacidad Interna:** Al usar el constructor de Agentes dentro del entorno de Microsoft 365 del banco, los documentos analizados permanecen protegidos bajo la gobernanza de Bancolombia.
 :::
-
-**Actividad:** Define qué parte de tu proceso hará Copilot (70% carga pesada) y qué parte harás tú (30% juicio humano y validación).
 :::
 
 ---
