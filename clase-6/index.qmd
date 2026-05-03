@@ -1,0 +1,266 @@
+---
+title: "Módulo 4: Colaboración y Productividad"
+subtitle: "Sesión 6: Colaboración en Tiempo Real con Copilot"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    navigation-mode: linear
+    transition: slide
+    logo: images/enyoi.png
+    footer: "Sesión 6: Teams, Loop y Co-creación"
+---
+
+# Sesión 6: Colaboración en Tiempo Real {background-color="#2c3e50"}
+
+## Agenda de hoy (3 Horas)
+
+::: {style="font-size: 0.75em;"}
+1. **Mesa Redonda (30 min):** Estado del Proyecto Final (HU1, HU2, HU3).
+2. **Recap Módulo 3 (15 min):** Lo que aplicamos en Riesgos y Finanzas.
+3. **Lab de Apertura (40 min):** Tu Agente de Reclutamiento Experto.
+4. **Automatización en Teams (40 min):** Adiós a la "Reunionitis".
+5. **☕ Break (15 min)**
+6. **Microsoft Loop (45 min):** Co-creación y Componentes Fluidos.
+:::
+
+---
+
+# Proyecto Final: Mesa Redonda 🗣️ {background-color="#b03a2e"}
+
+## ¿Cómo vamos con las Historias de Usuario?
+
+::: {style="font-size: 0.7em;"}
+Este espacio es para desbloquear ideas y pulir el enfoque:
+
+<br>
+
+::: {.fragment .fade-in}
+- **HU1 (Problema):** ¿Ya identificaste el proceso que te quita >90 min?
+:::
+
+::: {.fragment .fade-in}
+- **HU2 (Prompt):** ¿Tu prompt maestro ya entrega un resultado que puedes usar mañana mismo?
+:::
+
+::: {.fragment .fade-in}
+- **HU3 (Impacto):** ¿Cómo vas a medir el éxito? (Tiempo ahorrado, errores reducidos, correos automatizados).
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Meta de hoy:** Salir con el flujo de colaboración listo para potenciar ese proyecto.
+:::
+:::
+
+---
+
+# Recap: ¿Qué logramos en el Módulo 3? 🎓 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.6em;"}
+En las últimas sesiones aterrizamos la IA a la realidad operativa:
+
+::: {.fragment .fade-in}
+- **Riesgo y Finanzas:** Automatizamos reportes y análisis de datos (Caso Amazon).
+:::
+
+::: {.fragment .fade-in}
+- **Cartera y Contabilidad:** Ejecutamos conciliaciones y "aging" de cartera.
+:::
+
+::: {.fragment .fade-in}
+- **Marketing y Comunicaciones:** Creamos briefs y contenidos con tono local.
+:::
+
+::: {.fragment .fade-in}
+- **RRHH y Servicio al Cliente:** Respuestas empáticas y evaluaciones estructuradas.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**El gran hito:** Ya no estamos "jugando" con la IA, estamos operando con ella.
+:::
+:::
+
+---
+
+# 🛠️ Lab: Tu Agente de Reclutamiento Experto {background-color="#2c3e50"}
+
+::: {style="font-size: 0.55em;"}
+**Reto:** Crear un Agente que actúe como tú al evaluar talento para tu área.
+
+<br>
+
+**Paso 1: Configuración (Instrucciones)**
+En el configurador de Agentes, usa esta base:
+"Actúa como un **Líder Técnico de [TU ÁREA]**. Analiza Hojas de Vida buscando:
+1. Dominio de herramientas clave de nuestra área.
+2. Experiencia en el sector financiero o proyectos de escala similar.
+3. Evidencia de 'Soft Skills' (innovación y adaptabilidad).
+**Tono:** Analítico, objetivo y ejecutivo."
+
+<br>
+
+**Paso 2: Prueba de Fuego**
+1. Sube una Hoja de Vida (puedes usar un perfil genérico).
+2. Usa este **Prompt Maestro**:
+   "Analiza este perfil para el cargo de [Cargo]. Crea una tabla comparativa entre requisitos ideales vs. oferta del candidato. Dame 3 preguntas técnicas clave para la entrevista."
+:::
+
+---
+
+# ¿Por qué usar un Agente y no solo el Chat? 🤖 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.65em;"}
+Diferencias clave para tu flujo de trabajo:
+
+::: {.fragment .fade-in}
+- **Especialización:** El Agente ya conoce tu área (Riesgo, Contabilidad, IT). No repites el contexto.
+:::
+
+::: {.fragment .fade-in}
+- **Consistencia:** Evalúa 10 o 100 documentos con el mismo criterio técnico.
+:::
+
+::: {.fragment .fade-in}
+- **Privacidad Interna:** Los documentos permanecen protegidos bajo la gobernanza corporativa de Microsoft 365.
+:::
+:::
+
+---
+
+# La "Reunionitis" y la carga administrativa {background-color="#b03a2e"}
+
+## El problema en nuestro día a día
+
+::: {style="font-size: 0.7em;"}
+¿Por qué perdemos eficiencia en las reuniones?
+
+<br>
+
+::: {.fragment .fade-in}
+- **Pérdida de contexto:** Llegar tarde por una urgencia significa perder el hilo.
+:::
+
+::: {.fragment .fade-in}
+- **La parálisis de las notas:** Quien toma la minuta no participa; quien participa, olvida los detalles.
+:::
+
+::: {.fragment .fade-in}
+- **Información dispersa:** Los acuerdos mueren en grabaciones que nadie escucha.
+:::
+
+::: {.fragment .fade-in}
+- **Falta de seguimiento:** Las tareas rara vez llegan al calendario.
+:::
+:::
+
+---
+
+# Automatización con Copilot en Teams ⚡ {background-color="#2c3e50"}
+
+## De la conversación a la acción inmediata
+
+::: {style="font-size: 0.65em;"}
+Copilot **procesa y estructura** la colaboración:
+
+::: {.fragment .fade-in}
+- **Ponerse al día (Catch-up):** Resume lo discutido sin interrumpir.
+:::
+
+::: {.fragment .fade-in}
+- **Generación de Minutas:** Resúmenes ejecutivos y decisiones en segundos.
+:::
+
+::: {.fragment .fade-in}
+- **Detección de Compromisos:** Identifica tareas, responsables y fechas límite.
+:::
+
+::: {.fragment .fade-in}
+- **Análisis de sentimiento:** Pregunta: "¿Hubo consenso sobre el presupuesto?" o "¿Qué objeciones puso el área técnica?".
+:::
+:::
+
+---
+
+# 🛠️ Lab 1: Minutas y Planes de Acción {background-color="#2c3e50"}
+
+::: {style="font-size: 0.6em;"}
+**Objetivo:** Automatizar el post-reunión.
+
+<br>
+
+1. Abre una reunión grabada/transcrita en Teams.
+2. Abre el panel de Copilot y usa este prompt:
+   > "Resume esta reunión en 3 secciones: 
+   1. Decisiones tomadas
+   2. Tareas asignadas con responsables
+   3. Temas para la próxima sesión. 
+   Presenta la información en una tabla clara."
+3. **Refinamiento:** "Redacta un correo ejecutivo basado en este resumen para todos los asistentes."
+:::
+
+---
+
+# Microsoft Loop: Co-creación en Tiempo Real 🔄 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+Loop es el lienzo donde el equipo y la IA escriben juntos.
+
+<br>
+
+1. **Ideación:** "Genera 5 ideas para mejorar el proceso de [TU ÁREA]".
+2. **Estructura:** "Crea un plan de trabajo detallado para la implementación del proyecto".
+3. **Componentes fluidos:** Copia una tabla de Loop y pégala en Outlook; se actualizará en ambos sitios al mismo tiempo.
+:::
+
+---
+
+# ☕ Break (15 min) {background-color="#000000"}
+
+---
+
+# Gestión del Tiempo y Organización Personal {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+Sé el dueño de tu agenda, no al revés.
+
+<br>
+
+::: {.fragment .fade-in}
+- **Priorización:** Copilot en Outlook analiza tus correos y te indica qué requiere acción hoy.
+:::
+
+::: {.fragment .fade-in}
+- **Preparación:** "Tengo una reunión en 10 min. Resume mis últimos correos con [Nombre] sobre este tema".
+:::
+
+::: {.fragment .fade-in}
+- **Fomento de Cultura:** Menos tiempo en "carpintería" administrativa, más tiempo en estrategia.
+:::
+:::
+
+---
+
+# Dinámica Final: El Flujo Colaborativo 👥 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**Reto Grupal:**
+
+<br>
+
+1. Simulen una mini-reunión de 5 min sobre un problema real.
+2. Usen Copilot en Teams para extraer la solución propuesta.
+3. Lleven esa solución a una página de **Loop** y conviértanla en un reporte estructurado.
+4. Compartan el componente de Loop en el chat para edición conjunta.
+:::
+
+---
+
+## ¡Hacia un equipo más conectado! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+:::
