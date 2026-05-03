@@ -1,0 +1,193 @@
+---
+title: "Módulo 5: Taller Final"
+subtitle: "Sesión 9: La Gran Final - Pitch y Aprendizajes"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    navigation-mode: linear
+    transition: slide
+    logo: images/enyoi.png
+    footer: "Sesión 9: Presentación de Casos de Éxito"
+---
+
+# Sesión 9: El Pitch Final {background-color="#2c3e50"}
+
+## Agenda de hoy (180 min / 3 Horas)
+
+::: {style="font-size: 0.75em;"}
+1. **Calentamiento y Ajustes (30 min):** Último repaso a las diapositivas.
+2. **Bloque de Pitches I (60 min):** Presentaciones de las primeras áreas.
+3. **☕ Break Final (15 min)**
+4. **Bloque de Pitches II (45 min):** Presentaciones de las áreas restantes.
+5. **Inspiración Colectiva (20 min):** Lecciones aprendidas y el futuro.
+6. **Cierre y Celebración (10 min):** Próximos pasos con la IA.
+:::
+
+---
+
+# Recap: El Camino Recorrido 🚀 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.65em;"}
+¿Qué logramos llegar hasta aquí?
+
+<br>
+
+::: {.fragment .fade-in}
+- **Módulo 1 & 2:** Dominamos la ingeniería de prompts y la mente detrás de la IA.
+:::
+
+::: {.fragment .fade-in}
+- **Módulo 3:** Aplicamos la IA en Riesgos, Finanzas, Marketing y RRHH.
+:::
+
+::: {.fragment .fade-in}
+- **Módulo 4:** Integramos Teams, Loop y Planner en un flujo colaborativo.
+:::
+
+::: {.fragment .fade-in}
+- **Módulo 5 (Sesión 8):** Rediseñamos procesos y calculamos el impacto real.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Hoy:** Compartimos tu "Mapa de Ahorro" con el equipo.
+:::
+:::
+
+---
+
+# Reglas del Juego: El Pitch de 3 Minutos ⏱️ {background-color="#b03a2e"}
+
+::: {style="font-size: 0.75em;"}
+Para que todos puedan brillar, mantendremos este ritmo:
+
+<br>
+
+::: {.fragment .fade-in}
+- **3 Minutos de Exposición:** El problema, tu solución y tu ROI.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+- **1 Minuto de Feedback:** Una pregunta o comentario de tus compañeros.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+- **Foco en el Impacto:** Queremos ver cuánto tiempo recuperaste para tareas de valor.
+:::
+:::
+
+---
+
+# Bloque de Pitches I {background-color="#2c3e50"}
+
+::: {style="font-size: 0.8em;"}
+**Áreas invitadas al escenario:**
+
+<br>
+
+- Riesgos y Cumplimiento.
+- Finanzas y Contabilidad.
+- Cartera y Operaciones.
+
+<br>
+
+::: {.callout-note}
+### Tip para el público
+Anoten una idea de cada presentación que podrían aplicar en su propia área mañana.
+:::
+:::
+
+---
+
+# ☕ Break Final (15 min) {background-color="#000000"}
+
+---
+
+# Bloque de Pitches II {background-color="#2c3e50"}
+
+::: {style="font-size: 0.8em;"}
+**Áreas invitadas al escenario:**
+
+<br>
+
+- Comercial y Mercadeo.
+- Talento Humano y Cultura.
+- Jurídica y Estrategia.
+
+<br>
+
+::: {.callout-tip}
+### El Poder del Ejemplo
+Recuerden: No es magia, es metodología aplicada al negocio.
+:::
+:::
+
+---
+
+# Inspiración Colectiva 💡 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**Mesa Redonda: ¿Qué nos llevamos?**
+
+<br>
+
+::: {.fragment .fade-in}
+- ¿Cuál fue la herramienta o truco que más cambió tu perspectiva?
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+- ¿Qué tarea que antes te frustraba hoy te genera satisfacción resolver con IA?
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+- ¿Cuál es el siguiente proceso que planeas rediseñar?
+:::
+:::
+
+---
+
+# El Futuro: Más allá de este curso 🚀 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+La IA evoluciona cada semana. Tu rol ahora es:
+
+<br>
+
+::: {.fragment .fade-in}
+- **Evangelizar:** Comparte tus prompts ganadores con tu equipo.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+- **Iterar:** No te conformes con el primer resultado; sigue puliendo tus Agentes.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+- **Ser Crítico:** Mantén siempre el criterio humano sobre el resultado de la máquina.
+:::
+:::
+
+---
+
+## ¡Felicidades, Pioneros de la IA! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+:::
+
+<br>
+
+#### "La mejor forma de predecir el futuro es creándolo con los mejores prompts."

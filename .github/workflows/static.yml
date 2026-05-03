@@ -38,6 +38,10 @@ jobs:
             clase-3-prompts-2
             clase-4
             clase-5
+            clase-6
+            clase-7
+            clase-8
+            clase-9
         run: |
           for dir in $QUARTO_DIRS; do
             quarto render $dir/index.qmd
@@ -53,6 +57,10 @@ jobs:
             clase-3-prompts-2
             clase-4
             clase-5
+            clase-6
+            clase-7
+            clase-8
+            clase-9
         run: |
           set -e
           mkdir -p _site

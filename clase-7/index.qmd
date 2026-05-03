@@ -1,0 +1,228 @@
+---
+title: "Módulo 4: Colaboración y Productividad"
+subtitle: "Sesión 7: El Ecosistema de Ejecución con Copilot"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    navigation-mode: linear
+    transition: slide
+    logo: images/enyoi.png
+    footer: "Sesión 7: OneNote, Planner y Sinergia Inter-áreas"
+---
+
+# Sesión 7: El Ecosistema de Ejecución {background-color="#2c3e50"}
+
+## Agenda de hoy (180 min / 3 Horas)
+
+::: {style="font-size: 0.75em;"}
+1. **Seguimiento de Proyecto (30 min):** Puliendo el Prompt Maestro (HU2).
+2. **Recap Sesión 6 (15 min):** Teams y Loop como centros de mando.
+3. **OneNote: Tu Cerebro Digital (45 min):** De notas caóticas a planes estructurados.
+4. **Planner & Tasks (45 min):** Automatizando el seguimiento de compromisos.
+5. **☕ Break (15 min)**
+6. **Sinergia Inter-áreas (30 min):** Flujos colaborativos entre Riesgos, Comercial y Legal.
+:::
+
+---
+
+# Seguimiento de Proyecto: La Clínica Final 🏥 {background-color="#b03a2e"}
+
+## ¿Tu Prompt Maestro es "Inmune a Errores"?
+
+::: {style="font-size: 0.7em;"}
+Hoy debemos asegurar que la **HU2** sea técnica y profesional:
+
+<br>
+
+::: {.fragment .fade-in}
+- **Validación:** ¿Tu prompt incluye el Rol, el Contexto y el Formato de salida?
+:::
+
+::: {.fragment .fade-in}
+- **Iteración:** ¿Probaste darle un ejemplo (Few-shot) para que el resultado sea perfecto?
+:::
+
+::: {.fragment .fade-in}
+- **Evidencia:** ¿Tienes la captura de pantalla del "Antes" (caos) y el "Después" (solución)?
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Reto de hoy:** Si tu prompt aún falla, este es el momento de usar a Copilot para que lo audite.
+:::
+:::
+
+---
+
+# Recap: Teams y Loop como Motor 🔄 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.6em;"}
+¿Qué aprendimos sobre la colaboración fluida?
+
+<br>
+
+::: {.fragment .fade-in}
+- **Teams:** Ya no "perdemos" tiempo en reuniones; extraemos minutas y compromisos en segundos.
+:::
+
+::: {.fragment .fade-in}
+- **Agentes:** Creamos especialistas (como el de Reclutamiento) para delegar tareas repetitivas de análisis.
+:::
+
+::: {.fragment .fade-in}
+- **Loop:** Entendimos que la co-creación es viva y que un componente puede viajar de Teams a Outlook sin perder sincronía.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Hoy:** Conectaremos ese análisis con la **ejecución real** de tareas.
+:::
+:::
+
+---
+
+# OneNote: El Cerebro Digital Asistido 🧠 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+OneNote + Copilot = Orden inmediato para el caos informativo.
+
+<br>
+
+::: {.fragment .fade-in}
+- **Resumen de Secciones:** "Resume mis últimas 5 notas sobre la nueva normativa de depósitos".
+:::
+
+::: {.fragment .fade-in}
+- **Generación de Ideas:** "Basado en estos apuntes, crea una lista de 5 posibles riesgos para el proyecto".
+:::
+
+::: {.fragment .fade-in}
+- **Estructuración:** Convierte una lista desordenada de ideas en un plan de acción con fechas y responsables.
+:::
+:::
+
+---
+
+# 🛠️ Lab: De la Nota a la Estructura {background-color="#2c3e50"}
+
+::: {style="font-size: 0.6em;"}
+**Escenario:** Tienes notas rápidas de una reunión técnica sobre cumplimiento.
+
+<br>
+
+1. Abre OneNote y crea una nota con 5 ideas sueltas sobre "Mejoras en el proceso de Cartera".
+2. Usa el panel de Copilot en OneNote:
+   > "Analiza estas notas y crea un plan de trabajo estructurado. Divide por fases (Investigación, Implementación, Pruebas) y sugiere un tiempo estimado para cada una."
+3. **Refinamiento:** "Ahora, redacta los puntos clave para presentarlos en el comité del banco mañana".
+:::
+
+---
+
+# Planner: Gestión de Tareas sin Esfuerzo ✅ {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+Copilot en Planner/Tasks ayuda a pasar del "Qué hay que hacer" al "Cómo lo estamos haciendo".
+
+<br>
+
+::: {.fragment .fade-in}
+- **Creación de Planes:** "Crea un plan de Planner para el lanzamiento de la nueva campaña de crédito".
+:::
+
+::: {.fragment .fade-in}
+- **Desglose de Tareas:** Copilot sugiere los pasos lógicos (buckets) y las tareas individuales para no olvidar nada.
+:::
+
+::: {.fragment .fade-in}
+- **Seguimiento:** "Resume el progreso de este plan y dime qué tareas están críticas o atrasadas".
+:::
+:::
+
+---
+
+# 🛠️ Lab: El Tablero de Control {background-color="#2c3e50"}
+
+::: {style="font-size: 0.6em;"}
+**Objetivo:** No más listas de tareas infinitas.
+
+<br>
+
+1. Entra a **Microsoft Planner** (o la app de Tasks en Teams).
+2. Pide a Copilot:
+   > "Crea un plan de proyecto para auditar 50 cuentas con anomalías de riesgo. Incluye tareas de recopilación de datos, análisis de transacciones, contacto con el cliente y reporte final."
+3. **Interacción:** Pide a Copilot que asigne prioridades basadas en la importancia de las transacciones (usando los datos de la Sesión 4).
+:::
+
+---
+
+# Sinergia Inter-áreas: Rompiendo Silos 🏢 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+El mayor valor de la IA en el banco es conectar departamentos:
+
+<br>
+
+::: {.fragment .fade-in}
+- **Riesgos a Comercial:** Copilot resume un reporte técnico denso en 3 puntos clave para que el ejecutivo comercial lo entienda.
+:::
+
+::: {.fragment .fade-in}
+- **Legal a Operaciones:** "Extrae los requisitos de este contrato y crea una lista de tareas para el equipo de implementación".
+:::
+
+::: {.fragment .fade-in}
+- **Comunicación unificada:** Uso de **Loop** para que Riesgos y Comercial editen el mismo presupuesto en tiempo real.
+:::
+:::
+
+---
+
+# ☕ Break (15 min) {background-color="#000000"}
+
+---
+
+# Cultura de Productividad Asistida 🚀 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+¿Cómo fomentamos esto en tu equipo mañana?
+
+<br>
+
+::: {.fragment .fade-in}
+- **Liderar con el ejemplo:** Comparte tus prompts exitosos en el chat del equipo.
+:::
+
+::: {.fragment .fade-in}
+- **Minutas por defecto:** Establece que toda reunión de >30 min debe tener una minuta generada por Copilot.
+:::
+
+::: {.fragment .fade-in}
+- **Foco en lo estratégico:** Si la IA hace la "carpintería", el equipo debe enfocarse en la toma de decisiones.
+:::
+:::
+
+---
+
+# Dinámica Final: El Flujo Completo 👥 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**El Gran Reto de Cierre:**
+
+<br>
+
+1. **Ideación (OneNote):** Generen 3 ideas para un nuevo producto financiero.
+2. **Planificación (Planner):** Creen el tablero de tareas para ese producto.
+3. **Colaboración (Loop):** Redacten la propuesta conjunta que verán los directivos.
+4. **Resumen (Copilot):** Pidan a Copilot un "Elevator Pitch" de 1 min sobre todo el plan anterior.
+:::
+
+---
+
+## ¡Listos para la Sustentación Final! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+:::

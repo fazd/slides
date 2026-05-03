@@ -1,0 +1,227 @@
+---
+title: "Módulo 5: Taller Final"
+subtitle: "Sesión 8: Rediseño y Optimización de Procesos"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    navigation-mode: linear
+    transition: slide
+    logo: images/enyoi.png
+    footer: "Sesión 8: Del proceso actual al flujo asistido"
+---
+
+# Sesión 8: Mi día a día con IA {background-color="#2c3e50"}
+
+## Agenda de hoy (180 min / 3 Horas)
+
+::: {style="font-size: 0.75em;"}
+1. **Check-in de Proyectos (30 min):** Validación de Historias de Usuario (HU).
+2. **Recap Módulo 4 (15 min):** La colaboración como acelerador.
+3. **Fase de Rediseño (45 min):** Construcción del nuevo flujo de trabajo.
+4. **Copilot como Arquitecto de PPT (30 min):** Creando la presentación desde el chat.
+5. **Métrica e Impacto (45 min):** Documentación del ahorro y calidad.
+6. **☕ Break Único (15 min)**
+7. **Storytelling del Proyecto (15 min):** Estructura del Pitch final.
+:::
+
+---
+
+# Recap: El Ecosistema de Ejecución 🔄 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.65em;"}
+¿Cómo potenciamos el trabajo en equipo en la última sesión?
+
+<br>
+
+::: {.fragment .fade-in}
+- **OneNote:** Convertimos notas caóticas en planes estructurados.
+:::
+
+::: {.fragment .fade-in}
+- **Planner:** Pasamos de "ideas" a tareas con responsables y fechas.
+:::
+
+::: {.fragment .fade-in}
+- **Sinergia:** Entendimos que la IA es el puente entre áreas (Riesgos, Legal, Comercial).
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Hoy:** Aplicamos todo esto a **TU** tarea crítica.
+:::
+:::
+
+---
+
+# Proyecto Final: Estado de Marcha 🚩 {background-color="#b03a2e"}
+
+## ¿En qué punto estás?
+
+::: {style="font-size: 0.75em;"}
+Para que el taller sea exitoso, debemos tener claridad en:
+
+<br>
+
+::: {.fragment .fade-in}
+- **HU1 (Identificación):** ¿Tu tarea es realmente de "alto esfuerzo" (>90 min)?
+:::
+
+::: {.fragment .fade-in}
+- **HU2 (Rediseño):** ¿Ya tienes el prompt o el agente que hace el trabajo pesado?
+:::
+
+::: {.fragment .fade-in}
+- **HU3 (Resultados):** ¿Puedes demostrar cuánto tiempo ahorraste?
+:::
+:::
+
+---
+
+# Fase 1: El Rediseño del Flujo 🛠️ {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+No se trata de usar IA en un paso, sino de **repensar el proceso**.
+
+<br>
+
+::: {.fragment .fade-in}
+**Antes:** "Recibo 10 correos -> Abro Excel -> Filtro manualmente -> Redacto reporte -> Envío."
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Ahora (Con IA):** "Copilot resume hilos -> Modo Agente procesa datos -> Copilot redacta borrador -> Yo audito."
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Reto:** Dibuja tu nuevo flujo de 4 pasos donde la IA haga al menos 2.
+:::
+:::
+
+---
+
+# Copilot como Arquitecto de PPT 🎨 {background-color="#2c3e50"}
+
+## Crea la estructura sin abrir PowerPoint aún
+
+::: {style="font-size: 0.7em;"}
+Usar Copilot en el chat para diseñar la narrativa es más potente que usarlo dentro de la App.
+
+<br>
+
+::: {.fragment .fade-in}
+**Paso 1:** Pide la estructura de diapositivas basada en tu proyecto.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Paso 2:** Solicita el **guion (speaker notes)** para asegurar que tu pitch de 3 min sea fluido.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Paso 3 (Pro-Tip):** Pídele que genere las diapositivas.
+:::
+:::
+
+---
+
+# 🛠️ Lab: Generando tu PPT desde el Chat
+
+::: {style="font-size: 0.6em;"}
+**Prompt Maestro para la estructura:**
+
+> "Actúa como experto en presentaciones ejecutivas. Basado en mi proyecto de [Nombre], crea una estructura de 5 diapositivas. Para cada una dime: 
+
+1. Título
+2. Puntos clave de contenido
+3. Sugerencia de imagen/gráfico
+4. Guion detallado de lo que debo decir en 30 segundos.
+
+:::
+
+---
+
+# Fase 2: Documentación de Impacto 📊 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+Tu jefe no quiere saber "que usaste IA", quiere saber **"qué ganó el banco"**.
+
+<br>
+
+::: {.fragment .fade-in}
+- **Tiempo Ahorrado:** Minutos manuales vs. Minutos con IA.
+:::
+
+::: {.fragment .fade-in}
+- **Eficiencia:** Capacidad de procesar más datos o clientes.
+:::
+
+::: {.fragment .fade-in}
+- **Calidad:** Reducción de errores humanos y tono profesional constante.
+:::
+:::
+
+---
+
+# 🛠️ Taller: Laboratorio de Evidencias {background-color="#2c3e50"}
+
+::: {style="font-size: 0.6em;"}
+**Objetivo:** Tener el material visual de tu presentación.
+
+<br>
+
+1. Ejecuta tu **Prompt Maestro** frente a un compañero.
+2. Toma capturas de pantalla de:
+   - El input original (el desorden).
+   - El prompt utilizado (la lógica).
+   - El resultado final (la solución).
+3. **Cálculo de Ahorro:**
+   - Tiempo manual: ___ min. | Tiempo IA: ___ min.
+   - **% de Mejora: ___%**
+:::
+
+---
+
+# ☕ Break (15 min) {background-color="#000000"}
+
+---
+
+# Storytelling: Estructura del Pitch 🎤 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+Tu presentación durará **3 minutos**. Debe ser un "impacto directo":
+
+<br>
+
+::: {.fragment .fade-in}
+1. **El Gancho:** "¿Sabían que gastamos X horas al mes en esta tarea?"
+:::
+
+::: {.fragment .fade-in}
+2. **El Problema:** Describe el "dolor" actual de tu rol.
+:::
+
+::: {.fragment .fade-in}
+3. **La Solución:** Muestra tu flujo rediseñado con Copilot.
+:::
+
+::: {.fragment .fade-in}
+4. **El Cierre:** El mapa de ahorro y tu aprendizaje principal.
+:::
+:::
+
+---
+
+## ¡Preparen sus presentaciones! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+:::
