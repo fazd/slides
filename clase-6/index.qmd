@@ -213,7 +213,6 @@ Loop es el lienzo donde el equipo y la IA escriben juntos.
 
 1. **Ideación:** "Genera 5 ideas para mejorar el proceso de [TU ÁREA]".
 2. **Estructura:** "Crea un plan de trabajo detallado para la implementación del proyecto".
-3. **Componentes fluidos:** Copia una tabla de Loop y pégala en Outlook; se actualizará en ambos sitios al mismo tiempo.
 :::
 
 ---
@@ -251,7 +250,7 @@ Sé el dueño de tu agenda, no al revés.
 
 <br>
 
-1. Simulen una mini-reunión de 5 min sobre un problema real.
+1. Tomen una reunión de 5 min sobre un problema real.
 2. Usen Copilot en Teams para extraer la solución propuesta.
 3. Lleven esa solución a una página de **Loop** y conviértanla en un reporte estructurado.
 4. Compartan el componente de Loop en el chat para edición conjunta.
