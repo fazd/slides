@@ -1,6 +1,6 @@
 ---
 title: "Módulo 4: Colaboración y Productividad"
-subtitle: "Sesión 7: El Ecosistema de Ejecución con Copilot"
+subtitle: "Sesión 7: El Ecosistema de Ejecución y Diseño de Proyecto"
 format:
   revealjs:
     slide-number: true
@@ -8,7 +8,7 @@ format:
     navigation-mode: linear
     transition: slide
     logo: images/enyoi.png
-    footer: "Sesión 7: OneNote, Planner y Sinergia Inter-áreas"
+    footer: "Sesión 7: OneNote y Estructura de Sustentación"
 ---
 
 # Sesión 7: El Ecosistema de Ejecución {background-color="#2c3e50"}
@@ -16,23 +16,21 @@ format:
 ## Agenda de hoy (180 min / 3 Horas)
 
 ::: {style="font-size: 0.75em;"}
-1. **Seguimiento de Proyecto (30 min):** Puliendo el Prompt Maestro (HU2).
-2. **Recap Sesión 6 (15 min):** Teams y Loop como centros de mando.
-3. **OneNote: Tu Cerebro Digital (45 min):** De notas caóticas a planes estructurados.
-4. **Planner & Tasks (45 min):** Automatizando el seguimiento de compromisos.
-5. **☕ Break (15 min)**
-6. **Sinergia Inter-áreas (30 min):** Flujos colaborativos entre Riesgos, Comercial y Legal.
+1. **Seguimiento HU2 (20 min):** Ajuste técnico de los prompts maestros.
+2. **OneNote: Tu Cerebro Digital (40 min):** Ordenando el caos del proyecto.
+3. **Diseño de Diapositivas con IA (50 min):** Estructura y narrativa del Pitch.
+4. **☕ Break (15 min)**
+5. **Sinergia Inter-áreas (15 min):** Flujos entre Riesgos, Legal y Comercial.
+6. **Taller de Pitch & ROI (40 min):** Cuantificación final del ahorro.
 :::
 
 ---
 
-# Seguimiento de Proyecto: La Clínica Final 🏥 {background-color="#b03a2e"}
+# Seguimiento de Proyecto: Clínica HU2 🏥 {background-color="#b03a2e"}
 
 ## ¿Tu Prompt Maestro es "Inmune a Errores"?
 
 ::: {style="font-size: 0.7em;"}
-Hoy debemos asegurar que la **HU2** sea técnica y profesional:
-
 <br>
 
 ::: {.fragment .fade-in}
@@ -44,41 +42,7 @@ Hoy debemos asegurar que la **HU2** sea técnica y profesional:
 :::
 
 ::: {.fragment .fade-in}
-- **Evidencia:** ¿Tienes la captura de pantalla del "Antes" (caos) y el "Después" (solución)?
-:::
-
-<br>
-
-::: {.fragment .fade-in}
-**Reto de hoy:** Si tu prompt aún falla, este es el momento de usar a Copilot para que lo audite.
-:::
-:::
-
----
-
-# Recap: Teams y Loop como Motor 🔄 {background-color="#2c3e50"}
-
-::: {style="font-size: 0.6em;"}
-¿Qué aprendimos sobre la colaboración fluida?
-
-<br>
-
-::: {.fragment .fade-in}
-- **Teams:** Ya no "perdemos" tiempo en reuniones; extraemos minutas y compromisos en segundos.
-:::
-
-::: {.fragment .fade-in}
-- **Agentes:** Creamos especialistas (como el de Reclutamiento) para delegar tareas repetitivas de análisis.
-:::
-
-::: {.fragment .fade-in}
-- **Loop:** Entendimos que la co-creación es viva y que un componente puede viajar de Teams a Outlook sin perder sincronía.
-:::
-
-<br>
-
-::: {.fragment .fade-in}
-**Hoy:** Conectaremos ese análisis con la **ejecución real** de tareas.
+- **Evidencia:** ¿Tienes la captura de pantalla del "Antes" y el "Después"?
 :::
 :::
 
@@ -87,94 +51,70 @@ Hoy debemos asegurar que la **HU2** sea técnica y profesional:
 # OneNote: El Cerebro Digital Asistido 🧠 {background-color="#2c3e50"}
 
 ::: {style="font-size: 0.7em;"}
-OneNote + Copilot = Orden inmediato para el caos informativo.
+OneNote + Copilot = El lugar donde vive la documentación de tu proyecto.
 
 <br>
 
 ::: {.fragment .fade-in}
-- **Resumen de Secciones:** "Resume mis últimas 5 notas sobre la nueva normativa de depósitos".
+- **Organización:** Toma tus ideas sueltas y pide a Copilot que las clasifique por temas.
 :::
 
 ::: {.fragment .fade-in}
-- **Generación de Ideas:** "Basado en estos apuntes, crea una lista de 5 posibles riesgos para el proyecto".
+- **Lab Rápido:** Crea una nota con la descripción de tu tarea de 90 min y pide: *"Estructura esta información en puntos clave para una presentación ejecutiva"*.
 :::
 
 ::: {.fragment .fade-in}
-- **Estructuración:** Convierte una lista desordenada de ideas en un plan de acción con fechas y responsables.
+- **Ventaja:** Todo lo que generes aquí será el insumo para tus diapositivas.
 :::
 :::
 
 ---
 
-# 🛠️ Lab: De la Nota a la Estructura {background-color="#2c3e50"}
+# De OneNote a PowerPoint: El Flujo 🎨 {background-color="#2c3e50"}
 
-::: {style="font-size: 0.6em;"}
-**Escenario:** Tienes notas rápidas de una reunión técnica sobre cumplimiento.
-
-<br>
-
-1. Abre OneNote y crea una nota con 5 ideas sueltas sobre "Mejoras en el proceso de Cartera".
-2. Usa el panel de Copilot en OneNote:
-   > "Analiza estas notas y crea un plan de trabajo estructurado. Divide por fases (Investigación, Implementación, Pruebas) y sugiere un tiempo estimado para cada una."
-3. **Refinamiento:** "Ahora, redacta los puntos clave para presentarlos en el comité del banco mañana".
-:::
-
----
-
-# Planner: Gestión de Tareas sin Esfuerzo ✅ {background-color="#2c3e50"}
+## No diseñes, ¡dirige a la IA!
 
 ::: {style="font-size: 0.7em;"}
-Copilot en Planner/Tasks ayuda a pasar del "Qué hay que hacer" al "Cómo lo estamos haciendo".
+El error común es abrir PowerPoint en blanco. El éxito es llegar con la estructura lista.
 
 <br>
 
 ::: {.fragment .fade-in}
-- **Creación de Planes:** "Crea un plan de Planner para el lanzamiento de la nueva campaña de crédito".
+**1. La Estructura (Word/OneNote):** Usa Copilot para definir qué dirás en cada slide.
 :::
 
-::: {.fragment .fade-in}
-- **Desglose de Tareas:** Copilot sugiere los pasos lógicos (buckets) y las tareas individuales para no olvidar nada.
-:::
+<br>
 
 ::: {.fragment .fade-in}
-- **Seguimiento:** "Resume el progreso de este plan y dime qué tareas están críticas o atrasadas".
+**2. El Borrador (PPT):** Usa la función "Crear presentación a partir de archivo" en PowerPoint o pide el guion en el Chat.
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**3. El Visual:** Pide a la IA sugerencias de imágenes que representen "Eficiencia Bancaria" o "Seguridad en Riesgos".
 :::
 :::
 
 ---
 
-# 🛠️ Lab: El Tablero de Control {background-color="#2c3e50"}
+# 🛠️ Lab: Arquitectura de tu Presentación
 
 ::: {style="font-size: 0.6em;"}
-**Objetivo:** No más listas de tareas infinitas.
+**Prompt Maestro para definir tus Slides:**
+> "Actúa como un experto en Storytelling Ejecutivo. Basado en mi proyecto de [Nombre de tu proceso], diseña una estructura de 5 diapositivas: 
+1. Portada e Impacto (La gran cifra de ahorro).
+2. El Dolor Actual (El proceso de 90 min).
+3. La Solución (Mi Prompt Maestro).
+4. Evidencia Visual (Antes vs Después).
+5. Conclusión y Futuro.
+**Dame el contenido detallado de cada slide.**"
 
 <br>
 
-1. Entra a **Microsoft Planner** (o la app de Tasks en Teams).
-2. Pide a Copilot:
-   > "Crea un plan de proyecto para auditar 50 cuentas con anomalías de riesgo. Incluye tareas de recopilación de datos, análisis de transacciones, contacto con el cliente y reporte final."
-3. **Interacción:** Pide a Copilot que asigne prioridades basadas en la importancia de las transacciones (usando los datos de la Sesión 4).
-:::
-
----
-
-# Sinergia Inter-áreas: Rompiendo Silos 🏢 {background-color="#2c3e50"}
-
-::: {style="font-size: 0.7em;"}
-El mayor valor de la IA en el banco es conectar departamentos:
-
-<br>
-
-::: {.fragment .fade-in}
-- **Riesgos a Comercial:** Copilot resume un reporte técnico denso en 3 puntos clave para que el ejecutivo comercial lo entienda.
-:::
-
-::: {.fragment .fade-in}
-- **Legal a Operaciones:** "Extrae los requisitos de este contrato y crea una lista de tareas para el equipo de implementación".
-:::
-
-::: {.fragment .fade-in}
-- **Comunicación unificada:** Uso de **Loop** para que Riesgos y Comercial editen el mismo presupuesto en tiempo real.
+::: {.callout-tip}
+### Pro-Tip
+Lleva este resultado a Word y guárdalo. En la siguiente fase lo usaremos para "inyectarlo" en PowerPoint.
 :::
 :::
 
@@ -184,44 +124,73 @@ El mayor valor de la IA en el banco es conectar departamentos:
 
 ---
 
-# Cultura de Productividad Asistida 🚀 {background-color="#2c3e50"}
-
-::: {style="font-size: 0.7em;"}
-¿Cómo fomentamos esto en tu equipo mañana?
-
-<br>
-
-::: {.fragment .fade-in}
-- **Liderar con el ejemplo:** Comparte tus prompts exitosos en el chat del equipo.
-:::
-
-::: {.fragment .fade-in}
-- **Minutas por defecto:** Establece que toda reunión de >30 min debe tener una minuta generada por Copilot.
-:::
-
-::: {.fragment .fade-in}
-- **Foco en lo estratégico:** Si la IA hace la "carpintería", el equipo debe enfocarse en la toma de decisiones.
-:::
-:::
-
----
-
-# Dinámica Final: El Flujo Completo 👥 {background-color="#2c3e50"}
+# Sinergia Inter-áreas 🏢 {background-color="#2c3e50"}
 
 ::: {style="font-size: 0.75em;"}
-**El Gran Reto de Cierre:**
+¿Cómo ayuda tu proyecto a otros departamentos?
 
 <br>
 
-1. **Ideación (OneNote):** Generen 3 ideas para un nuevo producto financiero.
-2. **Planificación (Planner):** Creen el tablero de tareas para ese producto.
-3. **Colaboración (Loop):** Redacten la propuesta conjunta que verán los directivos.
-4. **Resumen (Copilot):** Pidan a Copilot un "Elevator Pitch" de 1 min sobre todo el plan anterior.
+::: {.fragment .fade-in}
+- **Conexión:** Si Riesgos ahorra tiempo, Comercial recibe respuestas más rápido.
+:::
+
+::: {.fragment .fade-in}
+- **Colaboración:** Usa **Loop** para compartir los resultados de tu IA con el área interesada.
+:::
+
+::: {.fragment .fade-in}
+- **Pregunta Crítica:** "¿Quién más en el banco se beneficia de que yo automatice esta tarea?" (Incluye esto en tu pitch).
+:::
 :::
 
 ---
 
-## ¡Listos para la Sustentación Final! {.center .text-center background-color="#2c3e50"}
+# 🛠️ Taller: Cuantificación del ROI 📊 {background-color="#b03a2e"}
+
+## El dato que convencerá a tu jefe
+
+::: {style="font-size: 0.75em;"}
+Vamos a calcular el **Mapa de Ahorro** final:
+
+<br>
+
+::: {.fragment .fade-in}
+1. **Tiempo Manual:** (Ej: 120 min x 5 días = 10 horas/semana).
+:::
+
+::: {.fragment .fade-in}
+2. **Tiempo IA:** (Ej: 5 min x 5 días = 25 min/semana).
+:::
+
+::: {.fragment .fade-in}
+3. **Ahorro Neto:** (Ej: 9.5 horas semanales / 38 horas al mes).
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Prompt de apoyo:** "Calcula cuánto dinero se ahorra al año si un analista con salario promedio ahorra 38 horas mensuales gracias a este prompt."
+:::
+:::
+
+---
+
+# Dinámica Final: El "Problem Statement" ⏱️ {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**Reto de 60 segundos:**
+
+<br>
+
+1. Define tu problema: "Hoy tardo X horas haciendo Y, lo cual genera el riesgo Z".
+2. Di tu solución: "Con Copilot, ahora el proceso toma X segundos".
+3. Valida con tu compañero: ¿Se entiende el valor real para el Banco?
+:::
+
+---
+
+## ¡Listos para la Recta Final! {.center .text-center background-color="#2c3e50"}
 
 ::: {.center}
 ### Fabio Zapata
