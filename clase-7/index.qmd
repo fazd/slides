@@ -8,7 +8,7 @@ format:
     navigation-mode: linear
     transition: slide
     logo: images/enyoi.png
-    footer: "Sesión 7: OneNote y Estructura de Sustentación"
+    footer: "Sesión 7: Edge Copilot y Estructura de Sustentación"
 ---
 
 # Sesión 7: El Ecosistema de Ejecución {background-color="#2c3e50"}
@@ -17,7 +17,7 @@ format:
 
 ::: {style="font-size: 0.75em;"}
 1. **Seguimiento HU2 (20 min):** Ajuste técnico de los prompts maestros.
-2. **OneNote: Tu Cerebro Digital (40 min):** Ordenando el caos del proyecto.
+2. **Edge Copilot: Tu Radar de Inteligencia (40 min):** Curaduría de datos y Benchmark.
 3. **Diseño de Diapositivas con IA (50 min):** Estructura y narrativa del Pitch.
 4. **☕ Break (15 min)**
 5. **Sinergia Inter-áreas (15 min):** Flujos entre Riesgos, Legal y Comercial.
@@ -48,51 +48,51 @@ format:
 
 ---
 
-# OneNote: El Cerebro Digital Asistido 🧠 {background-color="#2c3e50"}
+# Edge Copilot: Tu Radar de Inteligencia 🔍 {background-color="#2c3e50"}
 
 ::: {style="font-size: 0.7em;"}
-OneNote + Copilot = El lugar donde vive la documentación de tu proyecto.
+Navegador Edge + Copilot = Datos externos que respaldan tu proyecto.
 
 <br>
 
 ::: {.fragment .fade-in}
-- **Organización:** Toma tus ideas sueltas y pide a Copilot que las clasifique por temas.
+- **Benchmark en Segundos:** Abre una pestaña con noticias de banca digital o reportes de consultoras (McKinsey, Gartner) y pide a Copilot: *"Resume las 3 tendencias clave de IA en banca para 2026 y relaciónalas con mi proyecto"*.
 :::
 
 ::: {.fragment .fade-in}
-- **Lab Rápido:** Crea una nota con la descripción de tu tarea de 90 min y pide: *"Estructura esta información en puntos clave para una presentación ejecutiva"*.
+- **Análisis de PDFs Web:** No descargues el archivo. Ábrelo en Edge y usa el chat para extraer tablas de costos o normativas de la Superintendencia de Bancos de Panamá.
 :::
 
 ::: {.fragment .fade-in}
-- **Ventaja:** Todo lo que generes aquí será el insumo para tus diapositivas.
+- **Ventaja:** Tu proyecto deja de ser una "buena idea" y se convierte en una "estrategia respaldada por datos".
 :::
 :::
 
 ---
 
-# De OneNote a PowerPoint: El Flujo 🎨 {background-color="#2c3e50"}
+# De la Web a la Presentación: El Flujo 🎨 {background-color="#2c3e50"}
 
 ## No diseñes, ¡dirige a la IA!
 
 ::: {style="font-size: 0.7em;"}
-El error común es abrir PowerPoint en blanco. El éxito es llegar con la estructura lista.
+El éxito no es abrir PowerPoint en blanco, es llegar con evidencia real extraída de la web.
 
 <br>
 
 ::: {.fragment .fade-in}
-**1. La Estructura (Word/OneNote):** Usa Copilot para definir qué dirás en cada slide.
+**1. Curaduría (Edge):** Usa Copilot para encontrar una cifra de impacto (ej. *"¿Cuánto tiempo ahorra en promedio la IA en procesos de back-office bancario?"*).
 :::
 
 <br>
 
 ::: {.fragment .fade-in}
-**2. El Borrador (PPT):** Usa la función "Crear presentación a partir de archivo" en PowerPoint o pide el guion en el Chat.
+**2. El Borrador (PPT):** Inyecta esos datos en tu guion. Usa la función "Crear presentación a partir de archivo" incluyendo las fuentes que encontraste en Edge.
 :::
 
 <br>
 
 ::: {.fragment .fade-in}
-**3. El Visual:** Pide a la IA sugerencias de imágenes que representen "Eficiencia Bancaria" o "Seguridad en Riesgos".
+**3. El Visual:** Pide a la IA imágenes fotorrealistas que representen la "Modernización de la Banca en Panamá".
 :::
 :::
 
@@ -102,10 +102,10 @@ El error común es abrir PowerPoint en blanco. El éxito es llegar con la estruc
 
 ::: {style="font-size: 0.6em;"}
 **Prompt Maestro para definir tus Slides:**
-> "Actúa como un experto en Storytelling Ejecutivo. Basado en mi proyecto de [Nombre de tu proceso], diseña una estructura de 5 diapositivas: 
-1. Portada e Impacto (La gran cifra de ahorro).
-2. El Dolor Actual (El proceso de 90 min).
-3. La Solución (Mi Prompt Maestro).
+> "Actúa como un experto en Storytelling Ejecutivo. Basado en mi proyecto de [Nombre de tu proceso] y los datos de mercado que encontré en Edge sobre [Tendencia de IA], diseña una estructura de 5 diapositivas: 
+1. Portada e Impacto (La gran cifra de ahorro + dato de mercado).
+2. El Dolor Actual (El proceso de 90 min vs el estándar de la industria).
+3. La Solución (Mi Prompt Maestro y cómo escala el negocio).
 4. Evidencia Visual (Antes vs Después).
 5. Conclusión y Futuro.
 **Dame el contenido detallado de cada slide.**"
@@ -114,84 +114,6 @@ El error común es abrir PowerPoint en blanco. El éxito es llegar con la estruc
 
 ::: {.callout-tip}
 ### Pro-Tip
-Lleva este resultado a Word y guárdalo. En la siguiente fase lo usaremos para "inyectarlo" en PowerPoint.
+Si encontraste un gráfico o dato clave en Edge, usa la herramienta de "Captura Web" y pégalo directamente en tu slide 4.
 :::
-:::
-
----
-
-# ☕ Break (15 min) {background-color="#000000"}
-
----
-
-# Sinergia Inter-áreas 🏢 {background-color="#2c3e50"}
-
-::: {style="font-size: 0.75em;"}
-¿Cómo ayuda tu proyecto a otros departamentos?
-
-<br>
-
-::: {.fragment .fade-in}
-- **Conexión:** Si Riesgos ahorra tiempo, Comercial recibe respuestas más rápido.
-:::
-
-::: {.fragment .fade-in}
-- **Colaboración:** Usa **Loop** para compartir los resultados de tu IA con el área interesada.
-:::
-
-::: {.fragment .fade-in}
-- **Pregunta Crítica:** "¿Quién más en el banco se beneficia de que yo automatice esta tarea?" (Incluye esto en tu pitch).
-:::
-:::
-
----
-
-# 🛠️ Taller: Cuantificación del ROI 📊 {background-color="#b03a2e"}
-
-## El dato que convencerá a tu jefe
-
-::: {style="font-size: 0.75em;"}
-Vamos a calcular el **Mapa de Ahorro** final:
-
-<br>
-
-::: {.fragment .fade-in}
-1. **Tiempo Manual:** (Ej: 120 min x 5 días = 10 horas/semana).
-:::
-
-::: {.fragment .fade-in}
-2. **Tiempo IA:** (Ej: 5 min x 5 días = 25 min/semana).
-:::
-
-::: {.fragment .fade-in}
-3. **Ahorro Neto:** (Ej: 9.5 horas semanales / 38 horas al mes).
-:::
-
-<br>
-
-::: {.fragment .fade-in}
-**Prompt de apoyo:** "Calcula cuánto dinero se ahorra al año si un analista con salario promedio ahorra 38 horas mensuales gracias a este prompt."
-:::
-:::
-
----
-
-# Dinámica Final: El "Problem Statement" ⏱️ {background-color="#2c3e50"}
-
-::: {style="font-size: 0.75em;"}
-**Reto de 60 segundos:**
-
-<br>
-
-1. Define tu problema: "Hoy tardo X horas haciendo Y, lo cual genera el riesgo Z".
-2. Di tu solución: "Con Copilot, ahora el proceso toma X segundos".
-3. Valida con tu compañero: ¿Se entiende el valor real para el Banco?
-:::
-
----
-
-## ¡Listos para la Recta Final! {.center .text-center background-color="#2c3e50"}
-
-::: {.center}
-### Fabio Zapata
 :::
