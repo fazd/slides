@@ -8,22 +8,21 @@ format:
     navigation-mode: linear
     transition: slide
     logo: images/enyoi.png
-    footer: "Sesión 7: Edge Copilot y Estructura de Sustentación"
+    footer: "Sesión 7: Estrategia, Datos y Sustentación"
 ---
 
 # Sesión 7: El Ecosistema de Ejecución {background-color="#2c3e50"}
 
 ## Agenda de hoy (180 min / 3 Horas)
 
-::: {style="font-size: 0.75em;"}
-1. **Seguimiento HU2 (20 min):** Ajuste técnico de los prompts maestros.
-2. **Edge Copilot: Tu Radar de Inteligencia (40 min):** Curaduría de datos y Benchmark.
-3. **Diseño de Diapositivas con IA (50 min):** Estructura y narrativa del Pitch.
-4. **☕ Break (15 min)**
-5. **Sinergia Inter-áreas (15 min):** Flujos entre Riesgos, Legal y Comercial.
-6. **Taller de Pitch & ROI (40 min):** Cuantificación final del ahorro.
-:::
-
+::: {style="font-size: 0.7em;"}
+1.  **Seguimiento HU2 (15 min):** Calibración final de Prompts Maestros.
+2.  **Teoría: IA y Alfabetización de Datos (25 min):** Por qué buscar no es investigar.
+3.  **Edge Copilot: Inteligencia de Mercado (35 min):** Benchmark y validación normativa.
+4.  **Teoría: Storytelling de Alto Impacto (25 min):** El Principio de la Pirámide.
+5.  **Diseño de Diapositivas con IA (30 min):** Narrativa del Pitch Ejecutivo.
+6.  **☕ Break (15 min)**
+7.  **Sinergia y ROI (35 min):** Cuantificación económica del ahorro.
 ---
 
 # Seguimiento de Proyecto: Clínica HU2 🏥 {background-color="#b03a2e"}
@@ -31,18 +30,39 @@ format:
 ## ¿Tu Prompt Maestro es "Inmune a Errores"?
 
 ::: {style="font-size: 0.7em;"}
-<br>
+Antes de avanzar, validemos la estructura de tu solución técnica.
 
 ::: {.fragment .fade-in}
-- **Validación:** ¿Tu prompt incluye el Rol, el Contexto y el Formato de salida?
+* **ACTR Check:** ¿El rol es lo suficientemente específico? (ej. "Auditor de Riesgo" vs "Analista").
+* **Paradoja de la IA:** Si el prompt es genérico, el resultado es mediocre. ¿Tu prompt tiene "contexto de negocio"?
+* **Output:** ¿El formato de salida facilita el siguiente paso de tu proceso?
 :::
 
-::: {.fragment .fade-in}
-- **Iteración:** ¿Probaste darle un ejemplo (Few-shot) para que el resultado sea perfecto?
+::: {.callout-important}
+### El Objetivo
+Tu prompt debe reducir un proceso de 90 minutos a menos de 5, manteniendo la calidad bancaria.
+:::
 :::
 
+---
+
+# Teoría I: La Nueva Alfabetización de Datos 📊 {background-color="#2c3e50"}
+
+## De "Buscadores" a "Curadores"
+
+::: {style="font-size: 0.65em;"}
+En la era de la IA, el valor no está en encontrar información, sino en **validarla y conectarla**.
+
 ::: {.fragment .fade-in}
-- **Evidencia:** ¿Tienes la captura de pantalla del "Antes" y el "Después"?
+1.  **Información Estática vs. Dinámica:** Google te da links; Copilot en Edge te da **síntesis**.
+2.  **El Sesgo de IA:** Aprenderemos a pedir a la IA que busque "puntos de vista contrarios" para evitar sesgos de confirmación en nuestros proyectos.
+3.  **La Triangulación:** Un dato es válido solo si la IA lo encuentra en una fuente oficial (ej. Superintendencia de Bancos) y nosotros lo validamos.
+:::
+
+
+
+::: {.fragment .fade-up}
+> "La IA no reemplaza tu juicio, potencia tu capacidad de análisis crítico sobre grandes volúmenes de datos."
 :::
 :::
 
@@ -50,70 +70,156 @@ format:
 
 # Edge Copilot: Tu Radar de Inteligencia 🔍 {background-color="#2c3e50"}
 
-::: {style="font-size: 0.7em;"}
-Navegador Edge + Copilot = Datos externos que respaldan tu proyecto.
-
-<br>
-
-::: {.fragment .fade-in}
-- **Benchmark en Segundos:** Abre una pestaña con noticias de banca digital o reportes de consultoras (McKinsey, Gartner) y pide a Copilot: *"Resume las 3 tendencias clave de IA en banca para 2026 y relaciónalas con mi proyecto"*.
-:::
-
-::: {.fragment .fade-in}
-- **Análisis de PDFs Web:** No descargues el archivo. Ábrelo en Edge y usa el chat para extraer tablas de costos o normativas de la Superintendencia de Bancos de Panamá.
-:::
-
-::: {.fragment .fade-in}
-- **Ventaja:** Tu proyecto deja de ser una "buena idea" y se convierte en una "estrategia respaldada por datos".
-:::
-:::
-
----
-
-# De la Web a la Presentación: El Flujo 🎨 {background-color="#2c3e50"}
-
-## No diseñes, ¡dirige a la IA!
+## Benchmark y Validación en Tiempo Real
 
 ::: {style="font-size: 0.7em;"}
-El éxito no es abrir PowerPoint en blanco, es llegar con evidencia real extraída de la web.
-
-<br>
+Usaremos el panel lateral de Edge para fundamentar tu "Problem Statement".
 
 ::: {.fragment .fade-in}
-**1. Curaduría (Edge):** Usa Copilot para encontrar una cifra de impacto (ej. *"¿Cuánto tiempo ahorra en promedio la IA en procesos de back-office bancario?"*).
+* **Análisis Documental:** Sube la normativa interna o un reporte de industria al navegador.
+* **Prompt de Mercado:** *"Actúa como un experto en banca panameña. Compara los tiempos de respuesta de este proceso con los estándares de eficiencia de la banca digital internacional"*.
+* **Extracción de Insights:** Convierte un PDF de 60 páginas en 3 "Bullet Points" de impacto para tu diapositiva de contexto.
 :::
-
-<br>
-
-::: {.fragment .fade-in}
-**2. El Borrador (PPT):** Inyecta esos datos en tu guion. Usa la función "Crear presentación a partir de archivo" incluyendo las fuentes que encontraste en Edge.
-:::
-
-<br>
-
-::: {.fragment .fade-in}
-**3. El Visual:** Pide a la IA imágenes fotorrealistas que representen la "Modernización de la Banca en Panamá".
-:::
-:::
-
----
-
-# 🛠️ Lab: Arquitectura de tu Presentación
-
-::: {style="font-size: 0.6em;"}
-**Prompt Maestro para definir tus Slides:**
-> "Actúa como un experto en Storytelling Ejecutivo. Basado en mi proyecto de [Nombre de tu proceso] y los datos de mercado que encontré en Edge sobre [Tendencia de IA], diseña una estructura de 5 diapositivas: 
-1. Portada e Impacto (La gran cifra de ahorro + dato de mercado).
-2. El Dolor Actual (El proceso de 90 min vs el estándar de la industria).
-3. La Solución (Mi Prompt Maestro y cómo escala el negocio).
-4. Evidencia Visual (Antes vs Después).
-5. Conclusión y Futuro.
-**Dame el contenido detallado de cada slide.**"
-
-<br>
 
 ::: {.callout-tip}
-### Pro-Tip
-Si encontraste un gráfico o dato clave en Edge, usa la herramienta de "Captura Web" y pégalo directamente en tu slide 4.
+### Ejercicio
+Encuentra una cifra de ahorro o tendencia de IA en banca que respalde por qué tu proyecto es urgente hoy.
 :::
+:::
+
+---
+
+# Teoría II: Storytelling Ejecutivo 🗣️ {background-color="#2c3e50"}
+
+## El Principio de la Pirámide (Minto Pyramid)
+
+::: {style="font-size: 0.65em;"}
+Para convencer a un comité de dirección, la estructura debe ser inversa a la académica.
+
+::: {.fragment .fade-in}
+1.  **La Respuesta Primero:** Empieza con el beneficio (ej. "Ahorro de $50k anuales").
+2.  **Argumentos de Soporte:** Los 3 pilares que sostienen ese beneficio.
+3.  **Datos de Base:** Los detalles técnicos y evidencias.
+:::
+
+
+
+::: {.fragment .fade-in}
+**Fórmula de Impacto:**
+`Ganancia Relevante + Problema Resuelto + Evidencia Técnica = Aprobación de Proyecto.`
+:::
+:::
+
+---
+
+# De los Datos a las Slides: El Flujo 🎨 {background-color="#2c3e50"}
+
+## Arquitectura de la Narrativa
+
+::: {style="font-size: 0.7em;"}
+No copies y pegues; **traduce** los hallazgos de Edge a un guion de presentación.
+
+::: {.fragment .fade-in}
+1.  **El Gancho:** Usa el dato de mercado que encontraste en Edge.
+2.  **El Proceso:** Muestra el flujo "Antes" (Caos/Tiempo) vs "Después" (IA/Eficiencia).
+3.  **La Demostración:** El Prompt Maestro en acción.
+:::
+
+<br>
+
+::: {.fragment .fade-up}
+**Tip de Copilot en PPT:**
+Usa el comando `/crear presentación a partir del archivo` en Word donde estructuraste tu guion siguiendo la pirámide.
+:::
+:::
+
+---
+
+# 🛠️ Lab: Diseño de tu Pitch
+
+::: {style="font-size: 0.6em;"}
+**Prompt Maestro de Storytelling:**
+> "Actúa como un experto en presentaciones para juntas directivas. He recolectado estos datos en Edge: [Insertar datos]. Mi proyecto consiste en: [Nombre]. 
+> Diseña el guion para 5 diapositivas siguiendo el Principio de la Pirámide. 
+> Cada slide debe tener: 
+> 1. Título de alto impacto.
+> 2. Mensaje principal (el 'So What?').
+> 3. Sugerencia de elemento visual o gráfico."
+
+<br>
+
+::: {.callout-note}
+### Nota de Diseño
+Enfócate en la claridad, no en la decoración. La IA se encarga del diseño; tú te encargas de la estrategia.
+:::
+:::
+
+---
+
+# ☕ Break (15 min) {background-color="#000000"}
+
+---
+
+# Sinergia Inter-áreas 🏢 {background-color="#2c3e50"}
+
+## El Valor Sistémico del Ahorro
+
+::: {style="font-size: 0.75em;"}
+Tu proyecto no termina en tu escritorio; impacta toda la cadena de valor del banco.
+
+::: {.fragment .fade-in}
+* **Colaboración con Loop:** Crea un componente de Loop con tu plan de implementación y compártelo en Teams con las áreas involucradas (Legal, Riesgos, IT).
+* **Pregunta de Sinergia:** *"Si yo libero 10 horas a la semana, ¿cómo acelero el trabajo del área que recibe mi información?"*
+:::
+
+::: {.fragment .fade-in}
+**Efecto Dominó:** La eficiencia en una célula genera agilidad en toda la organización.
+:::
+:::
+
+---
+
+# 🛠️ Taller: Cuantificación del ROI 📊 {background-color="#b03a2e"}
+
+## Hablando el lenguaje del dinero
+
+::: {style="font-size: 0.7em;"}
+Vamos a calcular el **Business Case** de tu solución:
+
+::: {.fragment .fade-in}
+1.  **Costo de Oportunidad:** ¿Qué tareas de alto valor dejas de hacer por estar en el proceso manual?
+2.  **Escalabilidad:** Si este prompt lo usan 10 personas en el banco, ¿cuánto es el ahorro total?
+:::
+
+<br>
+
+**Calculadora de Impacto con IA:**
+> "Si mi proceso manual toma 100 horas hombre al mes y mi solución de IA lo reduce a 5 horas, calcula el ahorro anual considerando un costo hora de $X. Además, proyecta el ROI si el error humano se reduce en un 90%."
+:::
+
+---
+
+# Dinámica Final: El "Elevator Pitch" ⏱️ {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+**Reto de 60 segundos:**
+
+1.  **El Dato:** "Sabías que el mercado está perdiendo X% en este proceso..."
+2.  **Tu Valor:** "He diseñado un ecosistema de IA que ahorra Y horas mensuales..."
+3.  **El Cierre:** "Esto representa un ahorro de $Z para el banco. ¿Cuándo empezamos la implementación?"
+
+<br>
+
+::: {.fragment .fade-up}
+**Feedback entre pares:** ¿Comprarías este proyecto?
+:::
+:::
+
+---
+
+## ¡Listos para la Recta Final! {.center .text-center background-color="#2c3e50"}
+
+::: {.center}
+### Fabio Zapata
+**Enseñanza de IA & Productividad**
 :::
