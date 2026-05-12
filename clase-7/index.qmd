@@ -23,6 +23,8 @@ format:
 5.  **Diseño de Diapositivas con IA (30 min):** Narrativa del Pitch Ejecutivo.
 6.  **☕ Break (15 min)**
 7.  **Sinergia y ROI (35 min):** Cuantificación económica del ahorro.
+:::
+
 ---
 
 # Seguimiento de Proyecto: Clínica HU2 🏥 {background-color="#b03a2e"}
@@ -46,7 +48,7 @@ Tu prompt debe reducir un proceso de 90 minutos a menos de 5, manteniendo la cal
 
 ---
 
-# Teoría I: La Nueva Alfabetización de Datos 📊 {background-color="#2c3e50"}
+# Teoría I: Alfabetización de Datos 📊 {background-color="#2c3e50"}
 
 ## De "Buscadores" a "Curadores"
 
@@ -55,20 +57,20 @@ En la era de la IA, el valor no está en encontrar información, sino en **valid
 
 ::: {.fragment .fade-in}
 1.  **Información Estática vs. Dinámica:** Google te da links; Copilot en Edge te da **síntesis**.
-2.  **El Sesgo de IA:** Aprenderemos a pedir a la IA que busque "puntos de vista contrarios" para evitar sesgos de confirmación en nuestros proyectos.
-3.  **La Triangulación:** Un dato es válido solo si la IA lo encuentra en una fuente oficial (ej. Superintendencia de Bancos) y nosotros lo validamos.
+2.  **El Sesgo de IA:** Aprenderemos a pedir a la IA que busque "puntos de vista contrarios" para evitar sesgos de confirmación.
+3.  **La Triangulación:** Un dato es válido solo si la IA lo encuentra en una fuente oficial y nosotros lo validamos.
 :::
 
-
+![](images/data_literacy_process.png){fig-align="center" width="400"}
 
 ::: {.fragment .fade-up}
-> "La IA no reemplaza tu juicio, potencia tu capacidad de análisis crítico sobre grandes volúmenes de datos."
+> "La IA no reemplaza tu juicio, potencia tu capacidad de análisis crítico."
 :::
 :::
 
 ---
 
-# Edge Copilot: Tu Radar de Inteligencia 🔍 {background-color="#2c3e50"}
+# Edge Copilot: Radar de Inteligencia 🔍 {background-color="#2c3e50"}
 
 ## Benchmark y Validación en Tiempo Real
 
@@ -76,9 +78,9 @@ En la era de la IA, el valor no está en encontrar información, sino en **valid
 Usaremos el panel lateral de Edge para fundamentar tu "Problem Statement".
 
 ::: {.fragment .fade-in}
-* **Análisis Documental:** Sube la normativa interna o un reporte de industria al navegador.
-* **Prompt de Mercado:** *"Actúa como un experto en banca panameña. Compara los tiempos de respuesta de este proceso con los estándares de eficiencia de la banca digital internacional"*.
-* **Extracción de Insights:** Convierte un PDF de 60 páginas en 3 "Bullet Points" de impacto para tu diapositiva de contexto.
+* **Análisis Documental:** Sube la normativa interna o un reporte al navegador.
+* **Prompt de Mercado:** *"Actúa como un experto en banca panameña. Compara los tiempos de este proceso con los estándares internacionales de eficiencia"*.
+* **Extracción de Insights:** Convierte un PDF de 60 páginas en 3 "Bullet Points" de impacto.
 :::
 
 ::: {.callout-tip}
@@ -91,10 +93,10 @@ Encuentra una cifra de ahorro o tendencia de IA en banca que respalde por qué t
 
 # Teoría II: Storytelling Ejecutivo 🗣️ {background-color="#2c3e50"}
 
-## El Principio de la Pirámide (Minto Pyramid)
+## El Principio de la Pirámide
 
 ::: {style="font-size: 0.65em;"}
-Para convencer a un comité de dirección, la estructura debe ser inversa a la académica.
+Para convencer a una dirección, la estructura debe ser inversa a la académica.
 
 ::: {.fragment .fade-in}
 1.  **La Respuesta Primero:** Empieza con el beneficio (ej. "Ahorro de $50k anuales").
@@ -102,11 +104,11 @@ Para convencer a un comité de dirección, la estructura debe ser inversa a la a
 3.  **Datos de Base:** Los detalles técnicos y evidencias.
 :::
 
-
+![](images/pyramid_principle.png){fig-align="center" width="350"}
 
 ::: {.fragment .fade-in}
 **Fórmula de Impacto:**
-`Ganancia Relevante + Problema Resuelto + Evidencia Técnica = Aprobación de Proyecto.`
+`Ganancia Relevante + Problema Resuelto + Evidencia = Aprobación.`
 :::
 :::
 
@@ -129,7 +131,7 @@ No copies y pegues; **traduce** los hallazgos de Edge a un guion de presentació
 
 ::: {.fragment .fade-up}
 **Tip de Copilot en PPT:**
-Usa el comando `/crear presentación a partir del archivo` en Word donde estructuraste tu guion siguiendo la pirámide.
+Usa el comando `/crear presentación a partir del archivo` en el Word donde estructuraste tu guion.
 :::
 :::
 
@@ -139,18 +141,13 @@ Usa el comando `/crear presentación a partir del archivo` en Word donde estruct
 
 ::: {style="font-size: 0.6em;"}
 **Prompt Maestro de Storytelling:**
-> "Actúa como un experto en presentaciones para juntas directivas. He recolectado estos datos en Edge: [Insertar datos]. Mi proyecto consiste en: [Nombre]. 
-> Diseña el guion para 5 diapositivas siguiendo el Principio de la Pirámide. 
-> Cada slide debe tener: 
-> 1. Título de alto impacto.
-> 2. Mensaje principal (el 'So What?').
-> 3. Sugerencia de elemento visual o gráfico."
+> "Actúa como un experto en presentaciones ejecutivas. He recolectado estos datos en Edge: [Insertar datos]. Mi proyecto consiste en: [Nombre]. Diseña el guion para 5 diapositivas siguiendo el Principio de la Pirámide. Cada slide debe tener: Título de alto impacto, Mensaje principal y sugerencia de visual."
 
 <br>
 
 ::: {.callout-note}
 ### Nota de Diseño
-Enfócate en la claridad, no en la decoración. La IA se encarga del diseño; tú te encargas de la estrategia.
+Enfócate en la claridad. La IA se encarga del diseño; tú te encargas de la estrategia.
 :::
 :::
 
@@ -165,15 +162,15 @@ Enfócate en la claridad, no en la decoración. La IA se encarga del diseño; t�
 ## El Valor Sistémico del Ahorro
 
 ::: {style="font-size: 0.75em;"}
-Tu proyecto no termina en tu escritorio; impacta toda la cadena de valor del banco.
+Tu proyecto impacta toda la cadena de valor del banco.
 
 ::: {.fragment .fade-in}
-* **Colaboración con Loop:** Crea un componente de Loop con tu plan de implementación y compártelo en Teams con las áreas involucradas (Legal, Riesgos, IT).
-* **Pregunta de Sinergia:** *"Si yo libero 10 horas a la semana, ¿cómo acelero el trabajo del área que recibe mi información?"*
+* **Colaboración con Loop:** Crea un componente de Loop con tu plan y compártelo en Teams con Legal o Riesgos.
+* **Pregunta de Sinergia:** *"Si yo libero 10 horas a la semana, ¿cómo acelero el trabajo del área que recibe mis resultados?"*
 :::
 
 ::: {.fragment .fade-in}
-**Efecto Dominó:** La eficiencia en una célula genera agilidad en toda la organización.
+**Efecto Dominó:** La agilidad en una célula agiliza a toda la organización.
 :::
 :::
 
@@ -181,37 +178,37 @@ Tu proyecto no termina en tu escritorio; impacta toda la cadena de valor del ban
 
 # 🛠️ Taller: Cuantificación del ROI 📊 {background-color="#b03a2e"}
 
-## Hablando el lenguaje del dinero
+## Hablando el lenguaje del negocio
 
 ::: {style="font-size: 0.7em;"}
-Vamos a calcular el **Business Case** de tu solución:
+Calcula el **Business Case** de tu solución:
 
 ::: {.fragment .fade-in}
-1.  **Costo de Oportunidad:** ¿Qué tareas de alto valor dejas de hacer por estar en el proceso manual?
-2.  **Escalabilidad:** Si este prompt lo usan 10 personas en el banco, ¿cuánto es el ahorro total?
+1.  **Costo de Oportunidad:** ¿Qué tareas de valor dejas de hacer por procesos manuales?
+2.  **Escalabilidad:** Si este prompt lo usan 10 personas, ¿cuánto es el ahorro total?
 :::
 
 <br>
 
 **Calculadora de Impacto con IA:**
-> "Si mi proceso manual toma 100 horas hombre al mes y mi solución de IA lo reduce a 5 horas, calcula el ahorro anual considerando un costo hora de $X. Además, proyecta el ROI si el error humano se reduce en un 90%."
+> "Si mi proceso manual toma 100 horas/mes y la IA lo reduce a 5 horas, calcula el ahorro anual con un costo hora de $X. Proyecta el ROI si el error humano baja un 90%."
 :::
 
 ---
 
-# Dinámica Final: El "Elevator Pitch" ⏱️ {background-color="#2c3e50"}
+# Dinámica Final: Elevator Pitch ⏱️ {background-color="#2c3e50"}
 
 ::: {style="font-size: 0.75em;"}
 **Reto de 60 segundos:**
 
-1.  **El Dato:** "Sabías que el mercado está perdiendo X% en este proceso..."
-2.  **Tu Valor:** "He diseñado un ecosistema de IA que ahorra Y horas mensuales..."
-3.  **El Cierre:** "Esto representa un ahorro de $Z para el banco. ¿Cuándo empezamos la implementación?"
+1.  **El Dato:** "El mercado pierde X% en este proceso..."
+2.  **Tu Valor:** "Diseñé una solución de IA que ahorra Y horas..."
+3.  **El Cierre:** "Esto representa $Z de ahorro. ¿Empezamos?"
 
 <br>
 
 ::: {.fragment .fade-up}
-**Feedback entre pares:** ¿Comprarías este proyecto?
+**Feedback:** ¿Comprarías este proyecto?
 :::
 :::
 
