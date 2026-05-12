@@ -70,22 +70,22 @@ En la era de la IA, el valor no está en encontrar información, sino en **valid
 
 ---
 
-# Edge Copilot: Radar de Inteligencia 🔍 {background-color="#2c3e50"}
+# Edge Copilot: Vigilancia Tecnológica 🔍 {background-color="#2c3e50"}
 
-## Benchmark y Validación en Tiempo Real
+## Más allá del Benchmark: Análisis de Señales
 
 ::: {style="font-size: 0.7em;"}
-Usaremos el panel lateral de Edge para fundamentar tu "Problem Statement".
+Olvidemos la extracción de cifras básica. Vamos a buscar **disrupción**.
 
 ::: {.fragment .fade-in}
-* **Análisis Documental:** Sube la normativa interna o un reporte al navegador.
-* **Prompt de Mercado:** *"Actúa como un experto en banca panameña. Compara los tiempos de este proceso con los estándares internacionales de eficiencia"*.
-* **Extracción de Insights:** Convierte un PDF de 60 páginas en 3 "Bullet Points" de impacto.
+* **Búsqueda Prospectiva:** Usa Bing en modo preciso para encontrar: *"¿Qué tecnologías emergentes están reemplazando a [Tu Proceso] en los bancos más innovadores de Singapur o Estonia para 2026?"*
+* **Análisis de 'Red Flags':** Pide a Edge que analice un reporte de tendencias y encuentre: *"¿Cuáles son los 3 riesgos de seguridad o cumplimiento que nadie está viendo en la automatización de este proceso?"*
+* **Síntesis de Valor:** No resumas el documento. Pide: *"Basado en este informe, genera una recomendación estratégica de 2 párrafos para un Vicepresidente que tiene poco tiempo"*.
 :::
 
 ::: {.callout-tip}
-### Ejercicio
-Encuentra una cifra de ahorro o tendencia de IA en banca que respalde por qué tu proyecto es urgente hoy.
+### El Reto
+Encuentra una "Señal de Futuro" que obligue a tu área a cambiar su forma de trabajar en los próximos 12 meses.
 :::
 :::
 
