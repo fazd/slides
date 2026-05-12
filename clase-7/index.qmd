@@ -222,5 +222,4 @@ Olvida las ventas; esto es **eficiencia organizacional**. Usa esta estructura:
 ::: {.center}
 ### Fabio Zapata
 **Enseñanza de IA & Productividad**
-:::un 90%."
 :::
