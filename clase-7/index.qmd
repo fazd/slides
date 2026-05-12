@@ -162,15 +162,15 @@ Enfócate en la claridad. La IA se encarga del diseño; tú te encargas de la es
 ## El Valor Sistémico del Ahorro
 
 ::: {style="font-size: 0.75em;"}
-Tu proyecto impacta toda la cadena de valor del banco.
+Tu proyecto impacta toda la cadena de valor del banco. No es una isla.
 
 ::: {.fragment .fade-in}
-* **Colaboración con Loop:** Crea un componente de Loop con tu plan y compártelo en Teams con Legal o Riesgos.
+* **Colaboración:** Crea un componente o página con tu plan y compártelo en Teams con áreas como Legal o Riesgos para que vean cómo tu optimización les ayuda a ellos.
 * **Pregunta de Sinergia:** *"Si yo libero 10 horas a la semana, ¿cómo acelero el trabajo del área que recibe mis resultados?"*
 :::
 
 ::: {.fragment .fade-in}
-**Efecto Dominó:** La agilidad en una célula agiliza a toda la organización.
+**Efecto Dominó:** La agilidad en una célula (tu área) genera una respuesta más rápida para el cliente final de Bancolombia.
 :::
 :::
 
@@ -178,37 +178,40 @@ Tu proyecto impacta toda la cadena de valor del banco.
 
 # 🛠️ Taller: Cuantificación del ROI 📊 {background-color="#b03a2e"}
 
-## Hablando el lenguaje del negocio
+## Hablando el lenguaje de tus líderes
 
 ::: {style="font-size: 0.7em;"}
-Calcula el **Business Case** de tu solución:
+Para que tu jefe diga "SÍ", necesitas datos, no solo opiniones:
 
 ::: {.fragment .fade-in}
-1.  **Costo de Oportunidad:** ¿Qué tareas de valor dejas de hacer por procesos manuales?
-2.  **Escalabilidad:** Si este prompt lo usan 10 personas, ¿cuánto es el ahorro total?
+1.  **Liberación de Capacidad:** ¿Qué tareas de "estrategia" podrías hacer si dejas de hacer este proceso manual?
+2.  **Mitigación de Riesgo Operativo:** ¿Cuánto le cuesta al banco un error humano en este proceso? La IA no se cansa ni se distrae.
 :::
 
 <br>
 
-**Calculadora de Impacto con IA:**
-> "Si mi proceso manual toma 100 horas/mes y la IA lo reduce a 5 horas, calcula el ahorro anual con un costo hora de $X. Proyecta el ROI si el error humano baja un 90%."
+**Prompt de Negocio:**
+> "Actúa como un Analista Financiero. Basado en mi solución de IA que reduce el tiempo de [X] de 90 a 5 minutos, redacta un párrafo ejecutivo que justifique la implementación de este proceso enfocándose en el ahorro de costos operativos y la mejora en la calidad del dato."
 :::
 
 ---
 
-# Dinámica Final: Elevator Pitch ⏱️ {background-color="#2c3e50"}
+# Dinámica Final: Pitch de Optimización ⏱️ {background-color="#2c3e50"}
+
+## Convence a tu superior en 60 segundos
 
 ::: {style="font-size: 0.75em;"}
-**Reto de 60 segundos:**
+Olvida las ventas; esto es **eficiencia organizacional**. Usa esta estructura:
 
-1.  **El Dato:** "El mercado pierde X% en este proceso..."
-2.  **Tu Valor:** "Diseñé una solución de IA que ahorra Y horas..."
-3.  **El Cierre:** "Esto representa $Z de ahorro. ¿Empezamos?"
+1.  **El Problema Operativo:** "Actualmente, nuestro equipo dedica X horas a [Tarea], lo cual frena el avance de [Objetivo del área]."
+2.  **La Optimización con IA:** "He validado un ecosistema usando Copilot y Edge que reduce este tiempo a Y minutos con un 99% de precisión."
+3.  **El Impacto en el Banco:** "Esto nos permite escalar el proceso y reducir el riesgo de errores en un Z%."
+4.  **La Petición (The Ask):** "Solicito su visto bueno para iniciar un piloto de una semana con mi equipo cercano."
 
 <br>
 
 ::: {.fragment .fade-up}
-**Feedback:** ¿Comprarías este proyecto?
+**Feedback entre pares:** ¿Es claro el beneficio para el banco o suena a 'juego con IA'?
 :::
 :::
 
@@ -219,4 +222,5 @@ Calcula el **Business Case** de tu solución:
 ::: {.center}
 ### Fabio Zapata
 **Enseñanza de IA & Productividad**
+:::un 90%."
 :::
