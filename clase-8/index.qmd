@@ -15,42 +15,69 @@ format:
 
 ## Agenda de hoy (180 min / 3 Horas)
 
-::: {style="font-size: 0.75em;"}
-1. **Check-in de Proyectos (30 min):** Validación de Historias de Usuario (HU).
-2. **Recap Módulo 4 (15 min):** La colaboración como acelerador.
-3. **Fase de Rediseño (45 min):** Construcción del nuevo flujo de trabajo.
-4. **Copilot como Arquitecto de PPT (30 min):** Creando la presentación desde el chat.
-5. **Métrica e Impacto (45 min):** Documentación del ahorro y calidad.
-6. **☕ Break Único (15 min)**
-7. **Storytelling del Proyecto (15 min):** Estructura del Pitch final.
+::: {style="font-size: 0.7em;"}
+1. **Walkthrough: Guía del Proyecto (30 min):** Revisión paso a paso del documento oficial y resolución de dudas.
+2. **Check-in & Hoja de Ruta (20 min):** Validación de Historias de Usuario (HU).
+3. **Recap Módulo 4 (15 min):** La colaboración como acelerador.
+4. **Fase de Rediseño (40 min):** Construcción del flujo (HU2 y HU3).
+5. **Copilot como Arquitecto de PPT (25 min):** Creando la narrativa desde el chat.
+6. **Métrica e Impacto (30 min):** Documentación del ahorro (HU4).
+7. **☕ Break Único (15 min)**
+8. **Storytelling del Proyecto (15 min):** Estructura del Pitch final.
 :::
 
 ---
 
-# Recap: El Ecosistema de Ejecución 🔄 {background-color="#2c3e50"}
+# Walkthrough: La ruta al éxito 🗺️ {background-color="#2c3e50"}
 
-::: {style="font-size: 0.65em;"}
-¿Cómo potenciamos el trabajo en equipo en la última sesión?
+## Revisemos el documento del proyecto
+
+::: {style="font-size: 0.75em;"}
+En este momento vamos a proyectar el documento **"Proyecto Transversal: IA para Todos"**. Prestemos atención a:
+
+<br>
+
+- **Estructura de las Historias de Usuario (HU):** Qué se espera en cada cuadro.
+- **Evidencias:** Cómo capturar los prompts y los resultados de la IA.
+- **Cálculo de ahorro:** La fórmula para el impacto en el negocio.
 
 <br>
 
 ::: {.fragment .fade-in}
-- **OneNote:** Convertimos notas caóticas en planes estructurados.
+> **¿Dudas hasta aquí?** Aprovecha este espacio para preguntar sobre cualquier punto del documento que no sea claro.
+:::
 :::
 
-::: {.fragment .fade-in}
-- **Planner:** Pasamos de "ideas" a tareas con responsables y fechas.
+---
+
+# El Entregable Final: ¿Qué debemos presentar? 📄 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.7em;"}
+Cada equipo demostrará cómo la IA transforma un proceso real de su área.
+
+1.  **Contexto Actual:** ¿Qué proceso quieren mejorar y cuál es el "dolor"?
+2.  **Solución con IA:** ¿Cómo integraron Copilot u otras herramientas?
+3.  **Mejoras Generadas:** ¿Qué cambia en la ejecución? (Antes vs. Después).
+4.  **Impacto Tangible:** Resultados medibles en tiempo, calidad o eficiencia.
+
+**Formato:** Presentación de alto impacto para el Panel Técnico.
 :::
 
-::: {.fragment .fade-in}
-- **Sinergia:** Entendimos que la IA es el puente entre áreas (Riesgos, Legal, Comercial).
-:::
+---
 
-<br>
+# Criterios de Éxito: ¿Cómo serás evaluado? ⭐ {background-color="#2c3e50"}
 
-::: {.fragment .fade-in}
-**Hoy:** Aplicamos todo esto a **TU** tarea crítica.
-:::
+::: {style="font-size: 0.5em;"}
+El panel técnico evaluará los siguientes puntos (basado en la rúbrica oficial):
+
+| Concepto | Peso | Lo que buscamos |
+| :--- | :--- | :--- |
+| **Uso de IA** | 20% | Prompts bien estructurados y validación crítica de resultados. |
+| **Impacto al Negocio** | 20% | Mejora medible en eficiencia, tiempo o calidad. |
+| **Diseño de Solución** | 15% | Solución lógica, aplicable y bien integrada al flujo. |
+| **Entendimiento del Problema** | 15% | Claridad en el proceso actual y sus limitaciones. |
+| **Evidencia Práctica** | 15% | Demostración real (capturas, outputs, demos). |
+| **Sustentación y Equipo** | 15% | Pitch claro y colaboración visible entre integrantes. |
 :::
 
 ---
@@ -60,21 +87,12 @@ format:
 ## ¿En qué punto estás?
 
 ::: {style="font-size: 0.75em;"}
-Para que el taller sea exitoso, debemos tener claridad en:
+Para que hoy sea productivo, debes validar tus Historias de Usuario:
 
-<br>
-
-::: {.fragment .fade-in}
 - **HU1 (Identificación):** ¿Tu tarea es realmente de "alto esfuerzo" (>90 min)?
-:::
-
-::: {.fragment .fade-in}
-- **HU2 (Rediseño):** ¿Ya tienes el prompt o el agente que hace el trabajo pesado?
-:::
-
-::: {.fragment .fade-in}
-- **HU3 (Resultados):** ¿Puedes demostrar cuánto tiempo ahorraste?
-:::
+- **HU2 (Rediseño):** ¿Ya tienes los prompts o el agente que hace el trabajo pesado?
+- **HU3 (Resultados):** ¿Tienes la evidencia real (outputs) generada por la IA?
+- **HU4 (Impacto):** ¿Ya calculaste el ahorro de tiempo?
 :::
 
 ---
@@ -87,19 +105,19 @@ No se trata de usar IA en un paso, sino de **repensar el proceso**.
 <br>
 
 ::: {.fragment .fade-in}
-**Antes:** "Recibo 10 correos -> Abro Excel -> Filtro manualmente -> Redacto reporte -> Envío."
+**Antes (HU1):** "Recibo 10 correos -> Abro Excel -> Filtro manualmente -> Redacto reporte -> Envío."
 :::
 
 <br>
 
 ::: {.fragment .fade-in}
-**Ahora (Con IA):** "Copilot resume hilos -> Modo Agente procesa datos -> Copilot redacta borrador -> Yo audito."
+**Ahora con IA (HU2):** "Copilot resume hilos -> Modo Agente procesa datos -> Copilot redacta borrador -> Yo audito."
 :::
 
 <br>
 
 ::: {.fragment .fade-in}
-**Reto:** Dibuja tu nuevo flujo de 4 pasos donde la IA haga al menos 2.
+**Condición de cumplimiento:** Usar al menos **2 herramientas de IA** (ej. Copilot + ChatGPT/Agente).
 :::
 :::
 
@@ -121,14 +139,11 @@ Usar Copilot en el chat para diseñar la narrativa es más potente que usarlo de
 <br>
 
 ::: {.fragment .fade-in}
-**Paso 2:** Solicita el **guion (speaker notes)** para asegurar que tu pitch de 3 min sea fluido.
+**Paso 2:** Solicita el **guion (speaker notes)** para asegurar que tu pitch sea fluido.
 :::
 
 <br>
 
-::: {.fragment .fade-in}
-**Paso 3 (Pro-Tip):** Pídele que genere las diapositivas.
-:::
 :::
 
 ---
@@ -138,12 +153,12 @@ Usar Copilot en el chat para diseñar la narrativa es más potente que usarlo de
 ::: {style="font-size: 0.6em;"}
 **Prompt Maestro para la estructura:**
 
-> "Actúa como experto en presentaciones ejecutivas. Basado en mi proyecto de [Nombre], crea una estructura de 5 diapositivas. Para cada una dime: 
-
-1. Título
-2. Puntos clave de contenido
-3. Sugerencia de imagen/gráfico
-4. Guion detallado de lo que debo decir en 30 segundos.
+> "Actúa como experto en presentaciones ejecutivas. Basado en mi proyecto de [NOMBRE DEL PROCESO], crea una estructura de 5 diapositivas alineada a los criterios de evaluación de Bancolombia Panamá. Para cada una dime: 
+> 
+> 1. Título impactante.
+> 2. Puntos clave (Contexto, IA, Antes vs Después, Impacto).
+> 3. Sugerencia de imagen o captura de evidencia.
+> 4. Guion detallado para un pitch de 30 segundos por lámina."
 
 :::
 
@@ -161,7 +176,7 @@ Tu jefe no quiere saber "que usaste IA", quiere saber **"qué ganó el banco"**.
 :::
 
 ::: {.fragment .fade-in}
-- **Eficiencia:** Capacidad de procesar más datos o clientes.
+- **Eficiencia:** Capacidad de procesar más datos o clientes sin errores.
 :::
 
 ::: {.fragment .fade-in}
@@ -176,45 +191,37 @@ Tu jefe no quiere saber "que usaste IA", quiere saber **"qué ganó el banco"**.
 ::: {style="font-size: 0.6em;"}
 **Objetivo:** Tener el material visual de tu presentación.
 
-<br>
-
-1. Ejecuta tu **Prompt Maestro** frente a un compañero.
-2. Toma capturas de pantalla de:
-   - El input original (el desorden).
-   - El prompt utilizado (la lógica).
-   - El resultado final (la solución).
-3. **Cálculo de Ahorro:**
-   - Tiempo manual: ___ min. | Tiempo IA: ___ min.
-   - **% de Mejora: ___%**
+1.  **Captura la Lógica:** Toma screenshot de tu mejor prompt (HU2).
+2.  **Captura el Output:** Toma screenshot del resultado generado por la IA (HU3).
+3.  **Cálculo de Ahorro (HU4):**
+    - Tiempo manual: ___ min. | Tiempo IA: ___ min.
+    - **% de Mejora: ___%**.
+4.  **Validación:** Presenta tu flujo a un compañero y pídele feedback rápido.
 :::
-
----
-
-# ☕ Break (15 min) {background-color="#000000"}
 
 ---
 
 # Storytelling: Estructura del Pitch 🎤 {background-color="#2c3e50"}
 
 ::: {style="font-size: 0.7em;"}
-Tu presentación durará **3 minutos**. Debe ser un "impacto directo":
+Tu presentación final será un Pitch de alto impacto:
 
 <br>
 
 ::: {.fragment .fade-in}
-1. **El Gancho:** "¿Sabían que gastamos X horas al mes en esta tarea?"
+1.  **El Gancho:** "¿Sabían que gastamos X horas al mes en esta tarea?"
 :::
 
 ::: {.fragment .fade-in}
-2. **El Problema:** Describe el "dolor" actual de tu rol.
+2.  **El Problema:** Describe el "dolor" actual de tu área (HU1).
 :::
 
 ::: {.fragment .fade-in}
-3. **La Solución:** Muestra tu flujo rediseñado con Copilot.
+3.  **La Solución:** Muestra tu flujo asistido con IA (HU2).
 :::
 
 ::: {.fragment .fade-in}
-4. **El Cierre:** El mapa de ahorro y tu aprendizaje principal.
+4.  **El Cierre:** El mapa de ahorro y tu aprendizaje principal (HU4).
 :::
 :::
 
