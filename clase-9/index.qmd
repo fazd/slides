@@ -127,8 +127,6 @@ Lo que aprendimos en este curso es solo la **punta del iceberg** (prompts, flujo
 
 ![](images/iceberg_ia.png){fig-align="center" width="80%"}
 
-:::
-
 ---
 
 ## El Futuro: Más allá de este curso 🚀 {background-color="#2c3e50"}
