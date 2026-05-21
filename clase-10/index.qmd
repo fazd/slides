@@ -1,0 +1,206 @@
+---
+title: "Módulo 5: Clase Especial"
+subtitle: "Sesión Extra: El Futuro de la IA - Herramientas Avanzadas"
+format:
+  revealjs:
+    slide-number: true
+    theme: moon
+    navigation-mode: linear
+    transition: slide
+    logo: images/enyoi.png
+    footer: "Sesión Extra: Más allá de Microsoft Copilot"
+---
+
+## Sesión Especial: El Próximo Nivel 🚀 {background-color="#2c3e50"}
+
+### Agenda de Exploración
+
+::: {style="font-size: 0.75em;"}
+1. **Los Nuevos Ecosistemas:** El valor diferencial de Claude, Gemini y ChatGPT.
+2. **Tu Investigador Privado:** Investigación ultra-precisa con **Perplexity AI**.
+3. **El Analista de Datos:** Gestión documental profunda con **NotebookLM**.
+4. **Automatización y Agentes:** Flujos de trabajo autónomos usando **n8n**.
+5. **Creatividad Multimedia:** Generación de imágenes, video y voces profesionales.
+:::
+
+---
+
+## Más allá de Microsoft Copilot 🌐 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.65em;"}
+Ya dominamos el ecosistema corporativo de Microsoft. ¿Pero qué está pasando en el resto del mundo?
+:::
+
+::: {style="font-size: 0.65em;"}
+::: {.fragment .fade-in}
+- **ChatGPT (OpenAI):** El pionero. Ideal para analistas con sus **GPTs personalizados** (clones expertos entrenados con normativas internas de tu área).
+:::
+::: {.fragment .fade-in}
+- **Claude (Anthropic):** El rey del contexto y la redacción avanzada. Su función de **Projects y Artifacts** permite interactuar y ver dashboards en tiempo real.
+:::
+::: {.fragment .fade-in}
+- **Gemini (Google):** Potencia analítica masiva y una ventana de contexto gigantesca para procesar libros enteros o videos completos en segundos.
+:::
+:::
+
+---
+
+## Perplexity AI: El Futuro de la Búsqueda 🔍 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.65em;"}
+::: {style="font-size: 0.75em;"}
+¿Por qué perder tiempo entrando a 10 links de Google, esquivando publicidad y copiando datos manualmente?
+:::
+
+::: {.fragment .fade-in}
+- **Respuestas en Tiempo Real:** Busca en la web, procesa la información y te redacta la solución exacta en un párrafo.
+:::
+::: {.fragment .fade-in}
+- **Citas y Trazabilidad:** Cada dato incluye un número que te lleva directamente a la fuente original. *(¡Oro puro para Riesgos y Auditoría!)*
+:::
+::: {.fragment .fade-in}
+- **Copilot Mode:** Si tu pregunta es ambigua, la IA te hace preguntas de seguimiento antes de investigar.
+:::
+:::
+
+---
+
+## Demo Práctico: Investigación de Mercado con Perplexity {background-color="#1a252f"}
+
+::: {style="font-size: 0.8em;"}
+**Caso de uso:** Investigar regulaciones o tendencias de cartera en segundos.
+:::
+
+::: {.callout-note}
+### Prompt de Ejemplo para probar en vivo:
+"¿Cuáles fueron las principales tendencias de riesgo crediticio y alertas de cartera publicadas por entidades oficiales en Colombia durante el último trimestre? Consolida las fuentes."
+:::
+
+---
+
+## NotebookLM: Tu Consultor Privado 📚 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+La herramienta de Google que revoluciona el análisis documental sin riesgo de "alucinaciones".
+:::
+
+::: {style="font-size: 0.65em;"}
+::: {.fragment .fade-in}
+- **Ecosistema Cerrado:** Solo responde usando los documentos que tú subas (PDFs de estados financieros, manuales, políticas de riesgo, enlaces).
+:::
+::: {.fragment .fade-in}
+- **Análisis de Datos Sólidos:** Capaz de cruzar múltiples reportes pesados y generar resúmenes interactivos, guías de estudio o FAQs.
+:::
+::: {.fragment .fade-in}
+- **Audio Deep Dive:** Genera un podcast automatizado con dos voces discutiendo a fondo tus documentos de manera ultra-natural.
+:::
+:::
+---
+
+## Ejercicio Práctico: Tu Analista Privado 🧪 {background-color="#1a252f"}
+
+::: {style="font-size: 0.7em;"}
+**Reto:** Analizar una normativa o reporte complejo en menos de 5 minutos.
+:::
+
+::: {style="font-size: 0.6em;"}
+1. **Preparación:** Entra a [notebooklm.google](https://notebooklm.google) y crea un nuevo "Cuaderno".
+2. **Carga de Fuentes:** Sube un PDF pesado (ej: un informe de sostenibilidad, una política de riesgos o un contrato largo) o pega el link de una noticia extensa.
+3. **Interrogatorio:** Hazle 3 preguntas críticas al documento:
+   - *"Haz un resumen ejecutivo de los 5 puntos de mayor riesgo mencionados."*
+   - *"¿Qué dice este documento sobre [un tema específico de tu área]?"*
+   - *"Crea una tabla con las fechas clave y responsables."*
+4. **Deep Dive:** Haz clic en "Notebook Guide" y genera el **Audio Overview**. Escucha cómo dos expertos discuten tu documento mientras sigues trabajando.
+:::
+
+::: {.callout-important}
+### El valor para tu rol
+NotebookLM no inventa datos; te mostrará exactamente en qué página y párrafo está la respuesta. Es 100% trazable.
+:::
+
+--- 
+
+## n8n & Agentes: Automatización Inteligente ⚙️ {background-color="#b03a2e"}
+
+::: {style="font-size: 0.7em;"}
+¿Cómo hacer que la Inteligencia Artificial trabaje para ti mientras duermes?
+:::
+
+::: {style="font-size: 0.65em;"}
+::: {.fragment .fade-in}
+- **Ecosistema No-Code:** Plataformas como **n8n**, Make o Zapier te permiten conectar tus herramientas diarias sin saber programar.
+:::
+::: {.fragment .fade-in}
+- **De Respuestas a Acciones:** Diseña un flujo donde la IA reciba un correo de un cliente, analice el sentimiento del texto, busque la solución en tu base de datos y deje un borrador listo en Teams para tu aprobación.
+:::
+::: {.fragment .fade-in}
+- **Agentes Autónomos:** El paso de "hacerle preguntas a un chat" a tener "asistentes ejecutando procesos encadenados".
+:::
+:::
+
+---
+
+## Creatividad Eficiente: Multimedia Corporativo 🎨 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+Herramientas para llevar la comunicación interna y externa al siguiente nivel:
+:::
+
+::: {style="font-size: 0.65em;"}
+::: {.fragment .fade-in}
+- **Imágenes (Midjourney / Adobe Firefly):** Crea recursos visuales conceptuales y únicos para tus presentaciones de alto impacto, sin depender de bancos genéricos.
+:::
+::: {.fragment .fade-in}
+- **Video y Avatares (HeyGen / Synthesia):** Genera videos explicativos o de onboarding en minutos usando avatares hiperrealistas con guiones automáticos.
+:::
+::: {.fragment .fade-in}
+- **Voz Profesional (ElevenLabs):** Clona voces corporativas o genera locuciones perfectas con entonaciones naturales en cualquier idioma.
+:::
+:::
+
+---
+
+## Tu Nuevo Flujo de Trabajo Avanzado 🔄 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.8em;"}
+¿Cómo conectar estas piezas en tu día a día?
+:::
+
+::: {style="font-size: 0.75em;"}
+1. **Investigar:** Usamos **Perplexity** para rastrear y consolidar la información y normativas más actualizadas de la web.
+2. **Analizar:** Llevamos esos reportes financieros o PDFs pesados a **NotebookLM** para "conversar" con ellos y extraer conclusiones clave.
+3. **Automatizar:** Diseñamos un flujo en **n8n** para que este análisis se ejecute de forma recurrente cada vez que llegue un nuevo documento.
+:::
+
+---
+
+## Recursos para Llevar a Casa 🏠 {background-color="#2c3e50"}
+
+::: {style="font-size: 0.75em;"}
+Enlaces recomendados para iniciar tu propia investigación:
+:::
+
+::: {style="font-size: 0.65em;"}
+- 🔍 **Búsqueda Avanzada:** [perplexity.ai](https://www.perplexity.ai)
+- 📚 **Análisis Documental:** [notebooklm.google](https://notebooklm.google)
+- 🤖 **Automatización con IA:** [n8n.io](https://n8n.io)
+- 🖼️ **Generación de Imágenes:** [adobe.com/products/firefly](https://www.adobe.com/products/firefly.html)
+- 👤 **Avatares de Video:** [heygen.com](https://www.heygen.com)
+:::
+
+::: {.callout-tip}
+### El Aprendizaje No Termina Aquí
+El verdadero experto en IA no es el que memoriza una herramienta, sino el que mantiene la curiosidad de explorar la que sigue.
+:::
+
+---
+
+## ¡Mucho Éxito en tu Viaje de IA! ✨ {background-color="#2c3e50"}
+
+::: {style="text-align: center; font-size: 0.75em; line-height: 1.6; margin: 1.2em auto 0 auto; max-width: 900px; padding: 25px; background: rgba(255, 255, 255, 0.05); border-radius: 12px; border-left: 6px solid #00f2fe; box-shadow: 0 4px 15px rgba(0,0,0,0.2); font-style: italic;"}
+"La IA no va a reemplazar a los profesionales, pero los profesionales que usan IA de forma estratégica e integral reemplazarán a los que no lo hacen. ¡Sigan explorando, sigan optimizando!"
+:::
+
+::: {style="text-align: center; margin-top: 1.5em;"}
+### Fabio Zapata
+:::

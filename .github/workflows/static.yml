@@ -42,6 +42,7 @@ jobs:
             clase-7
             clase-8
             clase-9
+            clase-10
         run: |
           for dir in $QUARTO_DIRS; do
             quarto render $dir/index.qmd
@@ -61,6 +62,7 @@ jobs:
             clase-7
             clase-8
             clase-9
+            clase-10
         run: |
           set -e
           mkdir -p _site
