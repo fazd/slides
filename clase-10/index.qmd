@@ -198,7 +198,7 @@ El verdadero experto en IA no es el que memoriza una herramienta, sino el que ma
 ## ¡Mucho Éxito en tu Viaje de IA! ✨ {background-color="#2c3e50"}
 
 ::: {style="text-align: center; font-size: 0.75em; line-height: 1.6; margin: 1.2em auto 0 auto; max-width: 900px; padding: 25px; background: rgba(255, 255, 255, 0.05); border-radius: 12px; border-left: 6px solid #00f2fe; box-shadow: 0 4px 15px rgba(0,0,0,0.2); font-style: italic;"}
-"La IA no va a reemplazar a los profesionales, pero los profesionales que usan IA de forma estratégica e integral reemplazarán a los que no lo hacen. ¡Sigan explorando, sigan optimizando!"
+"La IA no va a reemplazar a los profesionales, pero los profesionales que usan IA de forma estratégica e integral tendrán una gran ventaja. ¡Sigan explorando, sigan optimizando!"
 :::
 
 ::: {style="text-align: center; margin-top: 1.5em;"}
